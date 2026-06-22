@@ -1,12 +1,29 @@
-# Intelligent Schema Memory (ISM)
+# ISM: Self-Improving Strategy Memory for Continual Mathematical Reasoning
 
-**ISM** is a continual mathematical reasoning system that enables a frozen LLM to self-improve across problem domains without parameter updates. Instead of fine-tuning, ISM maintains a compact external bank of strategy schemas that grows, self-corrects, and prunes itself as problems arrive under hard episodic resets.
+Official codebase for the paper
+**["ISM: Self-Improving Strategy Memory for Continual Mathematical Reasoning"](https://openreview.net/pdf?id=5JK3t0YI5Z)**
+by Prakhar Dixit and Tim Oates, accepted at the
+[ICML 2026 AI4Math Workshop](https://openreview.net/forum?id=5JK3t0YI5Z).
+
+> We propose **Intelligent Schema Memory (ISM)**, a self-evolving
+> memory-augmented system that improves mathematical reasoning for a frozen
+> LLM under continual learning with hard episodic resets. ISM maintains a
+> compact, self-refined bank of strategy schemas learned from both
+> successful and failed episodes, with symbolic tools that check
+> intermediate steps and certify answers. Without updating model
+> parameters, ISM outperforms passive, retrieval, and reflection baselines
+> on MATH-Hard and OlympiadBench, using **64% and 86% fewer schemas**
+> respectively than the strongest passive baseline.
+
+📄 Paper: <https://openreview.net/pdf?id=5JK3t0YI5Z> &nbsp;·&nbsp;
+🔗 OpenReview: <https://openreview.net/forum?id=5JK3t0YI5Z> &nbsp;·&nbsp;
+💻 Code: <https://github.com/pdx97/ISM>
 
 ---
 
-## Results
+## 📊 Results
 
-### MATH-Hard (Level 4–5, competition\_math)
+### 🧮 MATH-Hard (Level 4–5, competition\_math)
 
 | System | Accuracy | Plasticity | Stability | Forgetting | Bank Size |
 |--------|----------|------------|-----------|------------|-----------|
@@ -15,9 +32,9 @@
 | RAG-over-Examples | 54.0% | 50.7% | 57.3% | 5% | 300 |
 | Reflexion | 51.3% | 48.0% | 54.7% | 7% | 300 |
 | Passive Schema Memory | 78.7% | 75.3% | 82.0% | 10% | 47 |
-| **ISM (Ours)** | **80.7%** | **76.7%** | **84.7%** | **7%** | **17** |
+| 🥇 **ISM (Ours)** | **80.7%** | **76.7%** | **84.7%** | **7%** | **17** |
 
-### OlympiadBench (Maths-COMP + Maths-CEE subset)
+### 🏆 OlympiadBench (Maths-COMP + Maths-CEE subset)
 
 | System | Accuracy | Plasticity | Stability | Forgetting | Bank Size |
 |--------|----------|------------|-----------|------------|-----------|
@@ -26,57 +43,57 @@
 | RAG-over-Examples | 33.3% | 32.7% | 34.0% | 2% | 300 |
 | Reflexion | 29.7% | 26.7% | 32.7% | 2% | 300 |
 | Passive Schema Memory | 59.7% | 57.3% | 62.0% | 10% | 91 |
-| **ISM (Ours)** | **61.7%** | **59.3%** | **64.0%** | **3%** | **13** |
+| 🥇 **ISM (Ours)** | **61.7%** | **59.3%** | **64.0%** | **3%** | **13** |
 
-ISM achieves the highest accuracy and stability on both benchmarks while using **64–86% fewer schemas** than memory-based baselines.
+✨ ISM achieves the highest accuracy and stability on both benchmarks while using **64–86% fewer schemas** than memory-based baselines.
 
 ---
 
-## How It Works
+## 🧠 How It Works
 
-### Problem Setup
+### 🎯 Problem Setup
 Problems arrive as a stream of 300 episodes partitioned into 6 blocks of 50 (one domain per block). **Hard episodic resets** are enforced — no conversational context or problem history is shared across episodes. The LLM remains frozen; the only cross-episode channel is the external schema memory.
 
-### Architecture
+### 🏗️ Architecture
 
 ```
-Problem Text
+📝 Problem Text
   ↓
-Hybrid Feature Extractor        ← rule-based + LLM branch, merged by agreement score
+🧩 Hybrid Feature Extractor      ← rule-based + LLM branch, merged by agreement score
   ↓
-Two-Stage Schema Retrieval      ← operator filter → soft scoring over feature hooks
+🔍 Two-Stage Schema Retrieval    ← operator filter → soft scoring over feature hooks
   ↓
-Schema-Guided LLM Call          ← single-shot hard reset call (same for all systems)
+🤖 Schema-Guided LLM Call        ← single-shot hard reset call (same for all systems)
   ↓
-Answer Evaluation               ← binary correctness signal
+✅ Answer Evaluation             ← binary correctness signal
   ↓
-Memory Controller               ← hook update, failure-triggered agentic analysis,
+🧠 Memory Controller             ← hook update, failure-triggered agentic analysis,
                                    schema synthesis, periodic self-improvement
 ```
 
-### Schema Bank
+### 🗂️ Schema Bank
 Each schema `s_k` stores a name, description, solution template, and heuristics. Its feature hook `h_k` stores operator type, structural pattern, heuristic set, quantity signature, an EMA embedding centroid, and a success rate updated online.
 
-### Five Self-Improvement Mechanisms
-1. **Self-Audit** — scores each schema by outcome lift over stream baseline; labels schemas strong / neutral / weak / unused
-2. **Self-Correct** — rewrites weak schemas using their failure cases
-3. **Self-Merge** — consolidates semantically similar non-seed schemas into one
-4. **Self-Promote/Demote** — adjusts retrieval priority based on success rate
-5. **Self-Prune** — removes schemas never retrieved after 25 episodes, or confirmed weak (≥5 uses, SR < 0.38)
+### ✨ Five Self-Improvement Mechanisms
+1. 🩺 **Self-Audit** — scores each schema by outcome lift over stream baseline; labels schemas strong / neutral / weak / unused
+2. 🛠️ **Self-Correct** — rewrites weak schemas using their failure cases
+3. 🔗 **Self-Merge** — consolidates semantically similar non-seed schemas into one
+4. 📈 **Self-Promote/Demote** — adjusts retrieval priority based on success rate
+5. 🪓 **Self-Prune** — removes schemas never retrieved after 25 episodes, or confirmed weak (≥5 uses, SR < 0.38)
 
-### Failure-Triggered Agentic Tools
+### 🧪 Failure-Triggered Agentic Tools
 On incorrect answers, ISM runs an 8-turn agentic loop that may call: `search_past_failures` (recency-weighted replay search), `calculate` (sandboxed arithmetic), `sympy_verify` (formal verification), `decompose`, `schema_lookup`, and `self_verify`. Tool traces feed richer learning signals into schema updates — they never alter the submitted answer.
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 Tested with Python 3.9.13 on Windows 11 and Linux. Higher Python versions
 (3.10–3.12) are expected to work; the code does not use any 3.10+-only syntax.
 
 ```bash
-git clone https://github.com/TODO_OWNER/TODO_REPO.git
-cd TODO_REPO
+git clone https://github.com/pdx97/ISM.git
+cd ISM
 python -m venv .venv
 . .venv/bin/activate           # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -246,12 +263,12 @@ MATH-Hard; ~$0.80–$1.50 for OlympiadBench (longer problems).
 If you use this software or its results, please cite the paper:
 
 ```bibtex
-@inproceedings{TODO_BIBKEY,
-  title     = {Intelligent Schema Memory for Continual Mathematical Reasoning},
-  author    = {TODO_AUTHORS},
-  booktitle = {TODO_VENUE},
+@inproceedings{dixit2026ism,
+  title     = {ISM: Self-Improving Strategy Memory for Continual Mathematical Reasoning},
+  author    = {Dixit, Prakhar and Oates, Tim},
+  booktitle = {ICML 2026 AI4Math Workshop},
   year      = {2026},
-  url       = {https://TODO_URL}
+  url       = {https://openreview.net/forum?id=5JK3t0YI5Z}
 }
 ```
 
@@ -262,4 +279,5 @@ GitHub also offers automatic citation export via the
 
 ## License
 
-Released under the [MIT License](./LICENSE).
+Code released under the [MIT License](./LICENSE).
+The accompanying paper is released by the authors under CC BY 4.0 on OpenReview.
