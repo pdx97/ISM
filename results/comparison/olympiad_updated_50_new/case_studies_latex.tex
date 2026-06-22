@@ -1,0 +1,58 @@
+\subsection*{Qualitative Case Studies}
+We present representative episodes where ISM correctly solved an OlympiadBench problem that all compared baselines answered incorrectly, illustrating how the self-evolved schema bank provides targeted guidance.
+
+\paragraph{Case Study 1 (Episode 132, Geometry).}
+\begin{quote}\itshape
+$\quad$ Compute the greatest real number $K$ for which the graphs of
+
+\[
+(|x|-5)^{2}+(|y|-5)^{2}=K \quad \text { and } \quad(x-1)^{2}+(y+1)^{2}=37
+\]
+
+have exactly two intersection points.
+\end{quote}
+
+ISM retrieved the schema \texttt{Complex Parallelogram Properties} (synthesised) (success rate~$=0.64$, used 3~times). 
+This schema covers: \textit{Solve problems involving properties of parallelograms on the complex plane and associated constraints or optimizations.}. 
+Key heuristics applied: \textit{decompose; geometric transformation; complex conjugate properties}. 
+Guided by this schema, ISM produced the correct answer $\boxed{29}$, while all 5 baselines answered incorrectly (e.g., static predicted $89 - 4 \sqrt{481}$). 
+
+\paragraph{Case Study 2 (Episode 213, Number Theory).}
+\begin{quote}\itshape
+Let $p$ be a prime number. If $p$ years ago, the ages of three children formed a geometric sequence with a sum of $p$ and a common ratio of 2 , compute the sum of the children's current ages.
+\end{quote}
+
+ISM retrieved the schema \texttt{Simultaneous Polynomial Root Problems} (synthesised) (success rate~$=0.63$, used 12~times). 
+This schema covers: \textit{Determine relationships between the roots of multiple polynomial equations with constraints or shared roots.}. 
+Key heuristics applied: \textit{introduce_variable; decompose; use_symmetry}. 
+Guided by this schema, ISM produced the correct answer $\boxed{28}$, while all 4 baselines answered incorrectly (e.g., Vanilla LLM predicted $4p$). 
+
+\paragraph{Case Study 3 (Episode 235, Number Theory).}
+\begin{quote}\itshape
+Compute the third least positive integer $n$ such that each of $n, n+1$, and $n+2$ is a product of exactly two (not necessarily distinct) primes.
+\end{quote}
+
+ISM retrieved the schema \texttt{Relative Primality in Sets} (synthesised) (success rate~$=0.67$, used 5~times). 
+This schema covers: \textit{Find the smallest set of integers constructed under specific rules where no element is relatively prime to the product\ldots}. 
+Key heuristics applied: \textit{decompose; find_pattern; introduce_variable}. 
+Guided by this schema, ISM produced the correct answer $\boxed{93}$, while all 4 baselines answered incorrectly (e.g., passive predicted $121$). 
+
+\paragraph{Case Study 4 (Episode 286, Algebra).}
+\begin{quote}\itshape
+The equations $x^{3}+A x+10=0$ and $x^{3}+B x^{2}+50=0$ have two roots in common. Compute the product of these common roots.
+\end{quote}
+
+ISM retrieved the schema \texttt{Nested Function Zeros} (synthesised) (success rate~$=0.76$, used 19~times). 
+This schema covers: \textit{Solve for the unknown polynomials and their compositions when dealing with nested polynomial equations and specific\ldots}. 
+Key heuristics applied: \textit{Analyze degrees and symmetry; Consider boundary or extreme values; Use composition properties creatively}. 
+Guided by this schema, ISM produced the correct answer $\boxed{5 \sqrt[3]{4}}$, while all 4 baselines answered incorrectly (all baselines gave no valid answer). 
+
+\paragraph{Case Study 5 (Episode 115, Geometry).}
+\begin{quote}\itshape
+Let $T=35$. Triangle $A B C$ has a right angle at $C$, and $A B=40$. If $A C-B C=T-1$, compute $[A B C]$, the area of $\triangle A B C$.
+\end{quote}
+
+ISM retrieved the schema \texttt{Tangency and Collinearity in Geometric Configurations} (synthesised) (success rate~$=0.96$, used 13~times). 
+This schema covers: \textit{Problems involving tangency and collinearity conditions among circles and polygon sides within geometric figures.}. 
+Key heuristics applied: \textit{introduce_variable; decompose; apply_theorems}. 
+Guided by this schema, ISM produced the correct answer $\boxed{111}$, while all 3 baselines answered incorrectly (all baselines gave no valid answer). 

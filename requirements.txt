@@ -1,0 +1,24 @@
+# Intelligent Schema Memory (ISM) — dependencies
+# Tested with Python 3.9.13
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# Optional: pandas is only needed if you load `.parquet` datasets directly.
+
+# ── Core ────────────────────────────────────────────────────────────────────
+openai==2.21.0
+numpy==1.26.4
+
+# ── Datasets (MATH-500, OlympiadBench, AIME 2025, competition_math) ────────
+datasets==4.5.0
+
+# ── Symbolic verification tools (tool_sympy_solve / tool_sympy_verify) ─────
+sympy==1.14.0
+
+# ── Analysis and plots (error_analysis_*.py, schema_metrics.py) ────────────
+matplotlib==3.9.4
+scipy==1.13.1
+
+# ── Optional: only for `.parquet` data sources ─────────────────────────────
+pandas==2.3.3

@@ -1,0 +1,129 @@
+[
+  {
+    "episode": 132,
+    "task": "Geometry",
+    "schema": "Complex Parallelogram Properties",
+    "is_synth_schema": true,
+    "ism_pred": "\\(\\boxed{29}\\)",
+    "gold": "29",
+    "n_baselines_wrong": 5,
+    "baselines_wrong": {
+      "vanilla": "",
+      "reflexion": "",
+      "rag": "",
+      "static": "\\(\\boxed{89 - 4 \\sqrt{481}}\\).",
+      "passive": "\\(\\boxed{1.272}\\) (approximately)"
+    },
+    "problem_text": "$\\quad$ Compute the greatest real number $K$ for which the graphs of\n\n$$\n(|x|-5)^{2}+(|y|-5)^{2}=K \\quad \\text { and } \\quad(x-1)^{2}+(y+1)^{2}=37\n$$\n\nhave exactly two intersection points.",
+    "schema_sr": 0.6355,
+    "schema_usage_count": 3,
+    "schema_description": "Solve problems involving properties of parallelograms on the complex plane and associated constraints or optimizations.",
+    "schema_heuristics": [
+      "decompose",
+      "geometric transformation",
+      "complex conjugate properties",
+      "constraint satisfaction"
+    ]
+  },
+  {
+    "episode": 213,
+    "task": "Number Theory",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "is_synth_schema": true,
+    "ism_pred": "28",
+    "gold": "28",
+    "n_baselines_wrong": 4,
+    "baselines_wrong": {
+      "vanilla": "\\( 4p \\)",
+      "reflexion": "",
+      "rag": "\\(4p\\)",
+      "passive": "\\( \\boxed{4p} \\)"
+    },
+    "problem_text": "Let $p$ be a prime number. If $p$ years ago, the ages of three children formed a geometric sequence with a sum of $p$ and a common ratio of 2 , compute the sum of the children's current ages.",
+    "schema_sr": 0.6292,
+    "schema_usage_count": 12,
+    "schema_description": "Determine relationships between the roots of multiple polynomial equations with constraints or shared roots.",
+    "schema_heuristics": [
+      "introduce_variable",
+      "decompose",
+      "use_symmetry",
+      "work_backwards"
+    ]
+  },
+  {
+    "episode": 235,
+    "task": "Number Theory",
+    "schema": "Relative Primality in Sets",
+    "is_synth_schema": true,
+    "ism_pred": "93",
+    "gold": "93",
+    "n_baselines_wrong": 4,
+    "baselines_wrong": {
+      "vanilla": "",
+      "reflexion": "",
+      "rag": "",
+      "passive": "121"
+    },
+    "problem_text": "Compute the third least positive integer $n$ such that each of $n, n+1$, and $n+2$ is a product of exactly two (not necessarily distinct) primes.",
+    "schema_sr": 0.672,
+    "schema_usage_count": 5,
+    "schema_description": "Find the smallest set of integers constructed under specific rules where no element is relatively prime to the product of the others.",
+    "schema_heuristics": [
+      "decompose",
+      "find_pattern",
+      "introduce_variable",
+      "construct_subsets",
+      "verify_properties"
+    ]
+  },
+  {
+    "episode": 286,
+    "task": "Algebra",
+    "schema": "Nested Function Zeros",
+    "is_synth_schema": true,
+    "ism_pred": "\\(5 \\sqrt[3]{4}\\)",
+    "gold": "5 \\sqrt[3]{4}",
+    "n_baselines_wrong": 4,
+    "baselines_wrong": {
+      "vanilla": "",
+      "reflexion": "",
+      "rag": "",
+      "static": "\\["
+    },
+    "problem_text": "The equations $x^{3}+A x+10=0$ and $x^{3}+B x^{2}+50=0$ have two roots in common. Compute the product of these common roots.",
+    "schema_sr": 0.7601,
+    "schema_usage_count": 19,
+    "schema_description": "Solve for the unknown polynomials and their compositions when dealing with nested polynomial equations and specific zero constraints. This schema addresses scenarios where the compositions lead to con",
+    "schema_heuristics": [
+      "Analyze degrees and symmetry",
+      "Consider boundary or extreme values",
+      "Use composition properties creatively",
+      "Apply number theory for rationality constraints"
+    ]
+  },
+  {
+    "episode": 115,
+    "task": "Geometry",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "is_synth_schema": true,
+    "ism_pred": "111",
+    "gold": "111",
+    "n_baselines_wrong": 3,
+    "baselines_wrong": {
+      "vanilla": "",
+      "reflexion": "",
+      "rag": ""
+    },
+    "problem_text": "Let $T=35$. Triangle $A B C$ has a right angle at $C$, and $A B=40$. If $A C-B C=T-1$, compute $[A B C]$, the area of $\\triangle A B C$.",
+    "schema_sr": 0.9639,
+    "schema_usage_count": 13,
+    "schema_description": "Problems involving tangency and collinearity conditions among circles and polygon sides within geometric figures.",
+    "schema_heuristics": [
+      "introduce_variable",
+      "decompose",
+      "apply_theorems",
+      "work_backwards",
+      "symmetry"
+    ]
+  }
+]

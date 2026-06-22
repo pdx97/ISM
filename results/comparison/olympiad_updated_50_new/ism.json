@@ -1,0 +1,2702 @@
+[
+  {
+    "episode": 0,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Number Theory",
+    "bank_size": 6
+  },
+  {
+    "episode": 1,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\lceil n \\rceil}\\)",
+    "gold": "k=2 n-1",
+    "schema": "Combinatorics",
+    "bank_size": 6
+  },
+  {
+    "episode": 2,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "f(n)=n$, $g(n)=1",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 3,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 4,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "85.71 km/h",
+    "gold": "\\frac{600}{7}",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 5,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\( g(x) = x^2 - 2x + 2 \\)",
+    "gold": "g(x)=x^2-2x+2",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 6,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 7,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 8,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "362",
+    "gold": "362",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 9,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{0}\\).",
+    "gold": "\\frac{2016}{2017^{2}}",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 10,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "27.856",
+    "gold": "24",
+    "schema": "Algebra",
+    "bank_size": 7
+  },
+  {
+    "episode": 11,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(1024 - 256\\pi\\).",
+    "gold": "1024-256 \\pi",
+    "schema": "Geometry",
+    "bank_size": 7
+  },
+  {
+    "episode": 12,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{0}\\)",
+    "gold": "(-\\infty, 0) \\cup\\{1\\}$.",
+    "schema": "System of Equations with Modulus and Circle",
+    "bank_size": 8
+  },
+  {
+    "episode": 13,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2017",
+    "gold": "2018",
+    "schema": "Combinatorics",
+    "bank_size": 8
+  },
+  {
+    "episode": 14,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "System of Equations with Modulus and Circle",
+    "bank_size": 8
+  },
+  {
+    "episode": 15,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "f(x)=\\frac{1}{x}",
+    "schema": "Algebra",
+    "bank_size": 9
+  },
+  {
+    "episode": 16,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1089}{98}}\\).",
+    "gold": "\\frac{25}{2}",
+    "schema": "Algebra",
+    "bank_size": 10
+  },
+  {
+    "episode": 17,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{2k}\\)",
+    "gold": "n=k+4",
+    "schema": "Combinatorics",
+    "bank_size": 10
+  },
+  {
+    "episode": 18,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\( 4\\pi^2 - 1 \\)",
+    "gold": "4 \\pi^{2}-1",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 11
+  },
+  {
+    "episode": 19,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "1000",
+    "gold": "1000",
+    "schema": "Algebra",
+    "bank_size": 11
+  },
+  {
+    "episode": 20,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "10",
+    "gold": "46760",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 12
+  },
+  {
+    "episode": 21,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 22,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "0",
+    "gold": "40",
+    "schema": "Algebra",
+    "bank_size": 13
+  },
+  {
+    "episode": 23,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "\\frac{189 \\sqrt{11}}{11}",
+    "schema": "Polynomial Conditional Inequality Systems",
+    "bank_size": 14
+  },
+  {
+    "episode": 24,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{(-\\sqrt{11}, -2) \\cup (\\sqrt{11}, 9)}\\)",
+    "gold": "(-\\sqrt{11},-2)\\cup (\\sqrt{11},9)",
+    "schema": "Polynomial Conditional Inequality Systems",
+    "bank_size": 10
+  },
+  {
+    "episode": 25,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "61",
+    "gold": "61",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 10
+  },
+  {
+    "episode": 26,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "60",
+    "gold": "60",
+    "schema": "Algebra",
+    "bank_size": 10
+  },
+  {
+    "episode": 27,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Algebra",
+    "bank_size": 10
+  },
+  {
+    "episode": 28,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Algebra",
+    "bank_size": 10
+  },
+  {
+    "episode": 29,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "448",
+    "gold": "448",
+    "schema": "Number Theory",
+    "bank_size": 10
+  },
+  {
+    "episode": 30,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(9 + 6 = 15\\).",
+    "gold": "14",
+    "schema": "Number Theory",
+    "bank_size": 10
+  },
+  {
+    "episode": 31,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "33",
+    "gold": "33",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 10
+  },
+  {
+    "episode": 32,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{2}\\)",
+    "gold": "2",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 10
+  },
+  {
+    "episode": 33,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-84\\)",
+    "gold": "-84",
+    "schema": "System of Equations with Modulus and Circle",
+    "bank_size": 10
+  },
+  {
+    "episode": 34,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "39",
+    "gold": "39",
+    "schema": "Algebra",
+    "bank_size": 10
+  },
+  {
+    "episode": 35,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{\\sqrt{3}}\\)",
+    "gold": "\\sqrt{3}",
+    "schema": "Algebra",
+    "bank_size": 10
+  },
+  {
+    "episode": 36,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{36}{35}}\\)",
+    "gold": "\\frac{36}{35}",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 11
+  },
+  {
+    "episode": 37,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Polynomial Conditional Inequality Systems",
+    "bank_size": 11
+  },
+  {
+    "episode": 38,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "67",
+    "gold": "67",
+    "schema": "Polynomial Conditional Inequality Systems",
+    "bank_size": 11
+  },
+  {
+    "episode": 39,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Algebra",
+    "bank_size": 11
+  },
+  {
+    "episode": 40,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 11
+  },
+  {
+    "episode": 41,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{3\\pi}{4}}\\)",
+    "gold": "\\frac{3 \\pi}{4}",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 42,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4.2%",
+    "gold": "4.2",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 43,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "f(x)=\\frac{1}{x}",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 13
+  },
+  {
+    "episode": 44,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{q = -b}\\)",
+    "gold": "\\frac{a b}{2}",
+    "schema": "Polynomial Conditional Inequality Systems",
+    "bank_size": 14
+  },
+  {
+    "episode": 45,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "\\frac{\\pi^{2}-9}{9}",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 14
+  },
+  {
+    "episode": 46,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\left[\\frac{1}{2}, 8\\right]}\\)",
+    "gold": "[\\frac{1}{2}, 8]",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 47,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{-1}\\)",
+    "gold": "-(n-1) / 2",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 48,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "81",
+    "gold": "81",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 49,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "14641",
+    "gold": "4096",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 50,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\(\\boxed{f(n) = n \\text{ for all } n \\in \\mathbb{Z}_{>0}}\\).",
+    "gold": "f(n)=n",
+    "schema": "Algebra",
+    "bank_size": 13
+  },
+  {
+    "episode": 51,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 13
+  },
+  {
+    "episode": 52,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\( \\boxed{f(m) = m \\text{ for all } m \\in \\mathbb{N}} \\).",
+    "gold": "f(n)=n^{2}",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 53,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "14",
+    "gold": "11",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 54,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "10",
+    "gold": "8",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 55,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "12",
+    "gold": "12",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 56,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 57,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 58,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 59,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "417",
+    "gold": "417",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 60,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 61,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "\\(\\boxed{3}\\)",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 62,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "\\(\\boxed{2}\\)",
+    "gold": "2",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 63,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "24",
+    "gold": "24",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 64,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 65,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6455",
+    "gold": "6455",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 66,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "35",
+    "gold": "35",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 67,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Combinatorics",
+    "bank_size": 14
+  },
+  {
+    "episode": 68,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "",
+    "gold": "(n-2) 2^{n}+1",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 69,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 70,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "",
+    "gold": "979",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 71,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2028",
+    "gold": "2028",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 16
+  },
+  {
+    "episode": 72,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2604",
+    "gold": "2604",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 73,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "7981",
+    "gold": "7986",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 74,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{19}{34}}\\)",
+    "gold": "\\frac{19}{34}",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 75,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "53",
+    "gold": "53",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 76,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "",
+    "gold": "5762",
+    "schema": "Number Theory",
+    "bank_size": 13
+  },
+  {
+    "episode": 77,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "p(x)=\\frac{(x-1)(x-2)}{6}",
+    "schema": "Polynomial Conditional Inequality Systems",
+    "bank_size": 13
+  },
+  {
+    "episode": 78,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "105",
+    "gold": "105",
+    "schema": "Number Theory",
+    "bank_size": 13
+  },
+  {
+    "episode": 79,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 80,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 81,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "162",
+    "gold": "162",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 82,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "9",
+    "gold": "9",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 83,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 84,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\(\\boxed{2019}\\).",
+    "gold": "-2019",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 85,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "168",
+    "gold": "168",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 86,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "26",
+    "gold": "23",
+    "schema": "Number Theory",
+    "bank_size": 13
+  },
+  {
+    "episode": 87,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3125",
+    "gold": "3125",
+    "schema": "Number Theory",
+    "bank_size": 13
+  },
+  {
+    "episode": 88,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 13
+  },
+  {
+    "episode": 89,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "(3,2)",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 90,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "7",
+    "gold": "7",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 91,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "4",
+    "gold": "5",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 15
+  },
+  {
+    "episode": 92,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2.5",
+    "gold": "\\frac{5}{2}",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 93,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "590",
+    "gold": "590",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 94,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4085",
+    "gold": "4085",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 95,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "23",
+    "gold": "23",
+    "schema": "Combinatorics",
+    "bank_size": 15
+  },
+  {
+    "episode": 96,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "1974",
+    "gold": "1344",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 97,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "30",
+    "gold": "30",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 98,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "201",
+    "gold": "136",
+    "schema": "Functional Equation Solutions",
+    "bank_size": 17
+  },
+  {
+    "episode": 99,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "63",
+    "gold": "63",
+    "schema": "Number Theory",
+    "bank_size": 11
+  },
+  {
+    "episode": 100,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "630",
+    "gold": "630",
+    "schema": "Geometry",
+    "bank_size": 11
+  },
+  {
+    "episode": 101,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "272",
+    "gold": "272",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 11
+  },
+  {
+    "episode": 102,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(2\\sqrt{2}\\)",
+    "gold": "2 \\sqrt{2}",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 11
+  },
+  {
+    "episode": 103,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{0.54}\\) (rounded to two decimal places).",
+    "gold": "4-2 \\sqrt{3}",
+    "schema": "Geometry",
+    "bank_size": 11
+  },
+  {
+    "episode": 104,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "7",
+    "gold": "6",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 11
+  },
+  {
+    "episode": 105,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{10 \\sqrt{3}}{3}}\\).",
+    "gold": "6 \\sqrt{2}-2",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 106,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "48",
+    "schema": "Geometry",
+    "bank_size": 13
+  },
+  {
+    "episode": 107,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{50}{37}}\\)",
+    "gold": "\\frac{50}{37}",
+    "schema": "Geometry",
+    "bank_size": 14
+  },
+  {
+    "episode": 108,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{2}{3}}\\)",
+    "gold": "\\frac{2}{3}",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 109,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "60",
+    "gold": "60",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 110,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "68",
+    "gold": "60",
+    "schema": "Geometry",
+    "bank_size": 16
+  },
+  {
+    "episode": 111,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "9",
+    "gold": "9",
+    "schema": "Geometry",
+    "bank_size": 16
+  },
+  {
+    "episode": 112,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "3-\\sqrt{2}",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 17
+  },
+  {
+    "episode": 113,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(2\\sqrt{10}\\)",
+    "gold": "2 \\sqrt{10}",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 17
+  },
+  {
+    "episode": 114,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{2}}\\)",
+    "gold": "\\frac{1}{2}",
+    "schema": "Geometry",
+    "bank_size": 18
+  },
+  {
+    "episode": 115,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "111",
+    "gold": "111",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 18
+  },
+  {
+    "episode": 116,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "2.4",
+    "gold": "\\frac{12}{5}",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 18
+  },
+  {
+    "episode": 117,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "- There are \\(\\boxed{12}\\) possible ordered pairs \\((x,y)\\) for point \\( R \\) in Quadrant I that satisfy all conditions.",
+    "gold": "10",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 19
+  },
+  {
+    "episode": 118,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "7",
+    "gold": "7",
+    "schema": "Complex Parallelogram Properties",
+    "bank_size": 19
+  },
+  {
+    "episode": 119,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(\\boxed{267}\\) (rounded to nearest integer).",
+    "gold": "\\frac{800}{3}",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 18
+  },
+  {
+    "episode": 120,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "65",
+    "gold": "65",
+    "schema": "Geometry",
+    "bank_size": 18
+  },
+  {
+    "episode": 121,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "13.5",
+    "gold": "\\frac{27}{2}",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 18
+  },
+  {
+    "episode": 122,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "40",
+    "gold": "40",
+    "schema": "Regular Polygon Area Ratios",
+    "bank_size": 18
+  },
+  {
+    "episode": 123,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{900\\pi}\\)",
+    "gold": "548 \\pi",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 19
+  },
+  {
+    "episode": 124,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "450",
+    "gold": "450",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 13
+  },
+  {
+    "episode": 125,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "88",
+    "gold": "11",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 14
+  },
+  {
+    "episode": 126,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "222",
+    "gold": "222",
+    "schema": "Trigonometric Function Inversions",
+    "bank_size": 14
+  },
+  {
+    "episode": 127,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(\\boxed{(6, 5)}\\)",
+    "gold": "(6,5)",
+    "schema": "Geometry",
+    "bank_size": 14
+  },
+  {
+    "episode": 128,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "10",
+    "gold": "5",
+    "schema": "Regular Polygon Area Ratios",
+    "bank_size": 15
+  },
+  {
+    "episode": 129,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(-\\frac{8}{3}\\)",
+    "gold": "-\\frac{8}{3}",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 130,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "12",
+    "gold": "12",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 15
+  },
+  {
+    "episode": 131,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{(4, \\log_{10} 2)}\\)",
+    "gold": "(4, \\log _{10} 2)",
+    "schema": "System of Equations with Modulus and Circle",
+    "bank_size": 15
+  },
+  {
+    "episode": 132,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(\\boxed{29}\\)",
+    "gold": "29",
+    "schema": "Complex Parallelogram Properties",
+    "bank_size": 15
+  },
+  {
+    "episode": 133,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\( 4 \\sqrt{5} \\)",
+    "gold": "4 \\sqrt{5}",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 134,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(\\boxed{3.42 \\text{ km}}\\) (distance from microphone B to explosion P)",
+    "gold": "\\frac{41}{12}",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 135,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "49",
+    "gold": "49",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 136,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{18}\\) (rounded to nearest integer).",
+    "gold": "5 \\sqrt{10}",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 16
+  },
+  {
+    "episode": 137,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{222}{13}}\\)",
+    "gold": "\\frac{222}{13}",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 17
+  },
+  {
+    "episode": 138,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "24",
+    "gold": "146",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 18
+  },
+  {
+    "episode": 139,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 18
+  },
+  {
+    "episode": 140,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\( \\boxed{6 \\sqrt{73}} \\).",
+    "gold": "18",
+    "schema": "Regular Polygon Area Ratios",
+    "bank_size": 19
+  },
+  {
+    "episode": 141,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(\\boxed{3}\\).",
+    "gold": "3",
+    "schema": "Geometry",
+    "bank_size": 19
+  },
+  {
+    "episode": 142,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "All integers from 0 to 6045 inclusive.",
+    "gold": "6048",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 19
+  },
+  {
+    "episode": 143,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\( 6^{5/3} - 1 \\)",
+    "gold": "23",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 20
+  },
+  {
+    "episode": 144,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "400",
+    "gold": "400",
+    "schema": "Geometry",
+    "bank_size": 20
+  },
+  {
+    "episode": 145,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{16 - \\frac{32\\sqrt{2}}{3}}\\)",
+    "gold": "\\frac{1}{54}",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 21
+  },
+  {
+    "episode": 146,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "74",
+    "gold": "74",
+    "schema": "Geometry",
+    "bank_size": 21
+  },
+  {
+    "episode": 147,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{0.712}\\).",
+    "gold": "\\frac{179}{250}",
+    "schema": "Regular Polygon Area Ratios",
+    "bank_size": 22
+  },
+  {
+    "episode": 148,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{3}}\\)",
+    "gold": "1/3",
+    "schema": "Number Theory",
+    "bank_size": 22
+  },
+  {
+    "episode": 149,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(\\boxed{\\sqrt{15}}\\)",
+    "gold": "\\sqrt{15}",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 13
+  },
+  {
+    "episode": 150,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "-84",
+    "gold": "-84",
+    "schema": "Floor Function Quotient Problems",
+    "bank_size": 13
+  },
+  {
+    "episode": 151,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4320",
+    "gold": "4320",
+    "schema": "Algebra",
+    "bank_size": 13
+  },
+  {
+    "episode": 152,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{4n}}\\)",
+    "gold": "\\frac{1}{2 n+2}",
+    "schema": "Circle Tangency Configurations",
+    "bank_size": 14
+  },
+  {
+    "episode": 153,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "75",
+    "gold": "56",
+    "schema": "Combinatorics",
+    "bank_size": 14
+  },
+  {
+    "episode": 154,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 155,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{2} \\leq x \\leq 8}\\)",
+    "gold": "[\\frac{1}{2}, 8]",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 156,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "508",
+    "gold": "508",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 157,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 158,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "200",
+    "gold": "46760",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 14
+  },
+  {
+    "episode": 159,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{4 \\sqrt[3]{\\frac{25}{32}}}\\) (approximately 3.682).",
+    "gold": "\\frac{8}{\\sqrt[3]{7}}",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 160,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "80",
+    "gold": "80",
+    "schema": "Combinatorics",
+    "bank_size": 15
+  },
+  {
+    "episode": 161,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "\\frac{\\log 2}{\\log 2-\\log 3}",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 162,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 163,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "60",
+    "gold": "60",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 164,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "7.5",
+    "gold": "\\frac{15}{2}",
+    "schema": "Floor Function Quotient Problems",
+    "bank_size": 16
+  },
+  {
+    "episode": 165,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{(-\\sqrt{11}, -2) \\cup (\\sqrt{11}, 9)}\\)",
+    "gold": "(-\\sqrt{11},-2)\\cup (\\sqrt{11},9)",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 166,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Floor Function Quotient Problems",
+    "bank_size": 17
+  },
+  {
+    "episode": 167,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{\\sqrt{6}}\\)",
+    "gold": "\\sqrt{6}",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 168,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "0.4",
+    "gold": "62.5%",
+    "schema": "Probability",
+    "bank_size": 17
+  },
+  {
+    "episode": 169,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "95",
+    "gold": "95",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 170,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 17
+  },
+  {
+    "episode": 171,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "40",
+    "gold": "40",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 172,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "\\frac{15-8 \\sqrt{3}}{33}",
+    "schema": "Algebra",
+    "bank_size": 18
+  },
+  {
+    "episode": 173,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{7}{5}}\\)",
+    "gold": "\\frac{7}{5}",
+    "schema": "Algebra",
+    "bank_size": 19
+  },
+  {
+    "episode": 174,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "17",
+    "gold": "17",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 14
+  },
+  {
+    "episode": 175,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "0",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 176,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\lceil n \\rceil}\\)",
+    "gold": "k=2 n-1",
+    "schema": "Combinatorics",
+    "bank_size": 15
+  },
+  {
+    "episode": 177,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-1\\)",
+    "gold": "-1",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 15
+  },
+  {
+    "episode": 178,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 179,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4.25",
+    "gold": "4.25",
+    "schema": "Floor Function Quotient Problems",
+    "bank_size": 14
+  },
+  {
+    "episode": 180,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "1",
+    "gold": "\\frac{4}{9}",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 15
+  },
+  {
+    "episode": 181,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\( \\boxed{10 \\cdot 2^{-1/3}} \\)",
+    "gold": "5 \\sqrt[3]{4}",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 16
+  },
+  {
+    "episode": 182,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{\\sqrt{26}}\\)",
+    "gold": "\\sqrt{26}",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 183,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "bank_size": 16
+  },
+  {
+    "episode": 184,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "f(n) = 2 n+1007",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 185,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 186,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 187,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-50\\)",
+    "gold": "-50",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 17
+  },
+  {
+    "episode": 188,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "N=n",
+    "schema": "Algebra",
+    "bank_size": 18
+  },
+  {
+    "episode": 189,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Algebra",
+    "bank_size": 18
+  },
+  {
+    "episode": 190,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{-\\frac{1}{2}}\\)",
+    "gold": "-\\frac{1}{2}",
+    "schema": "Algebra",
+    "bank_size": 19
+  },
+  {
+    "episode": 191,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "81",
+    "gold": "81",
+    "schema": "Algebra",
+    "bank_size": 19
+  },
+  {
+    "episode": 192,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "1000",
+    "gold": "1000",
+    "schema": "Algebra",
+    "bank_size": 19
+  },
+  {
+    "episode": 193,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "-\\frac{32}{9}",
+    "schema": "Functional Inversion and Composition",
+    "bank_size": 20
+  },
+  {
+    "episode": 194,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "101",
+    "gold": "101",
+    "schema": "Algebra",
+    "bank_size": 20
+  },
+  {
+    "episode": 195,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Nested Function Zeros",
+    "bank_size": 20
+  },
+  {
+    "episode": 196,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 20
+  },
+  {
+    "episode": 197,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "67",
+    "gold": "67",
+    "schema": "Algebra",
+    "bank_size": 20
+  },
+  {
+    "episode": 198,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "34",
+    "gold": "34",
+    "schema": "Combinatorics",
+    "bank_size": 20
+  },
+  {
+    "episode": 199,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "233",
+    "gold": "233",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 200,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2014",
+    "gold": "2019",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 201,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "1",
+    "gold": "5",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 202,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 203,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "53",
+    "gold": "53",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 204,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "63",
+    "gold": "63",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 205,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 206,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "36",
+    "gold": "36",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 16
+  },
+  {
+    "episode": 207,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\( \\boxed{f(n) = n \\text{ for all } n \\in \\mathbb{Z}_{>0}} \\).",
+    "gold": "f(n)=n",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 208,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "9",
+    "gold": "9",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 209,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3125",
+    "gold": "3125",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 210,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "\\(\\boxed{3}\\)",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 211,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "70",
+    "gold": "70",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 212,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\( \\boxed{f(n) = n \\text{ for all } n \\in \\mathbb{N}} \\).",
+    "gold": "f(n)=n",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 213,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "28",
+    "gold": "28",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "bank_size": 16
+  },
+  {
+    "episode": 214,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "14",
+    "gold": "11",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 215,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 216,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "30",
+    "gold": "30",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 217,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "976",
+    "gold": "976",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 218,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\(-1\\)",
+    "gold": "2^{1009}",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 219,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "2",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 220,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "12",
+    "gold": "12",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 221,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "The pairs \\(\\boxed{(3,2) \\text{ and } (5,3)}\\) are the only prime pairs with \\(p > q\\) for which the given number is an integer.",
+    "gold": "(3,2)",
+    "schema": "Number Theory",
+    "bank_size": 18
+  },
+  {
+    "episode": 222,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Relative Primality in Sets",
+    "bank_size": 18
+  },
+  {
+    "episode": 223,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "",
+    "gold": "2240",
+    "schema": "Number Theory",
+    "bank_size": 19
+  },
+  {
+    "episode": 224,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "3",
+    "gold": "5",
+    "schema": "Nested Function Zeros",
+    "bank_size": 14
+  },
+  {
+    "episode": 225,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "25",
+    "gold": "25",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 14
+  },
+  {
+    "episode": 226,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "168",
+    "gold": "168",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 227,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 228,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Floor Function Quotient Problems",
+    "bank_size": 14
+  },
+  {
+    "episode": 229,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "0",
+    "gold": "979",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 230,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2069",
+    "gold": "2069",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 231,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "100",
+    "gold": "100",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 232,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1509",
+    "gold": "1510",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 233,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "",
+    "gold": "(2,251,252)",
+    "schema": "Number Theory",
+    "bank_size": 16
+  },
+  {
+    "episode": 234,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "34",
+    "gold": "34",
+    "schema": "Relative Primality in Sets",
+    "bank_size": 16
+  },
+  {
+    "episode": 235,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "93",
+    "gold": "93",
+    "schema": "Relative Primality in Sets",
+    "bank_size": 16
+  },
+  {
+    "episode": 236,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "9",
+    "gold": "256",
+    "schema": "Combinatorics",
+    "bank_size": 16
+  },
+  {
+    "episode": 237,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "\\(-21\\)",
+    "gold": "-21",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 238,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "417",
+    "gold": "417",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 239,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "(n-2) 2^{n}+1",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 240,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "210",
+    "gold": "210",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 241,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\(\\boxed{6.31 \\pi}\\) (approximately) or exactly \\(\\boxed{\\pi \\times \\frac{4}{1 - \\cos \\alpha}}\\) with \\(\\cos \\alpha = \\frac{91}{133}\\).",
+    "gold": "\\frac{67 \\pi}{3}",
+    "schema": "Geometry",
+    "bank_size": 17
+  },
+  {
+    "episode": 242,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5762",
+    "gold": "5762",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 243,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "32",
+    "gold": "32",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 244,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "p(x)=\\frac{(x-1)(x-2)}{6}",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "bank_size": 17
+  },
+  {
+    "episode": 245,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "35",
+    "gold": "35",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 246,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "23",
+    "gold": "23",
+    "schema": "Combinatorics",
+    "bank_size": 17
+  },
+  {
+    "episode": 247,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 248,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "653",
+    "gold": "39",
+    "schema": "Number Theory",
+    "bank_size": 18
+  },
+  {
+    "episode": 249,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1512",
+    "gold": "1512",
+    "schema": "Combinatorics",
+    "bank_size": 14
+  },
+  {
+    "episode": 250,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "35",
+    "gold": "35",
+    "schema": "Nested Function Zeros",
+    "bank_size": 14
+  },
+  {
+    "episode": 251,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "990",
+    "gold": "990",
+    "schema": "Algebra",
+    "bank_size": 14
+  },
+  {
+    "episode": 252,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "f(x)=1",
+    "schema": "Nested Function Zeros",
+    "bank_size": 14
+  },
+  {
+    "episode": 253,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "\\frac{N}{2}",
+    "schema": "Nested Function Zeros",
+    "bank_size": 15
+  },
+  {
+    "episode": 254,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{43}{48}}\\)",
+    "gold": "\\frac{43}{48}",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 255,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "11",
+    "gold": "11",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 256,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 257,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{4 \\sqrt[3]{\\frac{25}{32}}}\\) (approximately 3.688)",
+    "gold": "\\frac{8}{\\sqrt[3]{7}}",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 258,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(4^\\circ\\)",
+    "gold": "4^{\\circ}",
+    "schema": "Tangency and Collinearity in Geometric Configurations",
+    "bank_size": 17
+  },
+  {
+    "episode": 259,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 260,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{58}{3}}\\)",
+    "gold": "\\frac{58}{3}",
+    "schema": "Algebra",
+    "bank_size": 18
+  },
+  {
+    "episode": 261,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "16807",
+    "gold": "4096",
+    "schema": "Algebra",
+    "bank_size": 19
+  },
+  {
+    "episode": 262,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "448",
+    "gold": "448",
+    "schema": "Number Theory",
+    "bank_size": 19
+  },
+  {
+    "episode": 263,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "bank_size": 19
+  },
+  {
+    "episode": 264,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Nested Function Zeros",
+    "bank_size": 19
+  },
+  {
+    "episode": 265,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "4",
+    "gold": "1002001",
+    "schema": "Number Theory",
+    "bank_size": 19
+  },
+  {
+    "episode": 266,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "33",
+    "gold": "33",
+    "schema": "Nested Function Zeros",
+    "bank_size": 19
+  },
+  {
+    "episode": 267,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "120",
+    "gold": "120",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "bank_size": 19
+  },
+  {
+    "episode": 268,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "60",
+    "gold": "60",
+    "schema": "Floor Function Quotient Problems",
+    "bank_size": 19
+  },
+  {
+    "episode": 269,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "n(n-1)",
+    "schema": "Combinatorics",
+    "bank_size": 19
+  },
+  {
+    "episode": 270,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Nested Function Zeros",
+    "bank_size": 19
+  },
+  {
+    "episode": 271,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "81",
+    "gold": "81",
+    "schema": "Algebra",
+    "bank_size": 19
+  },
+  {
+    "episode": 272,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "0",
+    "gold": "40",
+    "schema": "Algebra",
+    "bank_size": 20
+  },
+  {
+    "episode": 273,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "1",
+    "gold": "\\frac{1}{2}",
+    "schema": "Algebra",
+    "bank_size": 21
+  },
+  {
+    "episode": 274,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "61",
+    "gold": "61",
+    "schema": "Nested Function Zeros",
+    "bank_size": 14
+  },
+  {
+    "episode": 275,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "95",
+    "gold": "95",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 276,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "5",
+    "gold": "2",
+    "schema": "Number Theory",
+    "bank_size": 14
+  },
+  {
+    "episode": 277,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{k+2}\\)",
+    "gold": "n=k+4",
+    "schema": "Combinatorics",
+    "bank_size": 14
+  },
+  {
+    "episode": 278,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{97}{36}}\\)",
+    "gold": "\\frac{97}{36}",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 279,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "1000",
+    "gold": "1000",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 280,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "22.5",
+    "gold": "\\frac{45}{2}",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 281,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 282,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Algebra",
+    "bank_size": 15
+  },
+  {
+    "episode": 283,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 15
+  },
+  {
+    "episode": 284,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "326",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "bank_size": 16
+  },
+  {
+    "episode": 285,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 286,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(5 \\sqrt[3]{4}\\)",
+    "gold": "5 \\sqrt[3]{4}",
+    "schema": "Nested Function Zeros",
+    "bank_size": 16
+  },
+  {
+    "episode": 287,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4.2",
+    "gold": "4.2",
+    "schema": "Algebra",
+    "bank_size": 16
+  },
+  {
+    "episode": 288,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{4n}}\\)",
+    "gold": "\\frac{1}{2 n+2}",
+    "schema": "Geometric Configuration Optimization",
+    "bank_size": 16
+  },
+  {
+    "episode": 289,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "",
+    "gold": "667",
+    "schema": "Combinatorics",
+    "bank_size": 16
+  },
+  {
+    "episode": 290,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\left[\\frac{1}{2}, 8\\right]}\\)",
+    "gold": "[\\frac{1}{2}, 8]",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 291,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4320",
+    "gold": "4320",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 292,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8 minutes",
+    "gold": "8",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 293,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "39",
+    "gold": "39",
+    "schema": "Algebra",
+    "bank_size": 17
+  },
+  {
+    "episode": 294,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "47",
+    "gold": "47",
+    "schema": "Number Theory",
+    "bank_size": 17
+  },
+  {
+    "episode": 295,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{36}{35}}\\)",
+    "gold": "\\frac{36}{35}",
+    "schema": "Nested Function Zeros",
+    "bank_size": 18
+  },
+  {
+    "episode": 296,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Simultaneous Polynomial Root Problems",
+    "bank_size": 18
+  },
+  {
+    "episode": 297,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "20",
+    "gold": "20",
+    "schema": "Algebra",
+    "bank_size": 18
+  },
+  {
+    "episode": 298,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\( \\boxed{f(x) = x + 22} \\)",
+    "gold": "f(x)=x+22",
+    "schema": "Nested Function Zeros",
+    "bank_size": 18
+  },
+  {
+    "episode": 299,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(4\\pi^2 - 1\\)",
+    "gold": "4 \\pi^{2}-1",
+    "schema": "Algebra",
+    "bank_size": 13
+  }
+]

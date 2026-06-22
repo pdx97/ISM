@@ -1,0 +1,4951 @@
+{
+  "bank_snapshot": [
+    {
+      "name": "Number Theory",
+      "is_seed": true,
+      "usage_count": 138,
+      "success_rate": 0.97,
+      "correction_count": 0,
+      "description": "All problems about integers and their properties: divisibility, prime numbers, prime factorization, number of divisors, sum of divisors, GCD, LCM, modular arithmetic, congruences, remainders, Euler's ",
+      "heuristics": [
+        "find_pattern",
+        "decompose",
+        "change_representation",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Algebra",
+      "is_seed": true,
+      "usage_count": 136,
+      "success_rate": 0.6727,
+      "correction_count": 0,
+      "description": "All problems involving algebraic manipulation and equation solving: linear, quadratic, polynomial, rational, exponential, and logarithmic equations and inequalities; systems of equations; functions, t",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "change_representation",
+        "find_pattern"
+      ]
+    },
+    {
+      "name": "Function Difference Matching",
+      "is_seed": false,
+      "usage_count": 85,
+      "success_rate": 0.9666,
+      "correction_count": 0,
+      "description": "Problems involving determining a parameter such that the difference between the evaluations of two functions at a specific value satisfies a given condition.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Volume Conservation Problems",
+      "is_seed": false,
+      "usage_count": 38,
+      "success_rate": 0.97,
+      "correction_count": 0,
+      "description": "Problems involving the redistribution of volume from one geometric shape to another with constant density maintained.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "change_representation"
+      ]
+    },
+    {
+      "name": "Geometry",
+      "is_seed": true,
+      "usage_count": 29,
+      "success_rate": 0.97,
+      "correction_count": 0,
+      "description": "All geometric problems: areas and perimeters of triangles, quadrilaterals, circles, and composite figures; volumes and surface areas of prisms, pyramids, cylinders, cones, and spheres; coordinate geom",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "change_representation",
+        "find_pattern"
+      ]
+    },
+    {
+      "name": "Combinatorics",
+      "is_seed": true,
+      "usage_count": 15,
+      "success_rate": 0.5856,
+      "correction_count": 0,
+      "description": "All counting problems: permutations (ordered arrangements), combinations (unordered selections), the multiplication principle for independent choices, the addition principle for disjoint cases, inclus",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "find_pattern",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Nested Recurrence Problems",
+      "is_seed": false,
+      "usage_count": 13,
+      "success_rate": 0.6048,
+      "correction_count": 0,
+      "description": "Evaluate expressions involving deeply nested operations with a recurring pattern.",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "work_backwards",
+        "variable substitution",
+        "pattern recognition"
+      ]
+    },
+    {
+      "name": "Probability",
+      "is_seed": true,
+      "usage_count": 7,
+      "success_rate": 0.4455,
+      "correction_count": 0,
+      "description": "All probability problems: computing P(event) = favorable/total, complement rule P(A) = 1 - P(not A), union rule P(A\u222aB) = P(A)+P(B)-P(A\u2229B), conditional probability P(A|B) = P(A\u2229B)/P(B), independence P(",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "change_representation",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Trapezoid Area with Diagonals",
+      "is_seed": false,
+      "usage_count": 7,
+      "success_rate": 0.45,
+      "correction_count": 0,
+      "description": "Solve for the area of a trapezoid given areas of triangles formed by intersecting diagonals.",
+      "heuristics": [
+        "decompose",
+        "use area ratios",
+        "employ trapezoid properties"
+      ]
+    },
+    {
+      "name": "Semicircles on a Line",
+      "is_seed": false,
+      "usage_count": 7,
+      "success_rate": 0.6355,
+      "correction_count": 0,
+      "description": "Calculate the area of shaded regions formed by semicircles with equidistant points on a line.",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "visualize",
+        "subtraction"
+      ]
+    },
+    {
+      "name": "Triangle Altitude Ratios",
+      "is_seed": false,
+      "usage_count": 6,
+      "success_rate": 0.482,
+      "correction_count": 0,
+      "description": "Find the ratio between segments formed by altitudes and their intersection in triangles given side lengths and angle measures.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "apply_trigonometry",
+        "similarity_properties",
+        "solve_equations"
+      ]
+    },
+    {
+      "name": "Composite Geometric Areas",
+      "is_seed": false,
+      "usage_count": 5,
+      "success_rate": 0.6096,
+      "correction_count": 0,
+      "description": "Problems involving the calculation of areas formed by overlapping geometric figures such as squares, circles, and polygons.",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "use_symmetry",
+        "use_area_operations"
+      ]
+    },
+    {
+      "name": "Exponential Equation Solving",
+      "is_seed": false,
+      "usage_count": 5,
+      "success_rate": 0.6319,
+      "correction_count": 0,
+      "description": "Solving for an unknown variable within equations involving exponential expressions by decomposition and representation change.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "change_representation"
+      ]
+    },
+    {
+      "name": "Pyramid Frustum Volume Ratios",
+      "is_seed": false,
+      "usage_count": 4,
+      "success_rate": 0.45,
+      "correction_count": 0,
+      "description": "Calculate the volume ratio of a frustum of a pyramid formed by truncating with a smaller similar pyramid.",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "scale_factor",
+        "volume_properties"
+      ]
+    },
+    {
+      "name": "Calculus and Analysis",
+      "is_seed": true,
+      "usage_count": 3,
+      "success_rate": 0.495,
+      "correction_count": 0,
+      "description": "Problems involving limits, derivatives, integrals, and series. Includes: evaluating limits (direct substitution, factoring, L'Hopital's rule, squeeze theorem); derivatives and differentiation rules (p",
+      "heuristics": [
+        "change_representation",
+        "decompose",
+        "find_pattern",
+        "introduce_variable"
+      ]
+    },
+    {
+      "name": "Quadratic Equation Rational Roots",
+      "is_seed": false,
+      "usage_count": 1,
+      "success_rate": 0.45,
+      "correction_count": 0,
+      "description": "Determine conditions when a quadratic equation has rational solutions based on its coefficients.",
+      "heuristics": [
+        "use_discriminant",
+        "perfect_square_check",
+        "algebraic_manipulation",
+        "solve_inequality",
+        "test_conditions"
+      ]
+    },
+    {
+      "name": "Nested Arithmetic Operations",
+      "is_seed": false,
+      "usage_count": 1,
+      "success_rate": 0.5,
+      "correction_count": 0,
+      "description": "Evaluate expressions characterized by repeated nested arithmetic operations with a common pattern.",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "work_backwards"
+      ]
+    }
+  ],
+  "new_schemas": [
+    {
+      "name": "Function Difference Matching",
+      "is_seed": false,
+      "usage_count": 85,
+      "success_rate": 0.9666,
+      "correction_count": 0,
+      "description": "Problems involving determining a parameter such that the difference between the evaluations of two functions at a specific value satisfies a given condition.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Volume Conservation Problems",
+      "is_seed": false,
+      "usage_count": 38,
+      "success_rate": 0.97,
+      "correction_count": 0,
+      "description": "Problems involving the redistribution of volume from one geometric shape to another with constant density maintained.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "change_representation"
+      ]
+    },
+    {
+      "name": "Nested Recurrence Problems",
+      "is_seed": false,
+      "usage_count": 13,
+      "success_rate": 0.6048,
+      "correction_count": 0,
+      "description": "Evaluate expressions involving deeply nested operations with a recurring pattern.",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "work_backwards",
+        "variable substitution",
+        "pattern recognition"
+      ]
+    },
+    {
+      "name": "Trapezoid Area with Diagonals",
+      "is_seed": false,
+      "usage_count": 7,
+      "success_rate": 0.45,
+      "correction_count": 0,
+      "description": "Solve for the area of a trapezoid given areas of triangles formed by intersecting diagonals.",
+      "heuristics": [
+        "decompose",
+        "use area ratios",
+        "employ trapezoid properties"
+      ]
+    },
+    {
+      "name": "Semicircles on a Line",
+      "is_seed": false,
+      "usage_count": 7,
+      "success_rate": 0.6355,
+      "correction_count": 0,
+      "description": "Calculate the area of shaded regions formed by semicircles with equidistant points on a line.",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "visualize",
+        "subtraction"
+      ]
+    },
+    {
+      "name": "Triangle Altitude Ratios",
+      "is_seed": false,
+      "usage_count": 6,
+      "success_rate": 0.482,
+      "correction_count": 0,
+      "description": "Find the ratio between segments formed by altitudes and their intersection in triangles given side lengths and angle measures.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "apply_trigonometry",
+        "similarity_properties",
+        "solve_equations"
+      ]
+    },
+    {
+      "name": "Composite Geometric Areas",
+      "is_seed": false,
+      "usage_count": 5,
+      "success_rate": 0.6096,
+      "correction_count": 0,
+      "description": "Problems involving the calculation of areas formed by overlapping geometric figures such as squares, circles, and polygons.",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "use_symmetry",
+        "use_area_operations"
+      ]
+    },
+    {
+      "name": "Exponential Equation Solving",
+      "is_seed": false,
+      "usage_count": 5,
+      "success_rate": 0.6319,
+      "correction_count": 0,
+      "description": "Solving for an unknown variable within equations involving exponential expressions by decomposition and representation change.",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "change_representation"
+      ]
+    },
+    {
+      "name": "Pyramid Frustum Volume Ratios",
+      "is_seed": false,
+      "usage_count": 4,
+      "success_rate": 0.45,
+      "correction_count": 0,
+      "description": "Calculate the volume ratio of a frustum of a pyramid formed by truncating with a smaller similar pyramid.",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "scale_factor",
+        "volume_properties"
+      ]
+    },
+    {
+      "name": "Quadratic Equation Rational Roots",
+      "is_seed": false,
+      "usage_count": 1,
+      "success_rate": 0.45,
+      "correction_count": 0,
+      "description": "Determine conditions when a quadratic equation has rational solutions based on its coefficients.",
+      "heuristics": [
+        "use_discriminant",
+        "perfect_square_check",
+        "algebraic_manipulation",
+        "solve_inequality",
+        "test_conditions"
+      ]
+    },
+    {
+      "name": "Nested Arithmetic Operations",
+      "is_seed": false,
+      "usage_count": 1,
+      "success_rate": 0.5,
+      "correction_count": 0,
+      "description": "Evaluate expressions characterized by repeated nested arithmetic operations with a common pattern.",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "work_backwards"
+      ]
+    }
+  ],
+  "improvement_log": [
+    {
+      "episode": 10,
+      "mechanism": "Self-Audit",
+      "bank_size": 6,
+      "health_counts": {
+        "strong": 0,
+        "neutral": 2,
+        "weak": 0,
+        "unused": 4
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "unused",
+        "Geometry": "unused",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused"
+      }
+    },
+    {
+      "episode": 10,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 20,
+      "mechanism": "Self-Audit",
+      "bank_size": 6,
+      "health_counts": {
+        "strong": 0,
+        "neutral": 3,
+        "weak": 0,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "unused",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused"
+      }
+    },
+    {
+      "episode": 20,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 30,
+      "mechanism": "Self-Audit",
+      "bank_size": 8,
+      "health_counts": {
+        "strong": 6,
+        "neutral": 1,
+        "weak": 0,
+        "unused": 1
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "strong",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Rational Function Domain Analysis": "unused"
+      }
+    },
+    {
+      "episode": 40,
+      "mechanism": "Self-Audit",
+      "bank_size": 10,
+      "health_counts": {
+        "strong": 7,
+        "neutral": 0,
+        "weak": 1,
+        "unused": 2
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "strong",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Rational Function Domain Analysis": "unused",
+        "Algebraic Equation Solving": "unused",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 40,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 50,
+      "mechanism": "Self-Audit",
+      "bank_size": 11,
+      "health_counts": {
+        "strong": 6,
+        "neutral": 0,
+        "weak": 2,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Rational Function Domain Analysis": "unused",
+        "Algebraic Equation Solving": "unused",
+        "Function Difference Matching": "strong",
+        "Infinite Geometric Series": "unused"
+      }
+    },
+    {
+      "episode": 50,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 50,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Rational Function Domain Analysis",
+        "Algebraic Equation Solving",
+        "Infinite Geometric Series"
+      ],
+      "bank_size_after": 8
+    },
+    {
+      "episode": 60,
+      "mechanism": "Self-Audit",
+      "bank_size": 8,
+      "health_counts": {
+        "strong": 6,
+        "neutral": 0,
+        "weak": 2,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 60,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra",
+        "Number Theory"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 70,
+      "mechanism": "Self-Audit",
+      "bank_size": 8,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 1,
+        "weak": 2,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 70,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra",
+        "Number Theory"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 80,
+      "mechanism": "Self-Audit",
+      "bank_size": 8,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 1,
+        "weak": 2,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 80,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": [
+        "Number Theory"
+      ]
+    },
+    {
+      "episode": 90,
+      "mechanism": "Self-Audit",
+      "bank_size": 8,
+      "health_counts": {
+        "strong": 0,
+        "neutral": 6,
+        "weak": 2,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "neutral",
+        "Calculus and Analysis": "neutral",
+        "Nested Recurrence Problems": "neutral",
+        "Function Difference Matching": "neutral"
+      }
+    },
+    {
+      "episode": 90,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": [
+        "Number Theory"
+      ]
+    },
+    {
+      "episode": 100,
+      "mechanism": "Self-Audit",
+      "bank_size": 8,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 1,
+        "weak": 3,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 100,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 110,
+      "mechanism": "Self-Audit",
+      "bank_size": 10,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 1,
+        "weak": 4,
+        "unused": 1
+      },
+      "schema_health": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "strong",
+        "Composite Geometric Areas": "unused"
+      }
+    },
+    {
+      "episode": 110,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 120,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 2
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "neutral",
+        "Volume Conservation Problems": "strong",
+        "Volume Ratios in Inscribed Solids": "unused",
+        "Geometric Inscribed Shapes": "unused"
+      }
+    },
+    {
+      "episode": 120,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Geometry"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 125,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Volume Ratios in Inscribed Solids",
+        "Geometric Inscribed Shapes",
+        "Trapezoid and Triangle Area Ratios"
+      ],
+      "bank_size_after": 13
+    },
+    {
+      "episode": 130,
+      "mechanism": "Self-Audit",
+      "bank_size": 16,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 4
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "neutral",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "unused",
+        "Arithmetic Sequence in Polygons": "unused",
+        "Geometry with Circles and Tangents": "unused",
+        "Ratio of Geometrical Properties": "unused"
+      }
+    },
+    {
+      "episode": 130,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Cylindrical Volumes in Spheres"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 140,
+      "mechanism": "Self-Audit",
+      "bank_size": 22,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 2,
+        "weak": 5,
+        "unused": 10
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "unused",
+        "Arithmetic Sequence in Polygons": "unused",
+        "Geometry with Circles and Tangents": "unused",
+        "Ratio of Geometrical Properties": "unused",
+        "Trapezoid Diagonals Intersection": "unused",
+        "Triangle Area from Equal Segments": "unused",
+        "Trapezoid Area with Diagonals": "unused",
+        "Triangle Circle Geometry": "unused",
+        "Semicircles on a Line": "unused",
+        "Geometric Shape Inscribed in Triangle": "unused"
+      }
+    },
+    {
+      "episode": 140,
+      "mechanism": "Self-Correct",
+      "schema": "Cylindrical Volumes in Spheres",
+      "correction_count": 1,
+      "failed_episodes": 6,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 140,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Audit",
+      "bank_size": 26,
+      "health_counts": {
+        "strong": 6,
+        "neutral": 2,
+        "weak": 7,
+        "unused": 11
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Arithmetic Sequence in Polygons": "unused",
+        "Geometry with Circles and Tangents": "unused",
+        "Ratio of Geometrical Properties": "unused",
+        "Trapezoid Diagonals Intersection": "unused",
+        "Triangle Area from Equal Segments": "unused",
+        "Trapezoid Area with Diagonals": "weak",
+        "Triangle Circle Geometry": "unused",
+        "Semicircles on a Line": "strong",
+        "Geometric Shape Inscribed in Triangle": "unused",
+        "Inscribed Circle in Right Triangle": "unused",
+        "Composite Area Calculation": "unused",
+        "Geometric Figure Area Ratios": "unused",
+        "Intersecting Boards Area Calculation": "unused"
+      }
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Correct",
+      "schema": "Cylindrical Volumes in Spheres",
+      "correction_count": 2,
+      "failed_episodes": 8,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Arithmetic Sequence in Polygons",
+        "Geometry with Circles and Tangents",
+        "Ratio of Geometrical Properties",
+        "Trapezoid Diagonals Intersection",
+        "Triangle Area from Equal Segments",
+        "Triangle Circle Geometry",
+        "Geometric Shape Inscribed in Triangle",
+        "Inscribed Circle in Right Triangle",
+        "Composite Area Calculation",
+        "Geometric Figure Area Ratios",
+        "Intersecting Boards Area Calculation"
+      ],
+      "bank_size_after": 15
+    },
+    {
+      "episode": 160,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 1,
+        "weak": 9,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 160,
+      "mechanism": "Self-Correct",
+      "schema": "Cylindrical Volumes in Spheres",
+      "correction_count": 3,
+      "failed_episodes": 8,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 160,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Function Difference Matching"
+      ],
+      "demoted": [
+        "Algebra"
+      ]
+    },
+    {
+      "episode": 170,
+      "mechanism": "Self-Audit",
+      "bank_size": 16,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 1,
+        "weak": 9,
+        "unused": 1
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Intersection Area of Geometric Shapes": "unused"
+      }
+    },
+    {
+      "episode": 170,
+      "mechanism": "Self-Escalate",
+      "schema": "Cylindrical Volumes in Spheres",
+      "correction_count": 3,
+      "bank_size_after": 15
+    },
+    {
+      "episode": 170,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Function Difference Matching"
+      ],
+      "demoted": [
+        "Algebra",
+        "Number Theory"
+      ]
+    },
+    {
+      "episode": 175,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Intersection Area of Geometric Shapes"
+      ],
+      "bank_size_after": 14
+    },
+    {
+      "episode": 180,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 1,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 180,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 190,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 1,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 190,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Function Difference Matching"
+      ],
+      "demoted": [
+        "Algebra"
+      ]
+    },
+    {
+      "episode": 200,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 200,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Function Difference Matching"
+      ],
+      "demoted": [
+        "Algebra",
+        "Number Theory"
+      ]
+    },
+    {
+      "episode": 210,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 210,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Function Difference Matching"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 220,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 220,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Geometry",
+        "Function Difference Matching"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 230,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 230,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Geometry",
+        "Function Difference Matching"
+      ],
+      "demoted": [
+        "Algebra"
+      ]
+    },
+    {
+      "episode": 240,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 240,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Geometry",
+        "Function Difference Matching"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 250,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 250,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Geometry",
+        "Function Difference Matching"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 260,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 0
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 260,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra",
+        "Number Theory",
+        "Geometry",
+        "Function Difference Matching"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 270,
+      "mechanism": "Self-Audit",
+      "bank_size": 16,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 8,
+        "unused": 2
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Infinite Geometric Series": "unused",
+        "Exponential Equation Solving": "unused"
+      }
+    },
+    {
+      "episode": 270,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Geometry",
+        "Function Difference Matching"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 275,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Infinite Geometric Series"
+      ],
+      "bank_size_after": 15
+    },
+    {
+      "episode": 280,
+      "mechanism": "Self-Audit",
+      "bank_size": 17,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 9,
+        "unused": 2
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "weak",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Exponential Equation Solving": "strong",
+        "Quadratic Equation Rational Roots": "unused",
+        "Nested Arithmetic Operations": "unused"
+      }
+    },
+    {
+      "episode": 280,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Geometry",
+        "Volume Conservation Problems"
+      ],
+      "demoted": [
+        "Function Difference Matching"
+      ]
+    },
+    {
+      "episode": 290,
+      "mechanism": "Self-Audit",
+      "bank_size": 19,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 2,
+        "weak": 9,
+        "unused": 4
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "weak",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Exponential Equation Solving": "strong",
+        "Quadratic Equation Rational Roots": "unused",
+        "Nested Arithmetic Operations": "unused",
+        "Inverse Function Equations": "unused",
+        "Piecewise Function Continuity": "unused"
+      }
+    },
+    {
+      "episode": 290,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Geometry",
+        "Function Difference Matching",
+        "Volume Conservation Problems"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 300,
+      "mechanism": "Self-Audit",
+      "bank_size": 22,
+      "health_counts": {
+        "strong": 3,
+        "neutral": 2,
+        "weak": 11,
+        "unused": 6
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "weak",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Exponential Equation Solving": "weak",
+        "Quadratic Equation Rational Roots": "weak",
+        "Nested Arithmetic Operations": "unused",
+        "Inverse Function Equations": "unused",
+        "Piecewise Function Continuity": "unused",
+        "Rational Inequality Analysis": "unused",
+        "Linear Relationships from Equations": "unused",
+        "Infinite Geometric Series": "unused"
+      }
+    },
+    {
+      "episode": 300,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Function Difference Matching",
+        "Volume Conservation Problems"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 300,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Inverse Function Equations",
+        "Piecewise Function Continuity",
+        "Rational Inequality Analysis",
+        "Linear Relationships from Equations",
+        "Infinite Geometric Series"
+      ],
+      "bank_size_after": 17
+    }
+  ],
+  "health_log": [
+    {
+      "episode": 10,
+      "bank_size": 6,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "unused",
+        "Geometry": "unused",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused"
+      }
+    },
+    {
+      "episode": 20,
+      "bank_size": 6,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "unused",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused"
+      }
+    },
+    {
+      "episode": 30,
+      "bank_size": 8,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "strong",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Rational Function Domain Analysis": "unused"
+      }
+    },
+    {
+      "episode": 40,
+      "bank_size": 10,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "strong",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Rational Function Domain Analysis": "unused",
+        "Algebraic Equation Solving": "unused",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 50,
+      "bank_size": 11,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Rational Function Domain Analysis": "unused",
+        "Algebraic Equation Solving": "unused",
+        "Function Difference Matching": "strong",
+        "Infinite Geometric Series": "unused"
+      }
+    },
+    {
+      "episode": 60,
+      "bank_size": 8,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "strong",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 70,
+      "bank_size": 8,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 80,
+      "bank_size": 8,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "strong",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 90,
+      "bank_size": 8,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "neutral",
+        "Calculus and Analysis": "neutral",
+        "Nested Recurrence Problems": "neutral",
+        "Function Difference Matching": "neutral"
+      }
+    },
+    {
+      "episode": 100,
+      "bank_size": 8,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "strong",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong"
+      }
+    },
+    {
+      "episode": 110,
+      "bank_size": 10,
+      "report": {
+        "Algebra": "weak",
+        "Number Theory": "neutral",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "strong",
+        "Composite Geometric Areas": "unused"
+      }
+    },
+    {
+      "episode": 120,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "neutral",
+        "Volume Conservation Problems": "strong",
+        "Volume Ratios in Inscribed Solids": "unused",
+        "Geometric Inscribed Shapes": "unused"
+      }
+    },
+    {
+      "episode": 130,
+      "bank_size": 16,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "neutral",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "unused",
+        "Arithmetic Sequence in Polygons": "unused",
+        "Geometry with Circles and Tangents": "unused",
+        "Ratio of Geometrical Properties": "unused"
+      }
+    },
+    {
+      "episode": 140,
+      "bank_size": 22,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "unused",
+        "Arithmetic Sequence in Polygons": "unused",
+        "Geometry with Circles and Tangents": "unused",
+        "Ratio of Geometrical Properties": "unused",
+        "Trapezoid Diagonals Intersection": "unused",
+        "Triangle Area from Equal Segments": "unused",
+        "Trapezoid Area with Diagonals": "unused",
+        "Triangle Circle Geometry": "unused",
+        "Semicircles on a Line": "unused",
+        "Geometric Shape Inscribed in Triangle": "unused"
+      }
+    },
+    {
+      "episode": 150,
+      "bank_size": 26,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "strong",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Arithmetic Sequence in Polygons": "unused",
+        "Geometry with Circles and Tangents": "unused",
+        "Ratio of Geometrical Properties": "unused",
+        "Trapezoid Diagonals Intersection": "unused",
+        "Triangle Area from Equal Segments": "unused",
+        "Trapezoid Area with Diagonals": "weak",
+        "Triangle Circle Geometry": "unused",
+        "Semicircles on a Line": "strong",
+        "Geometric Shape Inscribed in Triangle": "unused",
+        "Inscribed Circle in Right Triangle": "unused",
+        "Composite Area Calculation": "unused",
+        "Geometric Figure Area Ratios": "unused",
+        "Intersecting Boards Area Calculation": "unused"
+      }
+    },
+    {
+      "episode": 160,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 170,
+      "bank_size": 16,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Cylindrical Volumes in Spheres": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Intersection Area of Geometric Shapes": "unused"
+      }
+    },
+    {
+      "episode": 180,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 190,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "strong",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 200,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 210,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 220,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 230,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 240,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 250,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 260,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong"
+      }
+    },
+    {
+      "episode": 270,
+      "bank_size": 16,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "strong",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Infinite Geometric Series": "unused",
+        "Exponential Equation Solving": "unused"
+      }
+    },
+    {
+      "episode": 280,
+      "bank_size": 17,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "weak",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Exponential Equation Solving": "strong",
+        "Quadratic Equation Rational Roots": "unused",
+        "Nested Arithmetic Operations": "unused"
+      }
+    },
+    {
+      "episode": 290,
+      "bank_size": 19,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "weak",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Exponential Equation Solving": "strong",
+        "Quadratic Equation Rational Roots": "unused",
+        "Nested Arithmetic Operations": "unused",
+        "Inverse Function Equations": "unused",
+        "Piecewise Function Continuity": "unused"
+      }
+    },
+    {
+      "episode": 300,
+      "bank_size": 22,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "weak",
+        "Nested Recurrence Problems": "weak",
+        "Function Difference Matching": "neutral",
+        "Triangle Altitude Ratios": "weak",
+        "Composite Geometric Areas": "weak",
+        "Volume Conservation Problems": "strong",
+        "Pyramid Frustum Volume Ratios": "weak",
+        "Trapezoid Area with Diagonals": "weak",
+        "Semicircles on a Line": "strong",
+        "Exponential Equation Solving": "weak",
+        "Quadratic Equation Rational Roots": "weak",
+        "Nested Arithmetic Operations": "unused",
+        "Inverse Function Equations": "unused",
+        "Piecewise Function Continuity": "unused",
+        "Rational Inequality Analysis": "unused",
+        "Linear Relationships from Equations": "unused",
+        "Infinite Geometric Series": "unused"
+      }
+    }
+  ],
+  "lift_log": [
+    {
+      "episode": 10,
+      "schema": "Algebra",
+      "lift": 0.0,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 10,
+      "schema": "Number Theory",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 10,
+      "schema": "Geometry",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 10,
+      "schema": "Combinatorics",
+      "lift": 0.0,
+      "health": "neutral",
+      "uses": 1
+    },
+    {
+      "episode": 10,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 10,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "Algebra",
+      "lift": -0.009,
+      "health": "neutral",
+      "uses": 17
+    },
+    {
+      "episode": 20,
+      "schema": "Number Theory",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "Geometry",
+      "lift": 0.05,
+      "health": "neutral",
+      "uses": 2
+    },
+    {
+      "episode": 20,
+      "schema": "Combinatorics",
+      "lift": 0.05,
+      "health": "neutral",
+      "uses": 1
+    },
+    {
+      "episode": 20,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 30,
+      "schema": "Algebra",
+      "lift": -0.041,
+      "health": "neutral",
+      "uses": 23
+    },
+    {
+      "episode": 30,
+      "schema": "Number Theory",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 30,
+      "schema": "Geometry",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 30,
+      "schema": "Combinatorics",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 30,
+      "schema": "Probability",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 30,
+      "schema": "Calculus and Analysis",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 30,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 30,
+      "schema": "Rational Function Domain Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 40,
+      "schema": "Algebra",
+      "lift": -0.057,
+      "health": "weak",
+      "uses": 29
+    },
+    {
+      "episode": 40,
+      "schema": "Number Theory",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 40,
+      "schema": "Geometry",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 40,
+      "schema": "Combinatorics",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 40,
+      "schema": "Probability",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 40,
+      "schema": "Calculus and Analysis",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 40,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 40,
+      "schema": "Rational Function Domain Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 40,
+      "schema": "Algebraic Equation Solving",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 40,
+      "schema": "Function Difference Matching",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 50,
+      "schema": "Algebra",
+      "lift": -0.052,
+      "health": "weak",
+      "uses": 33
+    },
+    {
+      "episode": 50,
+      "schema": "Number Theory",
+      "lift": 0.16,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 50,
+      "schema": "Geometry",
+      "lift": 0.16,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 50,
+      "schema": "Combinatorics",
+      "lift": -0.34,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 50,
+      "schema": "Probability",
+      "lift": 0.16,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 50,
+      "schema": "Calculus and Analysis",
+      "lift": 0.16,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 50,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.16,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 50,
+      "schema": "Rational Function Domain Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Algebraic Equation Solving",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Function Difference Matching",
+      "lift": 0.16,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 50,
+      "schema": "Infinite Geometric Series",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 60,
+      "schema": "Algebra",
+      "lift": -0.079,
+      "health": "weak",
+      "uses": 33
+    },
+    {
+      "episode": 60,
+      "schema": "Number Theory",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 10
+    },
+    {
+      "episode": 60,
+      "schema": "Geometry",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 60,
+      "schema": "Combinatorics",
+      "lift": -0.2,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 60,
+      "schema": "Probability",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 60,
+      "schema": "Calculus and Analysis",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 60,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 60,
+      "schema": "Function Difference Matching",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 70,
+      "schema": "Algebra",
+      "lift": -0.084,
+      "health": "weak",
+      "uses": 33
+    },
+    {
+      "episode": 70,
+      "schema": "Number Theory",
+      "lift": 0.079,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 70,
+      "schema": "Geometry",
+      "lift": 0.129,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 70,
+      "schema": "Combinatorics",
+      "lift": -0.205,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 70,
+      "schema": "Probability",
+      "lift": 0.129,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 70,
+      "schema": "Calculus and Analysis",
+      "lift": 0.129,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 70,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.129,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 70,
+      "schema": "Function Difference Matching",
+      "lift": 0.129,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 80,
+      "schema": "Algebra",
+      "lift": -0.1,
+      "health": "weak",
+      "uses": 33
+    },
+    {
+      "episode": 80,
+      "schema": "Number Theory",
+      "lift": 0.078,
+      "health": "neutral",
+      "uses": 29
+    },
+    {
+      "episode": 80,
+      "schema": "Geometry",
+      "lift": 0.113,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 80,
+      "schema": "Combinatorics",
+      "lift": -0.137,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 80,
+      "schema": "Probability",
+      "lift": 0.113,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 80,
+      "schema": "Calculus and Analysis",
+      "lift": 0.113,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 80,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.113,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 80,
+      "schema": "Function Difference Matching",
+      "lift": 0.113,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 90,
+      "schema": "Algebra",
+      "lift": -0.112,
+      "health": "weak",
+      "uses": 33
+    },
+    {
+      "episode": 90,
+      "schema": "Number Theory",
+      "lift": 0.074,
+      "health": "neutral",
+      "uses": 38
+    },
+    {
+      "episode": 90,
+      "schema": "Geometry",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 90,
+      "schema": "Combinatorics",
+      "lift": -0.1,
+      "health": "weak",
+      "uses": 5
+    },
+    {
+      "episode": 90,
+      "schema": "Probability",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 1
+    },
+    {
+      "episode": 90,
+      "schema": "Calculus and Analysis",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 1
+    },
+    {
+      "episode": 90,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 2
+    },
+    {
+      "episode": 90,
+      "schema": "Function Difference Matching",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 100,
+      "schema": "Algebra",
+      "lift": -0.092,
+      "health": "weak",
+      "uses": 33
+    },
+    {
+      "episode": 100,
+      "schema": "Number Theory",
+      "lift": 0.056,
+      "health": "neutral",
+      "uses": 47
+    },
+    {
+      "episode": 100,
+      "schema": "Geometry",
+      "lift": 0.12,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 100,
+      "schema": "Combinatorics",
+      "lift": -0.08,
+      "health": "weak",
+      "uses": 5
+    },
+    {
+      "episode": 100,
+      "schema": "Probability",
+      "lift": -0.38,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 100,
+      "schema": "Calculus and Analysis",
+      "lift": 0.12,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 100,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.12,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 100,
+      "schema": "Function Difference Matching",
+      "lift": 0.12,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 110,
+      "schema": "Algebra",
+      "lift": -0.067,
+      "health": "weak",
+      "uses": 33
+    },
+    {
+      "episode": 110,
+      "schema": "Number Theory",
+      "lift": 0.082,
+      "health": "neutral",
+      "uses": 47
+    },
+    {
+      "episode": 110,
+      "schema": "Geometry",
+      "lift": -0.188,
+      "health": "weak",
+      "uses": 12
+    },
+    {
+      "episode": 110,
+      "schema": "Combinatorics",
+      "lift": -0.055,
+      "health": "weak",
+      "uses": 5
+    },
+    {
+      "episode": 110,
+      "schema": "Probability",
+      "lift": -0.355,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 110,
+      "schema": "Calculus and Analysis",
+      "lift": 0.145,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 110,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.145,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 110,
+      "schema": "Function Difference Matching",
+      "lift": 0.145,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 110,
+      "schema": "Triangle Altitude Ratios",
+      "lift": 0.145,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 110,
+      "schema": "Composite Geometric Areas",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Algebra",
+      "lift": -0.045,
+      "health": "neutral",
+      "uses": 33
+    },
+    {
+      "episode": 120,
+      "schema": "Number Theory",
+      "lift": 0.103,
+      "health": "strong",
+      "uses": 47
+    },
+    {
+      "episode": 120,
+      "schema": "Geometry",
+      "lift": -0.19,
+      "health": "weak",
+      "uses": 14
+    },
+    {
+      "episode": 120,
+      "schema": "Combinatorics",
+      "lift": -0.033,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 120,
+      "schema": "Probability",
+      "lift": -0.333,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 120,
+      "schema": "Calculus and Analysis",
+      "lift": 0.167,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 120,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.167,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 120,
+      "schema": "Function Difference Matching",
+      "lift": 0.167,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 120,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.333,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 120,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.833,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 120,
+      "schema": "Cylindrical Volumes in Spheres",
+      "lift": -0.033,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 120,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.167,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 120,
+      "schema": "Volume Ratios in Inscribed Solids",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Geometric Inscribed Shapes",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Algebra",
+      "lift": -0.02,
+      "health": "neutral",
+      "uses": 33
+    },
+    {
+      "episode": 130,
+      "schema": "Number Theory",
+      "lift": 0.128,
+      "health": "strong",
+      "uses": 47
+    },
+    {
+      "episode": 130,
+      "schema": "Geometry",
+      "lift": -0.245,
+      "health": "weak",
+      "uses": 16
+    },
+    {
+      "episode": 130,
+      "schema": "Combinatorics",
+      "lift": -0.008,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 130,
+      "schema": "Probability",
+      "lift": -0.308,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 130,
+      "schema": "Calculus and Analysis",
+      "lift": 0.192,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 130,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.192,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 130,
+      "schema": "Function Difference Matching",
+      "lift": 0.192,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 130,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.474,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 130,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.474,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 130,
+      "schema": "Cylindrical Volumes in Spheres",
+      "lift": -0.008,
+      "health": "neutral",
+      "uses": 10
+    },
+    {
+      "episode": 130,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.192,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 130,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Arithmetic Sequence in Polygons",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Geometry with Circles and Tangents",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Ratio of Geometrical Properties",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Algebra",
+      "lift": 0.009,
+      "health": "neutral",
+      "uses": 33
+    },
+    {
+      "episode": 140,
+      "schema": "Number Theory",
+      "lift": 0.158,
+      "health": "strong",
+      "uses": 47
+    },
+    {
+      "episode": 140,
+      "schema": "Geometry",
+      "lift": -0.229,
+      "health": "weak",
+      "uses": 20
+    },
+    {
+      "episode": 140,
+      "schema": "Combinatorics",
+      "lift": 0.021,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 140,
+      "schema": "Probability",
+      "lift": -0.279,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 140,
+      "schema": "Calculus and Analysis",
+      "lift": 0.221,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 140,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.221,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 140,
+      "schema": "Function Difference Matching",
+      "lift": 0.221,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 140,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.445,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 140,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.445,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 140,
+      "schema": "Cylindrical Volumes in Spheres",
+      "lift": -0.154,
+      "health": "weak",
+      "uses": 16
+    },
+    {
+      "episode": 140,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.221,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 140,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Arithmetic Sequence in Polygons",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Geometry with Circles and Tangents",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Ratio of Geometrical Properties",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Trapezoid Diagonals Intersection",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Triangle Area from Equal Segments",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Triangle Circle Geometry",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Semicircles on a Line",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Geometric Shape Inscribed in Triangle",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Algebra",
+      "lift": 0.021,
+      "health": "neutral",
+      "uses": 33
+    },
+    {
+      "episode": 150,
+      "schema": "Number Theory",
+      "lift": 0.17,
+      "health": "strong",
+      "uses": 47
+    },
+    {
+      "episode": 150,
+      "schema": "Geometry",
+      "lift": -0.195,
+      "health": "weak",
+      "uses": 21
+    },
+    {
+      "episode": 150,
+      "schema": "Combinatorics",
+      "lift": 0.033,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 150,
+      "schema": "Probability",
+      "lift": -0.267,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 150,
+      "schema": "Calculus and Analysis",
+      "lift": 0.233,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 150,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.233,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 150,
+      "schema": "Function Difference Matching",
+      "lift": 0.233,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 150,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.433,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 150,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.433,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 150,
+      "schema": "Cylindrical Volumes in Spheres",
+      "lift": -0.148,
+      "health": "weak",
+      "uses": 21
+    },
+    {
+      "episode": 150,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.233,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 150,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.767,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 150,
+      "schema": "Arithmetic Sequence in Polygons",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Geometry with Circles and Tangents",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Ratio of Geometrical Properties",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Trapezoid Diagonals Intersection",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Triangle Area from Equal Segments",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.767,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 150,
+      "schema": "Triangle Circle Geometry",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Semicircles on a Line",
+      "lift": 0.233,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 150,
+      "schema": "Geometric Shape Inscribed in Triangle",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Inscribed Circle in Right Triangle",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Composite Area Calculation",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Geometric Figure Area Ratios",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Intersecting Boards Area Calculation",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 160,
+      "schema": "Algebra",
+      "lift": 0.042,
+      "health": "neutral",
+      "uses": 37
+    },
+    {
+      "episode": 160,
+      "schema": "Number Theory",
+      "lift": 0.167,
+      "health": "strong",
+      "uses": 47
+    },
+    {
+      "episode": 160,
+      "schema": "Geometry",
+      "lift": -0.197,
+      "health": "weak",
+      "uses": 21
+    },
+    {
+      "episode": 160,
+      "schema": "Combinatorics",
+      "lift": -0.102,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 160,
+      "schema": "Probability",
+      "lift": -0.269,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 160,
+      "schema": "Calculus and Analysis",
+      "lift": -0.269,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 160,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.231,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 160,
+      "schema": "Function Difference Matching",
+      "lift": 0.231,
+      "health": "strong",
+      "uses": 9
+    },
+    {
+      "episode": 160,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.435,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 160,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.435,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 160,
+      "schema": "Cylindrical Volumes in Spheres",
+      "lift": -0.132,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 160,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.231,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 160,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.769,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 160,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.769,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 160,
+      "schema": "Semicircles on a Line",
+      "lift": 0.231,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 170,
+      "schema": "Algebra",
+      "lift": 0.064,
+      "health": "neutral",
+      "uses": 44
+    },
+    {
+      "episode": 170,
+      "schema": "Number Theory",
+      "lift": 0.161,
+      "health": "strong",
+      "uses": 48
+    },
+    {
+      "episode": 170,
+      "schema": "Geometry",
+      "lift": -0.205,
+      "health": "weak",
+      "uses": 21
+    },
+    {
+      "episode": 170,
+      "schema": "Combinatorics",
+      "lift": -0.11,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 170,
+      "schema": "Probability",
+      "lift": -0.276,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 170,
+      "schema": "Calculus and Analysis",
+      "lift": -0.276,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 170,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.224,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 170,
+      "schema": "Function Difference Matching",
+      "lift": 0.224,
+      "health": "strong",
+      "uses": 10
+    },
+    {
+      "episode": 170,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.443,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 170,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.443,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 170,
+      "schema": "Cylindrical Volumes in Spheres",
+      "lift": -0.168,
+      "health": "weak",
+      "uses": 23
+    },
+    {
+      "episode": 170,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.224,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 170,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.776,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 170,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.776,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 170,
+      "schema": "Semicircles on a Line",
+      "lift": 0.224,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 170,
+      "schema": "Intersection Area of Geometric Shapes",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 180,
+      "schema": "Algebra",
+      "lift": 0.065,
+      "health": "neutral",
+      "uses": 51
+    },
+    {
+      "episode": 180,
+      "schema": "Number Theory",
+      "lift": 0.16,
+      "health": "strong",
+      "uses": 48
+    },
+    {
+      "episode": 180,
+      "schema": "Geometry",
+      "lift": -0.206,
+      "health": "weak",
+      "uses": 21
+    },
+    {
+      "episode": 180,
+      "schema": "Combinatorics",
+      "lift": -0.111,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 180,
+      "schema": "Probability",
+      "lift": -0.278,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 180,
+      "schema": "Calculus and Analysis",
+      "lift": -0.278,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 180,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.222,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 180,
+      "schema": "Function Difference Matching",
+      "lift": 0.145,
+      "health": "strong",
+      "uses": 13
+    },
+    {
+      "episode": 180,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.444,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 180,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.444,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 180,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.222,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 180,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.778,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 180,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.778,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 180,
+      "schema": "Semicircles on a Line",
+      "lift": 0.222,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 190,
+      "schema": "Algebra",
+      "lift": 0.073,
+      "health": "neutral",
+      "uses": 58
+    },
+    {
+      "episode": 190,
+      "schema": "Number Theory",
+      "lift": 0.148,
+      "health": "strong",
+      "uses": 48
+    },
+    {
+      "episode": 190,
+      "schema": "Geometry",
+      "lift": -0.218,
+      "health": "weak",
+      "uses": 21
+    },
+    {
+      "episode": 190,
+      "schema": "Combinatorics",
+      "lift": -0.123,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 190,
+      "schema": "Probability",
+      "lift": -0.289,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 190,
+      "schema": "Calculus and Analysis",
+      "lift": -0.289,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 190,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.211,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 190,
+      "schema": "Function Difference Matching",
+      "lift": 0.139,
+      "health": "strong",
+      "uses": 14
+    },
+    {
+      "episode": 190,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.456,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 190,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.456,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 190,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.211,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 190,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.789,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 190,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.789,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 190,
+      "schema": "Semicircles on a Line",
+      "lift": 0.211,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 200,
+      "schema": "Algebra",
+      "lift": 0.072,
+      "health": "neutral",
+      "uses": 60
+    },
+    {
+      "episode": 200,
+      "schema": "Number Theory",
+      "lift": 0.144,
+      "health": "strong",
+      "uses": 49
+    },
+    {
+      "episode": 200,
+      "schema": "Geometry",
+      "lift": -0.224,
+      "health": "weak",
+      "uses": 21
+    },
+    {
+      "episode": 200,
+      "schema": "Combinatorics",
+      "lift": -0.128,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 200,
+      "schema": "Probability",
+      "lift": -0.295,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 200,
+      "schema": "Calculus and Analysis",
+      "lift": -0.295,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 200,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.205,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 200,
+      "schema": "Function Difference Matching",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 19
+    },
+    {
+      "episode": 200,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.462,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 200,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.295,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 200,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.205,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 200,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.795,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 200,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.795,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 200,
+      "schema": "Semicircles on a Line",
+      "lift": 0.205,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 210,
+      "schema": "Algebra",
+      "lift": 0.071,
+      "health": "neutral",
+      "uses": 60
+    },
+    {
+      "episode": 210,
+      "schema": "Number Theory",
+      "lift": 0.117,
+      "health": "strong",
+      "uses": 57
+    },
+    {
+      "episode": 210,
+      "schema": "Geometry",
+      "lift": -0.204,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 210,
+      "schema": "Combinatorics",
+      "lift": -0.081,
+      "health": "weak",
+      "uses": 7
+    },
+    {
+      "episode": 210,
+      "schema": "Probability",
+      "lift": -0.295,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 210,
+      "schema": "Calculus and Analysis",
+      "lift": -0.295,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 210,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.205,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 210,
+      "schema": "Function Difference Matching",
+      "lift": 0.099,
+      "health": "neutral",
+      "uses": 19
+    },
+    {
+      "episode": 210,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.462,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 210,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.295,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 210,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.205,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 210,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.795,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 210,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.795,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 210,
+      "schema": "Semicircles on a Line",
+      "lift": 0.205,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 220,
+      "schema": "Algebra",
+      "lift": 0.062,
+      "health": "neutral",
+      "uses": 60
+    },
+    {
+      "episode": 220,
+      "schema": "Number Theory",
+      "lift": 0.121,
+      "health": "strong",
+      "uses": 67
+    },
+    {
+      "episode": 220,
+      "schema": "Geometry",
+      "lift": -0.214,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 220,
+      "schema": "Combinatorics",
+      "lift": -0.09,
+      "health": "weak",
+      "uses": 7
+    },
+    {
+      "episode": 220,
+      "schema": "Probability",
+      "lift": -0.305,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 220,
+      "schema": "Calculus and Analysis",
+      "lift": -0.305,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 220,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.195,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 220,
+      "schema": "Function Difference Matching",
+      "lift": 0.09,
+      "health": "neutral",
+      "uses": 19
+    },
+    {
+      "episode": 220,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.471,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 220,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.305,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 220,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.195,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 220,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.805,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 220,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.805,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 220,
+      "schema": "Semicircles on a Line",
+      "lift": 0.195,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 230,
+      "schema": "Algebra",
+      "lift": 0.065,
+      "health": "neutral",
+      "uses": 61
+    },
+    {
+      "episode": 230,
+      "schema": "Number Theory",
+      "lift": 0.116,
+      "health": "strong",
+      "uses": 75
+    },
+    {
+      "episode": 230,
+      "schema": "Geometry",
+      "lift": -0.213,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 230,
+      "schema": "Combinatorics",
+      "lift": -0.09,
+      "health": "weak",
+      "uses": 7
+    },
+    {
+      "episode": 230,
+      "schema": "Probability",
+      "lift": -0.471,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 230,
+      "schema": "Calculus and Analysis",
+      "lift": -0.304,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 230,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.196,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 230,
+      "schema": "Function Difference Matching",
+      "lift": 0.09,
+      "health": "neutral",
+      "uses": 19
+    },
+    {
+      "episode": 230,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.471,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 230,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.304,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 230,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.196,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 230,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.804,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 230,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.804,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 230,
+      "schema": "Semicircles on a Line",
+      "lift": 0.196,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 240,
+      "schema": "Algebra",
+      "lift": 0.056,
+      "health": "neutral",
+      "uses": 61
+    },
+    {
+      "episode": 240,
+      "schema": "Number Theory",
+      "lift": 0.116,
+      "health": "strong",
+      "uses": 84
+    },
+    {
+      "episode": 240,
+      "schema": "Geometry",
+      "lift": -0.222,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 240,
+      "schema": "Combinatorics",
+      "lift": -0.062,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 240,
+      "schema": "Probability",
+      "lift": -0.479,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 240,
+      "schema": "Calculus and Analysis",
+      "lift": -0.312,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 240,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.188,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 240,
+      "schema": "Function Difference Matching",
+      "lift": 0.082,
+      "health": "neutral",
+      "uses": 19
+    },
+    {
+      "episode": 240,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.479,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 240,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.312,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 240,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.188,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 240,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.812,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 240,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.812,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 240,
+      "schema": "Semicircles on a Line",
+      "lift": 0.188,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 250,
+      "schema": "Algebra",
+      "lift": 0.053,
+      "health": "neutral",
+      "uses": 61
+    },
+    {
+      "episode": 250,
+      "schema": "Number Theory",
+      "lift": 0.11,
+      "health": "strong",
+      "uses": 94
+    },
+    {
+      "episode": 250,
+      "schema": "Geometry",
+      "lift": -0.225,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 250,
+      "schema": "Combinatorics",
+      "lift": -0.066,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 250,
+      "schema": "Probability",
+      "lift": -0.483,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 250,
+      "schema": "Calculus and Analysis",
+      "lift": -0.316,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 250,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.184,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 250,
+      "schema": "Function Difference Matching",
+      "lift": 0.079,
+      "health": "neutral",
+      "uses": 19
+    },
+    {
+      "episode": 250,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.483,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 250,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.316,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 250,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.184,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 250,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.816,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 250,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.816,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 250,
+      "schema": "Semicircles on a Line",
+      "lift": 0.184,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 260,
+      "schema": "Algebra",
+      "lift": 0.044,
+      "health": "neutral",
+      "uses": 64
+    },
+    {
+      "episode": 260,
+      "schema": "Number Theory",
+      "lift": 0.11,
+      "health": "strong",
+      "uses": 94
+    },
+    {
+      "episode": 260,
+      "schema": "Geometry",
+      "lift": -0.224,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 260,
+      "schema": "Combinatorics",
+      "lift": -0.065,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 260,
+      "schema": "Probability",
+      "lift": -0.482,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 260,
+      "schema": "Calculus and Analysis",
+      "lift": -0.315,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 260,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.185,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 260,
+      "schema": "Function Difference Matching",
+      "lift": 0.065,
+      "health": "neutral",
+      "uses": 25
+    },
+    {
+      "episode": 260,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.482,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 260,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.315,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 260,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.185,
+      "health": "strong",
+      "uses": 6
+    },
+    {
+      "episode": 260,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.815,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 260,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.815,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 260,
+      "schema": "Semicircles on a Line",
+      "lift": 0.185,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 270,
+      "schema": "Algebra",
+      "lift": 0.026,
+      "health": "neutral",
+      "uses": 69
+    },
+    {
+      "episode": 270,
+      "schema": "Number Theory",
+      "lift": 0.111,
+      "health": "strong",
+      "uses": 94
+    },
+    {
+      "episode": 270,
+      "schema": "Geometry",
+      "lift": -0.224,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 270,
+      "schema": "Combinatorics",
+      "lift": -0.065,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 270,
+      "schema": "Probability",
+      "lift": -0.481,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 270,
+      "schema": "Calculus and Analysis",
+      "lift": -0.315,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 270,
+      "schema": "Nested Recurrence Problems",
+      "lift": 0.185,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 270,
+      "schema": "Function Difference Matching",
+      "lift": 0.078,
+      "health": "neutral",
+      "uses": 28
+    },
+    {
+      "episode": 270,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.481,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 270,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.315,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 270,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.185,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 270,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.815,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 270,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.815,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 270,
+      "schema": "Semicircles on a Line",
+      "lift": 0.185,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 270,
+      "schema": "Infinite Geometric Series",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "Exponential Equation Solving",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 280,
+      "schema": "Algebra",
+      "lift": 0.017,
+      "health": "neutral",
+      "uses": 71
+    },
+    {
+      "episode": 280,
+      "schema": "Number Theory",
+      "lift": 0.111,
+      "health": "strong",
+      "uses": 94
+    },
+    {
+      "episode": 280,
+      "schema": "Geometry",
+      "lift": -0.223,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 280,
+      "schema": "Combinatorics",
+      "lift": -0.064,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 280,
+      "schema": "Probability",
+      "lift": -0.481,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 280,
+      "schema": "Calculus and Analysis",
+      "lift": -0.314,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 280,
+      "schema": "Nested Recurrence Problems",
+      "lift": -0.064,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 280,
+      "schema": "Function Difference Matching",
+      "lift": 0.092,
+      "health": "neutral",
+      "uses": 32
+    },
+    {
+      "episode": 280,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.481,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 280,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.314,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 280,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.186,
+      "health": "strong",
+      "uses": 9
+    },
+    {
+      "episode": 280,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.814,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 280,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.814,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 280,
+      "schema": "Semicircles on a Line",
+      "lift": 0.186,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 280,
+      "schema": "Exponential Equation Solving",
+      "lift": 0.186,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 280,
+      "schema": "Quadratic Equation Rational Roots",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 280,
+      "schema": "Nested Arithmetic Operations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 290,
+      "schema": "Algebra",
+      "lift": 0.017,
+      "health": "neutral",
+      "uses": 71
+    },
+    {
+      "episode": 290,
+      "schema": "Number Theory",
+      "lift": 0.112,
+      "health": "strong",
+      "uses": 94
+    },
+    {
+      "episode": 290,
+      "schema": "Geometry",
+      "lift": -0.223,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 290,
+      "schema": "Combinatorics",
+      "lift": -0.064,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 290,
+      "schema": "Probability",
+      "lift": -0.48,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 290,
+      "schema": "Calculus and Analysis",
+      "lift": -0.314,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 290,
+      "schema": "Nested Recurrence Problems",
+      "lift": -0.064,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 290,
+      "schema": "Function Difference Matching",
+      "lift": 0.067,
+      "health": "neutral",
+      "uses": 42
+    },
+    {
+      "episode": 290,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.48,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 290,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.314,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 290,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.186,
+      "health": "strong",
+      "uses": 9
+    },
+    {
+      "episode": 290,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.814,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 290,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.814,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 290,
+      "schema": "Semicircles on a Line",
+      "lift": 0.186,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 290,
+      "schema": "Exponential Equation Solving",
+      "lift": 0.186,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 290,
+      "schema": "Quadratic Equation Rational Roots",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 290,
+      "schema": "Nested Arithmetic Operations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 290,
+      "schema": "Inverse Function Equations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 290,
+      "schema": "Piecewise Function Continuity",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Algebra",
+      "lift": 0.013,
+      "health": "neutral",
+      "uses": 72
+    },
+    {
+      "episode": 300,
+      "schema": "Number Theory",
+      "lift": 0.119,
+      "health": "strong",
+      "uses": 94
+    },
+    {
+      "episode": 300,
+      "schema": "Geometry",
+      "lift": -0.216,
+      "health": "weak",
+      "uses": 22
+    },
+    {
+      "episode": 300,
+      "schema": "Combinatorics",
+      "lift": -0.14,
+      "health": "weak",
+      "uses": 9
+    },
+    {
+      "episode": 300,
+      "schema": "Probability",
+      "lift": -0.473,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 300,
+      "schema": "Calculus and Analysis",
+      "lift": -0.307,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 300,
+      "schema": "Nested Recurrence Problems",
+      "lift": -0.057,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 300,
+      "schema": "Function Difference Matching",
+      "lift": 0.082,
+      "health": "neutral",
+      "uses": 45
+    },
+    {
+      "episode": 300,
+      "schema": "Triangle Altitude Ratios",
+      "lift": -0.473,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 300,
+      "schema": "Composite Geometric Areas",
+      "lift": -0.307,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 300,
+      "schema": "Volume Conservation Problems",
+      "lift": 0.193,
+      "health": "strong",
+      "uses": 11
+    },
+    {
+      "episode": 300,
+      "schema": "Pyramid Frustum Volume Ratios",
+      "lift": -0.807,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 300,
+      "schema": "Trapezoid Area with Diagonals",
+      "lift": -0.807,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 300,
+      "schema": "Semicircles on a Line",
+      "lift": 0.193,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 300,
+      "schema": "Exponential Equation Solving",
+      "lift": -0.14,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 300,
+      "schema": "Quadratic Equation Rational Roots",
+      "lift": -0.807,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 300,
+      "schema": "Nested Arithmetic Operations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Inverse Function Equations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Piecewise Function Continuity",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Rational Inequality Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Linear Relationships from Equations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Infinite Geometric Series",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    }
+  ],
+  "summary": {
+    "total_schemas": 17,
+    "seed_schemas": 6,
+    "new_schemas": 11,
+    "mechanism_counts": {
+      "Self-Audit": 30,
+      "Self-Promote/Demote": 29,
+      "Self-Prune": 6,
+      "Self-Correct": 3,
+      "Self-Escalate": 1
+    },
+    "total_events": 69
+  }
+}

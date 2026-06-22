@@ -1,0 +1,56 @@
+{
+  "vanilla": {
+    "label": "Vanilla LLM",
+    "final_acc": 0.2367,
+    "plasticity": 0.24,
+    "stability": 0.2333,
+    "forgetting": 0.05,
+    "bwt": -0.03,
+    "final_bank": 0
+  },
+  "static": {
+    "label": "Static Schema",
+    "final_acc": 0.5967,
+    "plasticity": 0.58,
+    "stability": 0.6133,
+    "forgetting": 0.06,
+    "bwt": -0.0,
+    "final_bank": 1
+  },
+  "rag": {
+    "label": "RAG-over-Examples",
+    "final_acc": 0.3333,
+    "plasticity": 0.3267,
+    "stability": 0.34,
+    "forgetting": 0.02,
+    "bwt": -0.02,
+    "final_bank": 300
+  },
+  "reflexion": {
+    "label": "Reflexion",
+    "final_acc": 0.2967,
+    "plasticity": 0.2667,
+    "stability": 0.3267,
+    "forgetting": 0.02,
+    "bwt": 0.01,
+    "final_bank": 300
+  },
+  "passive": {
+    "label": "Passive Schema Memory",
+    "final_acc": 0.5967,
+    "plasticity": 0.5733,
+    "stability": 0.62,
+    "forgetting": 0.1,
+    "bwt": -0.02,
+    "final_bank": 91
+  },
+  "ism": {
+    "label": "ISM (Active)",
+    "final_acc": 0.6167,
+    "plasticity": 0.5933,
+    "stability": 0.64,
+    "forgetting": 0.03,
+    "bwt": 0.03,
+    "final_bank": 13
+  }
+}

@@ -1,0 +1,577 @@
+{
+  "dataset": "MATH-Hard (Level 4-5) \u2014 Updated Run",
+  "accuracy_by_domain": {
+    "vanilla": {
+      "Algebra": {
+        "accuracy": 0.5733,
+        "correct": 86,
+        "total": 150
+      },
+      "Number Theory": {
+        "accuracy": 0.42,
+        "correct": 42,
+        "total": 100
+      },
+      "Geometry": {
+        "accuracy": 0.32,
+        "correct": 16,
+        "total": 50
+      }
+    },
+    "reflexion": {
+      "Algebra": {
+        "accuracy": 0.6933,
+        "correct": 104,
+        "total": 150
+      },
+      "Number Theory": {
+        "accuracy": 0.5,
+        "correct": 50,
+        "total": 100
+      },
+      "Geometry": {
+        "accuracy": 0.26,
+        "correct": 13,
+        "total": 50
+      }
+    },
+    "rag": {
+      "Algebra": {
+        "accuracy": 0.6933,
+        "correct": 104,
+        "total": 150
+      },
+      "Number Theory": {
+        "accuracy": 0.53,
+        "correct": 53,
+        "total": 100
+      },
+      "Geometry": {
+        "accuracy": 0.28,
+        "correct": 14,
+        "total": 50
+      }
+    },
+    "static": {
+      "Algebra": {
+        "accuracy": 0.78,
+        "correct": 117,
+        "total": 150
+      },
+      "Number Theory": {
+        "accuracy": 0.91,
+        "correct": 91,
+        "total": 100
+      },
+      "Geometry": {
+        "accuracy": 0.56,
+        "correct": 28,
+        "total": 50
+      }
+    },
+    "passive": {
+      "Algebra": {
+        "accuracy": 0.8133,
+        "correct": 122,
+        "total": 150
+      },
+      "Number Theory": {
+        "accuracy": 0.87,
+        "correct": 87,
+        "total": 100
+      },
+      "Geometry": {
+        "accuracy": 0.54,
+        "correct": 27,
+        "total": 50
+      }
+    },
+    "ism": {
+      "Algebra": {
+        "accuracy": 0.8267,
+        "correct": 124,
+        "total": 150
+      },
+      "Number Theory": {
+        "accuracy": 0.91,
+        "correct": 91,
+        "total": 100
+      },
+      "Geometry": {
+        "accuracy": 0.54,
+        "correct": 27,
+        "total": 50
+      }
+    }
+  },
+  "ism_advantage_over_baselines": [
+    {
+      "baseline": "Vanilla LLM",
+      "ISM_wins": 102,
+      "ISM_loses": 4,
+      "both_wrong": 54,
+      "both_correct": 140,
+      "net_advantage": 98,
+      "advantage_rate": 0.962,
+      "by_domain": {
+        "Algebra": {
+          "ISM_wins": 38,
+          "ISM_loses": 0
+        },
+        "Number Theory": {
+          "ISM_wins": 51,
+          "ISM_loses": 2
+        },
+        "Geometry": {
+          "ISM_wins": 13,
+          "ISM_loses": 2
+        }
+      }
+    },
+    {
+      "baseline": "Reflexion",
+      "ISM_wins": 83,
+      "ISM_loses": 8,
+      "both_wrong": 50,
+      "both_correct": 159,
+      "net_advantage": 75,
+      "advantage_rate": 0.912,
+      "by_domain": {
+        "Algebra": {
+          "ISM_wins": 26,
+          "ISM_loses": 6
+        },
+        "Number Theory": {
+          "ISM_wins": 42,
+          "ISM_loses": 1
+        },
+        "Geometry": {
+          "ISM_wins": 15,
+          "ISM_loses": 1
+        }
+      }
+    },
+    {
+      "baseline": "RAG-over-Examples",
+      "ISM_wins": 77,
+      "ISM_loses": 6,
+      "both_wrong": 52,
+      "both_correct": 165,
+      "net_advantage": 71,
+      "advantage_rate": 0.928,
+      "by_domain": {
+        "Algebra": {
+          "ISM_wins": 25,
+          "ISM_loses": 5
+        },
+        "Number Theory": {
+          "ISM_wins": 38,
+          "ISM_loses": 0
+        },
+        "Geometry": {
+          "ISM_wins": 14,
+          "ISM_loses": 1
+        }
+      }
+    },
+    {
+      "baseline": "Static Schema",
+      "ISM_wins": 14,
+      "ISM_loses": 8,
+      "both_wrong": 50,
+      "both_correct": 228,
+      "net_advantage": 6,
+      "advantage_rate": 0.636,
+      "by_domain": {
+        "Algebra": {
+          "ISM_wins": 8,
+          "ISM_loses": 1
+        },
+        "Number Theory": {
+          "ISM_wins": 4,
+          "ISM_loses": 4
+        },
+        "Geometry": {
+          "ISM_wins": 2,
+          "ISM_loses": 3
+        }
+      }
+    },
+    {
+      "baseline": "Passive Schema Memory",
+      "ISM_wins": 12,
+      "ISM_loses": 6,
+      "both_wrong": 52,
+      "both_correct": 230,
+      "net_advantage": 6,
+      "advantage_rate": 0.667,
+      "by_domain": {
+        "Algebra": {
+          "ISM_wins": 3,
+          "ISM_loses": 1
+        },
+        "Number Theory": {
+          "ISM_wins": 6,
+          "ISM_loses": 2
+        },
+        "Geometry": {
+          "ISM_wins": 3,
+          "ISM_loses": 3
+        }
+      }
+    }
+  ],
+  "block_transition_analysis": {
+    "vanilla": [
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.5,
+        "delta": -0.3
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.6,
+        "late_acc": 0.6,
+        "delta": 0.0
+      },
+      {
+        "domain": "Geometry",
+        "n": 50,
+        "early_acc": 0.3,
+        "late_acc": 0.4,
+        "delta": 0.1
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.3,
+        "late_acc": 0.6,
+        "delta": 0.3
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.5,
+        "late_acc": 0.3,
+        "delta": -0.2
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.3,
+        "delta": -0.4
+      }
+    ],
+    "reflexion": [
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.9,
+        "late_acc": 0.5,
+        "delta": -0.4
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.4,
+        "delta": -0.4
+      },
+      {
+        "domain": "Geometry",
+        "n": 50,
+        "early_acc": 0.1,
+        "late_acc": 0.3,
+        "delta": 0.2
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.8,
+        "delta": 0.1
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.5,
+        "late_acc": 0.4,
+        "delta": -0.1
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.6,
+        "delta": -0.1
+      }
+    ],
+    "rag": [
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.9,
+        "late_acc": 0.6,
+        "delta": -0.3
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.6,
+        "late_acc": 0.4,
+        "delta": -0.2
+      },
+      {
+        "domain": "Geometry",
+        "n": 50,
+        "early_acc": 0.4,
+        "late_acc": 0.2,
+        "delta": -0.2
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.7,
+        "delta": 0.0
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.5,
+        "delta": -0.2
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.4,
+        "delta": -0.3
+      }
+    ],
+    "static": [
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 1.0,
+        "late_acc": 0.8,
+        "delta": -0.2
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.9,
+        "late_acc": 0.9,
+        "delta": 0.0
+      },
+      {
+        "domain": "Geometry",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.5,
+        "delta": -0.2
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.9,
+        "delta": 0.1
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.9,
+        "delta": 0.2
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.6,
+        "delta": -0.2
+      }
+    ],
+    "passive": [
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 1.0,
+        "late_acc": 0.8,
+        "delta": -0.2
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.9,
+        "late_acc": 0.9,
+        "delta": 0.0
+      },
+      {
+        "domain": "Geometry",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.5,
+        "delta": -0.2
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.9,
+        "delta": 0.1
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.7,
+        "late_acc": 0.8,
+        "delta": 0.1
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.6,
+        "delta": -0.2
+      }
+    ],
+    "ism": [
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 1.0,
+        "late_acc": 0.8,
+        "delta": -0.2
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 1.0,
+        "late_acc": 0.7,
+        "delta": -0.3
+      },
+      {
+        "domain": "Geometry",
+        "n": 50,
+        "early_acc": 0.6,
+        "late_acc": 0.6,
+        "delta": 0.0
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.9,
+        "delta": 0.1
+      },
+      {
+        "domain": "Number Theory",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.9,
+        "delta": 0.1
+      },
+      {
+        "domain": "Algebra",
+        "n": 50,
+        "early_acc": 0.8,
+        "late_acc": 0.6,
+        "delta": -0.2
+      }
+    ]
+  },
+  "ism_schema_stats": {
+    "Number Theory": {
+      "accuracy": 0.9255,
+      "uses": 94,
+      "correct": 87
+    },
+    "Algebra": {
+      "accuracy": 0.8194,
+      "uses": 72,
+      "correct": 59
+    },
+    "Function Difference Matching": {
+      "accuracy": 0.8889,
+      "uses": 45,
+      "correct": 40
+    },
+    "Cylindrical Volumes in Spheres": {
+      "accuracy": 0.6087,
+      "uses": 23,
+      "correct": 14
+    },
+    "Geometry": {
+      "accuracy": 0.5909,
+      "uses": 22,
+      "correct": 13
+    },
+    "Volume Conservation Problems": {
+      "accuracy": 1.0,
+      "uses": 11,
+      "correct": 11
+    },
+    "Combinatorics": {
+      "accuracy": 0.6667,
+      "uses": 9,
+      "correct": 6
+    },
+    "Nested Recurrence Problems": {
+      "accuracy": 0.75,
+      "uses": 4,
+      "correct": 3
+    },
+    "Composite Geometric Areas": {
+      "accuracy": 0.5,
+      "uses": 4,
+      "correct": 2
+    },
+    "Probability": {
+      "accuracy": 0.3333,
+      "uses": 3,
+      "correct": 1
+    },
+    "Triangle Altitude Ratios": {
+      "accuracy": 0.3333,
+      "uses": 3,
+      "correct": 1
+    },
+    "Exponential Equation Solving": {
+      "accuracy": 0.6667,
+      "uses": 3,
+      "correct": 2
+    },
+    "Calculus and Analysis": {
+      "accuracy": 0.5,
+      "uses": 2,
+      "correct": 1
+    },
+    "Semicircles on a Line": {
+      "accuracy": 1.0,
+      "uses": 2,
+      "correct": 2
+    },
+    "Pyramid Frustum Volume Ratios": {
+      "accuracy": 0.0,
+      "uses": 1,
+      "correct": 0
+    },
+    "Trapezoid Area with Diagonals": {
+      "accuracy": 0.0,
+      "uses": 1,
+      "correct": 0
+    },
+    "Quadratic Equation Rational Roots": {
+      "accuracy": 0.0,
+      "uses": 1,
+      "correct": 0
+    }
+  }
+}

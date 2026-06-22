@@ -1,0 +1,93 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+# Never commit API keys. Use api_keys.example.json as a template and copy to
+# api_keys.json locally (or set OPENAI_API_KEY in your environment).
+api_keys.json
+.env
+*.key
+*.pem
+secrets/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env.local
+.python-version
+
+# ── Editor and OS ────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+.cursor/
+.claude/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs and temporary output ────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+baseline_retrieval.log
+
+# ── Caches ───────────────────────────────────────────────────────────────────
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# ── Dataset caches and downloads ─────────────────────────────────────────────
+*.parquet
+*.arrow
+.huggingface/
+huggingface_cache/
+datasets_cache/
+
+# ── Results: keep only the paper-cited runs tracked explicitly below ────────
+# Drop ad-hoc / dated experiment folders; reviewers should reproduce via
+# the commands in README.md.
+results/math500/
+results/aime2025/
+results/ablation/
+results/comparison/*scratch*/
+results/comparison/*_fix*/
+results/error_analysis/scratch_*/
+
+# But explicitly KEEP these (override the wildcards above)
+!results/comparison/math_updated_50/
+!results/comparison/olympiad_updated_50_new/
+!results/error_analysis/math_updated_50/
+!results/error_analysis/olympiad_50_new/

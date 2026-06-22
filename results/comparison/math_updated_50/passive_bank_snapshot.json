@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Number Theory",
+    "is_seed": true,
+    "usage_count": 137,
+    "success_rate": 0.9055
+  },
+  {
+    "name": "Algebra",
+    "is_seed": true,
+    "usage_count": 108,
+    "success_rate": 0.923
+  },
+  {
+    "name": "Nested Expressions Evaluation",
+    "is_seed": false,
+    "usage_count": 88,
+    "success_rate": 0.7007
+  },
+  {
+    "name": "External Tangent Length between Circles",
+    "is_seed": false,
+    "usage_count": 61,
+    "success_rate": 0.9847
+  },
+  {
+    "name": "Geometry",
+    "is_seed": true,
+    "usage_count": 36,
+    "success_rate": 0.8878
+  },
+  {
+    "name": "Combinatorics",
+    "is_seed": true,
+    "usage_count": 19,
+    "success_rate": 0.5265
+  },
+  {
+    "name": "Volume Exclusion Problems",
+    "is_seed": false,
+    "usage_count": 16,
+    "success_rate": 0.6192
+  },
+  {
+    "name": "Rational Function Domain",
+    "is_seed": false,
+    "usage_count": 10,
+    "success_rate": 0.6355
+  },
+  {
+    "name": "Equation Balancing with Exponents",
+    "is_seed": false,
+    "usage_count": 9,
+    "success_rate": 0.7407
+  },
+  {
+    "name": "Probability",
+    "is_seed": true,
+    "usage_count": 8,
+    "success_rate": 0.4455
+  },
+  {
+    "name": "Calculus and Analysis",
+    "is_seed": true,
+    "usage_count": 6,
+    "success_rate": 0.495
+  },
+  {
+    "name": "Rational Function Domain Analysis",
+    "is_seed": false,
+    "usage_count": 6,
+    "success_rate": 0.45
+  },
+  {
+    "name": "Volume Ratios of Pyramidal Frustums",
+    "is_seed": false,
+    "usage_count": 6,
+    "success_rate": 0.505
+  },
+  {
+    "name": "Composite Area with Circles and Polygons",
+    "is_seed": false,
+    "usage_count": 4,
+    "success_rate": 0.8588
+  },
+  {
+    "name": "Exponential Equations",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.5355
+  },
+  {
+    "name": "Volume Conservation in Geometry",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.5355
+  },
+  {
+    "name": "Inscribed Polygon in Triangle",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.7725
+  },
+  {
+    "name": "Ratios in Similar Geometric Figures",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.45
+  },
+  {
+    "name": "Right Triangle Inscribed Circle",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Function Evaluation and Comparison",
+    "is_seed": false,
+    "usage_count": 1,
+    "success_rate": 0.595
+  },
+  {
+    "name": "Geometric Point Equidistance Problems",
+    "is_seed": false,
+    "usage_count": 1,
+    "success_rate": 0.505
+  },
+  {
+    "name": "Volume Proportions in Similar Shapes",
+    "is_seed": false,
+    "usage_count": 1,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Infinite Geometric Series Calculation",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Volume Ratios in Inscribed Figures",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Shape Decomposition Problems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Circle Tangency and Areas",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Basic Triangle Ratios",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Ratios in Trapezoids",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Circle Centers in Triangles",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Shaded Regions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometry with Inscribed Shapes",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Area Overlap of Concentric Circles",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Comparative Geometry Problems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Intersecting Boards Area Calculation",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Quadratic Root Expressions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Multiplicative Inverse Modulo",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Base Conversion and Digit Arithmetic",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Sum of Divisors Analysis",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Series Summation",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Algebraic Fraction Simplification",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Quadratic Rational Roots",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Nested Arithmetic Expressions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Cube Root Equations",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Piecewise Function Continuity",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Inequality with Parameters",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Linear Equation Relations",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Infinite Geometric Series",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  }
+]

@@ -1,0 +1,2702 @@
+[
+  {
+    "episode": 0,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 1,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 2,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "95",
+    "gold": "95",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 3,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-1\\)",
+    "gold": "-1",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 4,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 5,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(1 \\frac{2}{3}\\) days",
+    "gold": "1\\frac{2}{3}",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 6,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "375",
+    "gold": "375",
+    "schema": "Combinatorics",
+    "bank_size": 6
+  },
+  {
+    "episode": 7,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-33\\)",
+    "gold": "-33",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 8,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 9,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "16",
+    "gold": "16",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 10,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "137",
+    "gold": "137",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 11,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "65",
+    "gold": "65",
+    "schema": "Geometry",
+    "bank_size": 6
+  },
+  {
+    "episode": 12,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{7}{5}}\\)",
+    "gold": "\\frac{7}{5}",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 13,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "205",
+    "gold": "205",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 14,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "11",
+    "gold": "11",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 15,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 16,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Geometry",
+    "bank_size": 6
+  },
+  {
+    "episode": 17,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 18,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-\\frac{11}{12}\\)",
+    "gold": "-\\dfrac{11}{12}",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 19,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "28",
+    "gold": "28",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 20,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{[1, \\infty)}\\)",
+    "gold": "[1,\\infty)",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 21,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-1\\)",
+    "gold": "-1",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 22,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{0.57}\\)",
+    "gold": "0.57",
+    "schema": "Calculus and Analysis",
+    "bank_size": 6
+  },
+  {
+    "episode": 23,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(g + h = 2 + (-5) = -3\\)",
+    "gold": "-3",
+    "schema": "Algebra",
+    "bank_size": 6
+  },
+  {
+    "episode": 24,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 6
+  },
+  {
+    "episode": 25,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "29523",
+    "gold": "88572",
+    "schema": "Algebra",
+    "bank_size": 7
+  },
+  {
+    "episode": 26,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "1/7",
+    "gold": "\\frac{1}{7}",
+    "schema": "Probability",
+    "bank_size": 7
+  },
+  {
+    "episode": 27,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 7
+  },
+  {
+    "episode": 28,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(-\\frac{3}{2}\\)",
+    "gold": "-\\frac 32",
+    "schema": "Algebra",
+    "bank_size": 8
+  },
+  {
+    "episode": 29,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-\\frac{5}{2}\\)",
+    "gold": "-\\frac{5}{2}",
+    "schema": "Algebra",
+    "bank_size": 8
+  },
+  {
+    "episode": 30,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Geometry",
+    "bank_size": 8
+  },
+  {
+    "episode": 31,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{2}}\\)",
+    "gold": "\\frac{1}{2}",
+    "schema": "Algebra",
+    "bank_size": 9
+  },
+  {
+    "episode": 32,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(-16.5\\)",
+    "gold": "k = \\frac{-33}{2}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 10
+  },
+  {
+    "episode": 33,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "398259",
+    "gold": "398259",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 10
+  },
+  {
+    "episode": 34,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-1\\)",
+    "gold": "-1",
+    "schema": "Algebra",
+    "bank_size": 10
+  },
+  {
+    "episode": 35,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-3\\)",
+    "gold": "-3",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 10
+  },
+  {
+    "episode": 36,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "The domain is \\( \\{ x \\in \\mathbb{R} \\mid x \\neq 2, x \\neq -2 \\} \\).",
+    "gold": "(-\\infty,-2)\\cup(-2, 2)\\cup(2,\\infty)",
+    "schema": "Rational Function Domain Analysis",
+    "bank_size": 11
+  },
+  {
+    "episode": 37,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "72",
+    "gold": "72",
+    "schema": "Algebra",
+    "bank_size": 11
+  },
+  {
+    "episode": 38,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 11
+  },
+  {
+    "episode": 39,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 11
+  },
+  {
+    "episode": 40,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Algebra",
+    "bank_size": 11
+  },
+  {
+    "episode": 41,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{41}{49}}\\)",
+    "gold": "\\frac{41}{49}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 12
+  },
+  {
+    "episode": 42,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 12
+  },
+  {
+    "episode": 43,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 12
+  },
+  {
+    "episode": 44,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\((4, 25)\\)",
+    "gold": "(4,25)",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 12
+  },
+  {
+    "episode": 45,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 46,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "3 km/hr",
+    "gold": "3",
+    "schema": "Combinatorics",
+    "bank_size": 12
+  },
+  {
+    "episode": 47,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 48,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{[-9, 9]}\\)",
+    "gold": "[-9, 9]",
+    "schema": "Algebra",
+    "bank_size": 12
+  },
+  {
+    "episode": 49,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 12
+  },
+  {
+    "episode": 50,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 51,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "20",
+    "gold": "19",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 52,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "31",
+    "gold": "31",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 53,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "14",
+    "gold": "14",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 54,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "11",
+    "gold": "11",
+    "schema": "Combinatorics",
+    "bank_size": 12
+  },
+  {
+    "episode": 55,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "18",
+    "gold": "18",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 56,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "9",
+    "gold": "9",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 57,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 58,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 59,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "91",
+    "gold": "91",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 60,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "11",
+    "gold": "10",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 61,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "902",
+    "gold": "902",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 62,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 63,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 64,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "30",
+    "gold": "30",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 65,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 66,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "47",
+    "gold": "47",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 67,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 68,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 69,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "230769",
+    "gold": "230769",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 70,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 71,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "108",
+    "gold": "216",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 72,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "261",
+    "gold": "318",
+    "schema": "Combinatorics",
+    "bank_size": 12
+  },
+  {
+    "episode": 73,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "47",
+    "gold": "47",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 74,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "378",
+    "gold": "378",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 75,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 76,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "396",
+    "gold": "396",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 77,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 78,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 79,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1575",
+    "gold": "1575",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 80,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1089",
+    "gold": "1089",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 81,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 82,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "32",
+    "gold": "32",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 83,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "59",
+    "gold": "59",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 84,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 85,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "150",
+    "gold": "150",
+    "schema": "Combinatorics",
+    "bank_size": 12
+  },
+  {
+    "episode": 86,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 87,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "50",
+    "gold": "50",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 88,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "991",
+    "gold": "991",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 89,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 90,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "78",
+    "gold": "78",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 91,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "\\(63\\)",
+    "gold": "63",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 92,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "8820",
+    "gold": "8820",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 93,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "14",
+    "gold": "14",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 94,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "9",
+    "gold": "9",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 95,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "936",
+    "gold": "936",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 96,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "220",
+    "gold": "220",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 97,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 98,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "Tuesday",
+    "gold": "\\text{Monday}",
+    "schema": "Probability",
+    "bank_size": 12
+  },
+  {
+    "episode": 99,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 12
+  },
+  {
+    "episode": 100,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "2",
+    "gold": "-2",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 101,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "173",
+    "gold": "173",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 102,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(2\\sqrt{2}\\)",
+    "gold": "2\\sqrt{2}",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 103,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(8 - 4\\sqrt{2}\\)",
+    "gold": "8 - 4\\sqrt{2}",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 104,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 105,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(2:1\\)",
+    "gold": "2",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 106,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "12",
+    "gold": "12",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 107,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "2.5",
+    "gold": "2.5",
+    "schema": "Geometry",
+    "bank_size": 12
+  },
+  {
+    "episode": 108,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(36 - 12\\pi \\text{ cm}^2\\)",
+    "gold": "36 - 12\\sqrt{3} - 4\\pi",
+    "schema": "Geometry",
+    "bank_size": 13
+  },
+  {
+    "episode": 109,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "8.45",
+    "gold": "8.45",
+    "schema": "Composite Area with Circles and Polygons",
+    "bank_size": 13
+  },
+  {
+    "episode": 110,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{284}{3}}\\)",
+    "gold": "\\frac{284}{3}",
+    "schema": "Geometry",
+    "bank_size": 14
+  },
+  {
+    "episode": 111,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(4\\pi\\) cm",
+    "gold": "4\\pi",
+    "schema": "Composite Area with Circles and Polygons",
+    "bank_size": 14
+  },
+  {
+    "episode": 112,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{6}}\\) inches",
+    "gold": "\\frac{1}{6}",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 113,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "18",
+    "gold": "18",
+    "schema": "Geometry",
+    "bank_size": 15
+  },
+  {
+    "episode": 114,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{\\pi}{12}}\\)",
+    "gold": "\\frac{\\pi}{12}",
+    "schema": "Volume Exclusion Problems",
+    "bank_size": 16
+  },
+  {
+    "episode": 115,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Volume Conservation in Geometry",
+    "bank_size": 16
+  },
+  {
+    "episode": 116,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Volume Conservation in Geometry",
+    "bank_size": 16
+  },
+  {
+    "episode": 117,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(2 \\sqrt{6}\\)",
+    "gold": "2\\sqrt{6}",
+    "schema": "Composite Area with Circles and Polygons",
+    "bank_size": 16
+  },
+  {
+    "episode": 118,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{60}{37}}\\)",
+    "gold": "\\frac{60}{37}",
+    "schema": "Volume Conservation in Geometry",
+    "bank_size": 17
+  },
+  {
+    "episode": 119,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "17.3",
+    "gold": "17.3",
+    "schema": "Inscribed Polygon in Triangle",
+    "bank_size": 17
+  },
+  {
+    "episode": 120,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{63}{64}}\\)",
+    "gold": "\\frac{63}{64}",
+    "schema": "Volume Exclusion Problems",
+    "bank_size": 18
+  },
+  {
+    "episode": 121,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{136}{225}}\\)",
+    "gold": "\\frac{64}{225}",
+    "schema": "Volume Ratios of Pyramidal Frustums",
+    "bank_size": 19
+  },
+  {
+    "episode": 122,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(5\\sqrt{10}\\) meters",
+    "gold": "20",
+    "schema": "Volume Exclusion Problems",
+    "bank_size": 20
+  },
+  {
+    "episode": 123,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(12 - 6\\sqrt{3}\\)",
+    "gold": "12 - 6\\sqrt{3}",
+    "schema": "Inscribed Polygon in Triangle",
+    "bank_size": 20
+  },
+  {
+    "episode": 124,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(2\\sqrt{154}\\)",
+    "gold": "20",
+    "schema": "Inscribed Polygon in Triangle",
+    "bank_size": 21
+  },
+  {
+    "episode": 125,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Geometry",
+    "bank_size": 21
+  },
+  {
+    "episode": 126,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(6\\sqrt{2} - 4\\)",
+    "gold": "8\\sqrt{2}-4-\\pi",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 22
+  },
+  {
+    "episode": 127,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\frac{\\sqrt{3}}{3}\\)",
+    "gold": "",
+    "schema": "Geometry",
+    "bank_size": 23
+  },
+  {
+    "episode": 128,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(\\sqrt{10}\\)",
+    "gold": "\\sqrt{10}",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 23
+  },
+  {
+    "episode": 129,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "30",
+    "gold": "30",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 23
+  },
+  {
+    "episode": 130,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{11}{3}}\\)",
+    "gold": "\\dfrac{11}{3}",
+    "schema": "Geometry",
+    "bank_size": 24
+  },
+  {
+    "episode": 131,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(4 + \\sqrt{5}\\)",
+    "gold": "4+\\sqrt{5}",
+    "schema": "Geometry",
+    "bank_size": 24
+  },
+  {
+    "episode": 132,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\( 300\\pi \\)",
+    "gold": "300\\pi",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 24
+  },
+  {
+    "episode": 133,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "6.75",
+    "gold": "\\dfrac{27}{4}",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 25
+  },
+  {
+    "episode": 134,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "24",
+    "gold": "24",
+    "schema": "Geometry",
+    "bank_size": 25
+  },
+  {
+    "episode": 135,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "768",
+    "gold": "768",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 25
+  },
+  {
+    "episode": 136,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "98",
+    "gold": "98",
+    "schema": "Geometry",
+    "bank_size": 25
+  },
+  {
+    "episode": 137,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "4.03",
+    "gold": "",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 26
+  },
+  {
+    "episode": 138,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(62.5 \\pi\\)",
+    "gold": "\\frac{325}{4}\\pi",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 27
+  },
+  {
+    "episode": 139,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{15}{2}}\\) cm.",
+    "gold": "\\frac{120}{37}",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 28
+  },
+  {
+    "episode": 140,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\( \\boxed{12(1 + \\sqrt{3})} \\) cm",
+    "gold": "AB=12+12\\sqrt{3}",
+    "schema": "Geometric Point Equidistance Problems",
+    "bank_size": 29
+  },
+  {
+    "episode": 141,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "10.3",
+    "gold": "8.6",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 30
+  },
+  {
+    "episode": 142,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{2}{5}}\\)",
+    "gold": "\\dfrac{2}{5}",
+    "schema": "Ratios in Similar Geometric Figures",
+    "bank_size": 31
+  },
+  {
+    "episode": 143,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\((1, 4)\\)",
+    "gold": "(1, 4)",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 31
+  },
+  {
+    "episode": 144,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{3}}\\) feet",
+    "gold": "\\frac{1}{3}",
+    "schema": "Volume Exclusion Problems",
+    "bank_size": 32
+  },
+  {
+    "episode": 145,
+    "task": "Geometry",
+    "correct": false,
+    "pred": "\\(16 \\sqrt{3}\\) square inches",
+    "gold": "16\\sqrt{3}",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 146,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "2.3",
+    "gold": "2.3",
+    "schema": "Geometry",
+    "bank_size": 33
+  },
+  {
+    "episode": 147,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "18",
+    "gold": "18",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 148,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "\\(70\\sqrt{2}\\)",
+    "gold": "70\\sqrt{2}",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 149,
+    "task": "Geometry",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 150,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "169",
+    "gold": "169",
+    "schema": "Exponential Equations",
+    "bank_size": 33
+  },
+  {
+    "episode": 151,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "398259",
+    "gold": "398259",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 152,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "99",
+    "gold": "99",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 153,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{(3, -1)}\\)",
+    "gold": "(3, -1)",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 154,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 155,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-10\\)",
+    "gold": "-10",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 156,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "3 km/hr",
+    "gold": "3",
+    "schema": "Combinatorics",
+    "bank_size": 33
+  },
+  {
+    "episode": 157,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-2 + 3i\\)",
+    "gold": "-2+3i",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 158,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "4813.24",
+    "gold": "\\$4813.24",
+    "schema": "Calculus and Analysis",
+    "bank_size": 33
+  },
+  {
+    "episode": 159,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\([1, \\infty)\\)",
+    "gold": "[1,\\infty)",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 160,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\((-6, 1)\\)",
+    "gold": "(-6, 1)",
+    "schema": "Rational Function Domain",
+    "bank_size": 33
+  },
+  {
+    "episode": 161,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\frac{25\\pi}{2}\\)",
+    "gold": "\\frac{25\\pi}{2}",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 162,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-4\\)",
+    "gold": "-4",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 163,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 164,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 165,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "-16",
+    "gold": "-16",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 166,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 33
+  },
+  {
+    "episode": 167,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "72",
+    "gold": "72",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 168,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 169,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-i\\)",
+    "gold": "-i",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 170,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 171,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(-3\\)",
+    "gold": "-7",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 172,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 173,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{[-11, -10)}\\)",
+    "gold": "(-11, -10)",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 174,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-\\frac{3}{10}\\)",
+    "gold": "-\\frac{3}{10}",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 175,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "16",
+    "gold": "16",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 176,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8.75",
+    "gold": "8.75",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 177,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Algebra",
+    "bank_size": 33
+  },
+  {
+    "episode": 178,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-400\\)",
+    "gold": "-400",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 179,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\frac{3}{2}\\)",
+    "gold": "\\frac{3}{2}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 180,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 33
+  },
+  {
+    "episode": 181,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 33
+  },
+  {
+    "episode": 182,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{70}{9}}\\)",
+    "gold": "\\frac{70}{9}",
+    "schema": "Algebra",
+    "bank_size": 34
+  },
+  {
+    "episode": 183,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(5^{12}\\)",
+    "gold": "5^{12}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 184,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "-2",
+    "gold": "-2",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 185,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 34
+  },
+  {
+    "episode": 186,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 187,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "66",
+    "gold": "66",
+    "schema": "Algebra",
+    "bank_size": 34
+  },
+  {
+    "episode": 188,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "-5",
+    "gold": "-5",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 189,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "194",
+    "gold": "194",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 190,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Algebra",
+    "bank_size": 34
+  },
+  {
+    "episode": 191,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Volume Exclusion Problems",
+    "bank_size": 34
+  },
+  {
+    "episode": 192,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "16",
+    "gold": "16",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 193,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{51}{8}}\\)",
+    "gold": "\\frac{51}{8}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 194,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "-2",
+    "gold": "-2",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 34
+  },
+  {
+    "episode": 195,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Exponential Equations",
+    "bank_size": 34
+  },
+  {
+    "episode": 196,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "11",
+    "gold": "11",
+    "schema": "Algebra",
+    "bank_size": 34
+  },
+  {
+    "episode": 197,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-3\\)",
+    "gold": "-3",
+    "schema": "Algebra",
+    "bank_size": 34
+  },
+  {
+    "episode": 198,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "5600",
+    "gold": "5600",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 34
+  },
+  {
+    "episode": 199,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "89",
+    "gold": "89",
+    "schema": "Number Theory",
+    "bank_size": 34
+  },
+  {
+    "episode": 200,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "3",
+    "gold": "7 \\text{ distinct integers}",
+    "schema": "Number Theory",
+    "bank_size": 34
+  },
+  {
+    "episode": 201,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "40 minutes",
+    "gold": "40",
+    "schema": "Geometry",
+    "bank_size": 34
+  },
+  {
+    "episode": 202,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "42",
+    "gold": "42",
+    "schema": "Number Theory",
+    "bank_size": 34
+  },
+  {
+    "episode": 203,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "11",
+    "gold": "10",
+    "schema": "Number Theory",
+    "bank_size": 34
+  },
+  {
+    "episode": 204,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "336",
+    "gold": "336",
+    "schema": "Number Theory",
+    "bank_size": 34
+  },
+  {
+    "episode": 205,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "\\[",
+    "gold": "63",
+    "schema": "Number Theory",
+    "bank_size": 35
+  },
+  {
+    "episode": 206,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Number Theory",
+    "bank_size": 35
+  },
+  {
+    "episode": 207,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Combinatorics",
+    "bank_size": 35
+  },
+  {
+    "episode": 208,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 35
+  },
+  {
+    "episode": 209,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "\\(\\boxed{-6}\\)",
+    "gold": "-6",
+    "schema": "Number Theory",
+    "bank_size": 35
+  },
+  {
+    "episode": 210,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Number Theory",
+    "bank_size": 35
+  },
+  {
+    "episode": 211,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 35
+  },
+  {
+    "episode": 212,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "",
+    "gold": "3",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 213,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 214,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "230769",
+    "gold": "230769",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 215,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 216,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1089",
+    "gold": "1089",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 217,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "23",
+    "gold": "23",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 218,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "46",
+    "gold": "46",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 219,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "50",
+    "gold": "50",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 220,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "105",
+    "gold": "105",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 221,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "1",
+    "gold": "1",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 222,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "50",
+    "gold": "50",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 223,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "Tuesday",
+    "gold": "\\text{Monday}",
+    "schema": "Probability",
+    "bank_size": 36
+  },
+  {
+    "episode": 224,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "14",
+    "gold": "14",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 225,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "32",
+    "gold": "32",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 226,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2938",
+    "gold": "2938",
+    "schema": "Algebra",
+    "bank_size": 36
+  },
+  {
+    "episode": 227,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "5",
+    "gold": "5",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 228,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "335670",
+    "gold": "335{,}670",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 229,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "18",
+    "gold": "18",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 230,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "7",
+    "gold": "7",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 231,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "16",
+    "gold": "16",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 232,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "199",
+    "gold": "199",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 233,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "86",
+    "gold": "86",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 234,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 235,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "126",
+    "gold": "126",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 236,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "32",
+    "gold": "32",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 237,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 238,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "October 30",
+    "gold": "\\text{October 30}",
+    "schema": "Combinatorics",
+    "bank_size": 36
+  },
+  {
+    "episode": 239,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 240,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 241,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 242,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "12",
+    "gold": "12_5",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 243,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 244,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Number Theory",
+    "bank_size": 36
+  },
+  {
+    "episode": 245,
+    "task": "Number Theory",
+    "correct": false,
+    "pred": "",
+    "gold": "1",
+    "schema": "Number Theory",
+    "bank_size": 37
+  },
+  {
+    "episode": 246,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "Number Theory",
+    "bank_size": 37
+  },
+  {
+    "episode": 247,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "58",
+    "gold": "58",
+    "schema": "Number Theory",
+    "bank_size": 37
+  },
+  {
+    "episode": 248,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "59",
+    "gold": "59",
+    "schema": "Number Theory",
+    "bank_size": 37
+  },
+  {
+    "episode": 249,
+    "task": "Number Theory",
+    "correct": true,
+    "pred": "26",
+    "gold": "26",
+    "schema": "Number Theory",
+    "bank_size": 37
+  },
+  {
+    "episode": 250,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{(-\\infty, -1) \\cup (4, \\infty)}\\)",
+    "gold": "(-\\infty, -1) \\cup (4, \\infty)",
+    "schema": "Rational Function Domain",
+    "bank_size": 37
+  },
+  {
+    "episode": 251,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "8",
+    "gold": "8",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 37
+  },
+  {
+    "episode": 252,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-2\\)",
+    "gold": "-2",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 37
+  },
+  {
+    "episode": 253,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\((-2, 18); (8, 38)\\)",
+    "gold": "(8,38)",
+    "schema": "Algebra",
+    "bank_size": 37
+  },
+  {
+    "episode": 254,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Algebra",
+    "bank_size": 37
+  },
+  {
+    "episode": 255,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{49}{8}}\\)",
+    "gold": "6.125",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 37
+  },
+  {
+    "episode": 256,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-112\\)",
+    "gold": "-112",
+    "schema": "Algebra",
+    "bank_size": 37
+  },
+  {
+    "episode": 257,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "10",
+    "gold": "10",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 37
+  },
+  {
+    "episode": 258,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-3x^2 + 12x - 8\\)",
+    "gold": "-3x^2+12x-8",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 37
+  },
+  {
+    "episode": 259,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 37
+  },
+  {
+    "episode": 260,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\((-6, 1)\\)",
+    "gold": "(-6, 1)",
+    "schema": "Rational Function Domain",
+    "bank_size": 37
+  },
+  {
+    "episode": 261,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2.0 seconds",
+    "gold": "2",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 37
+  },
+  {
+    "episode": 262,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{364}{729}}\\)",
+    "gold": "\\frac{364}{729}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 38
+  },
+  {
+    "episode": 263,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(2\\sqrt{41}\\)",
+    "gold": "2\\sqrt{41}",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 38
+  },
+  {
+    "episode": 264,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "13",
+    "gold": "13",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 38
+  },
+  {
+    "episode": 265,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-\\frac{5}{2}\\)",
+    "gold": "-\\frac{5}{2}",
+    "schema": "Algebra",
+    "bank_size": 38
+  },
+  {
+    "episode": 266,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-33\\)",
+    "gold": "-33",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 38
+  },
+  {
+    "episode": 267,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "11",
+    "gold": "11",
+    "schema": "Algebra",
+    "bank_size": 38
+  },
+  {
+    "episode": 268,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "4",
+    "gold": "4",
+    "schema": "Function Evaluation and Comparison",
+    "bank_size": 38
+  },
+  {
+    "episode": 269,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{2}}\\)",
+    "gold": "\\frac{1}{2}",
+    "schema": "Algebra",
+    "bank_size": 39
+  },
+  {
+    "episode": 270,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\sqrt{5}\\)",
+    "gold": "\\sqrt{5}",
+    "schema": "Algebra",
+    "bank_size": 39
+  },
+  {
+    "episode": 271,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Algebra",
+    "bank_size": 39
+  },
+  {
+    "episode": 272,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\sqrt{3} - 1}\\)",
+    "gold": "\\sqrt{3}-1",
+    "schema": "Algebra",
+    "bank_size": 40
+  },
+  {
+    "episode": 273,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "21",
+    "gold": "21",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 40
+  },
+  {
+    "episode": 274,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "16",
+    "gold": "16",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 40
+  },
+  {
+    "episode": 275,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "6, 8, 10",
+    "gold": "6, 8\\text{, and }10",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 41
+  },
+  {
+    "episode": 276,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "-6",
+    "gold": "-6",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 41
+  },
+  {
+    "episode": 277,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "265719",
+    "gold": "88572",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 42
+  },
+  {
+    "episode": 278,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 42
+  },
+  {
+    "episode": 279,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "58",
+    "gold": "58",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 42
+  },
+  {
+    "episode": 280,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Algebra",
+    "bank_size": 42
+  },
+  {
+    "episode": 281,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Equation Balancing with Exponents",
+    "bank_size": 42
+  },
+  {
+    "episode": 282,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{51}{8}}\\)",
+    "gold": "\\frac{51}{8}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 43
+  },
+  {
+    "episode": 283,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "192",
+    "gold": "192",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 43
+  },
+  {
+    "episode": 284,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "6",
+    "gold": "6",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 43
+  },
+  {
+    "episode": 285,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "3",
+    "gold": "3",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 43
+  },
+  {
+    "episode": 286,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-3\\)",
+    "gold": "-3",
+    "schema": "Algebra",
+    "bank_size": 43
+  },
+  {
+    "episode": 287,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1}{2}}\\)",
+    "gold": "\\frac{1}{2}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 44
+  },
+  {
+    "episode": 288,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-2\\)",
+    "gold": "-2",
+    "schema": "Equation Balancing with Exponents",
+    "bank_size": 44
+  },
+  {
+    "episode": 289,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "2",
+    "gold": "2",
+    "schema": "Equation Balancing with Exponents",
+    "bank_size": 44
+  },
+  {
+    "episode": 290,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "0",
+    "gold": "0",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 44
+  },
+  {
+    "episode": 291,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\boxed{(3, -1)}\\)",
+    "gold": "(3, -1)",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 44
+  },
+  {
+    "episode": 292,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{(0, 3)}\\).",
+    "gold": "[0,3)",
+    "schema": "Exponential Equations",
+    "bank_size": 45
+  },
+  {
+    "episode": 293,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "3 km/hr",
+    "gold": "3",
+    "schema": "Combinatorics",
+    "bank_size": 45
+  },
+  {
+    "episode": 294,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "99",
+    "gold": "99",
+    "schema": "External Tangent Length between Circles",
+    "bank_size": 45
+  },
+  {
+    "episode": 295,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(-\\frac{3}{2}\\)",
+    "gold": "- \\frac 32",
+    "schema": "Equation Balancing with Exponents",
+    "bank_size": 46
+  },
+  {
+    "episode": 296,
+    "task": "Algebra",
+    "correct": false,
+    "pred": "\\(\\boxed{\\frac{1681}{2009}}\\)",
+    "gold": "\\frac{41}{49}",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 47
+  },
+  {
+    "episode": 297,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(\\frac{13}{4}\\)",
+    "gold": "\\frac{13}{4}",
+    "schema": "Algebra",
+    "bank_size": 47
+  },
+  {
+    "episode": 298,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "\\(-10\\)",
+    "gold": "-10",
+    "schema": "Nested Expressions Evaluation",
+    "bank_size": 47
+  },
+  {
+    "episode": 299,
+    "task": "Algebra",
+    "correct": true,
+    "pred": "72",
+    "gold": "72",
+    "schema": "Equation Balancing with Exponents",
+    "bank_size": 47
+  }
+]

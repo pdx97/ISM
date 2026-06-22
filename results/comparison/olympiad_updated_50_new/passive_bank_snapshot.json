@@ -1,0 +1,548 @@
+[
+  {
+    "name": "Simultaneous Equation Solutions",
+    "is_seed": false,
+    "usage_count": 100,
+    "success_rate": 0.8282
+  },
+  {
+    "name": "Fractional Part Equations",
+    "is_seed": false,
+    "usage_count": 86,
+    "success_rate": 0.7356
+  },
+  {
+    "name": "Number Theory",
+    "is_seed": true,
+    "usage_count": 62,
+    "success_rate": 0.8875
+  },
+  {
+    "name": "Algebra",
+    "is_seed": true,
+    "usage_count": 53,
+    "success_rate": 0.8613
+  },
+  {
+    "name": "Geometry",
+    "is_seed": true,
+    "usage_count": 33,
+    "success_rate": 0.8216
+  },
+  {
+    "name": "Set Representation Problems",
+    "is_seed": false,
+    "usage_count": 28,
+    "success_rate": 0.7193
+  },
+  {
+    "name": "Combinatorics",
+    "is_seed": true,
+    "usage_count": 24,
+    "success_rate": 0.7413
+  },
+  {
+    "name": "Isosceles Triangle Conditions",
+    "is_seed": false,
+    "usage_count": 23,
+    "success_rate": 0.7461
+  },
+  {
+    "name": "Concurrent Circles in Right Triangles",
+    "is_seed": false,
+    "usage_count": 20,
+    "success_rate": 0.6317
+  },
+  {
+    "name": "Digit Sum Comparison Problems",
+    "is_seed": false,
+    "usage_count": 16,
+    "success_rate": 0.8927
+  },
+  {
+    "name": "Ratio Integer Conditions",
+    "is_seed": false,
+    "usage_count": 12,
+    "success_rate": 0.6077
+  },
+  {
+    "name": "Inequality Optimization with Sequences",
+    "is_seed": false,
+    "usage_count": 11,
+    "success_rate": 0.6355
+  },
+  {
+    "name": "Relatively Prime Sets in Quadratics",
+    "is_seed": false,
+    "usage_count": 10,
+    "success_rate": 0.7369
+  },
+  {
+    "name": "Prime Number Ratios",
+    "is_seed": false,
+    "usage_count": 9,
+    "success_rate": 0.7053
+  },
+  {
+    "name": "Geometric Shapes Perimeter-Area Ratios",
+    "is_seed": false,
+    "usage_count": 8,
+    "success_rate": 0.6192
+  },
+  {
+    "name": "Functional Equations on Rational Domain",
+    "is_seed": false,
+    "usage_count": 7,
+    "success_rate": 0.3645
+  },
+  {
+    "name": "Inverse Function and Mapping",
+    "is_seed": false,
+    "usage_count": 7,
+    "success_rate": 0.6343
+  },
+  {
+    "name": "Divisors with Constraints",
+    "is_seed": false,
+    "usage_count": 7,
+    "success_rate": 0.672
+  },
+  {
+    "name": "Square Midpoint Geometry",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Intersecting Circles and Chords",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.595
+  },
+  {
+    "name": "Geometric Volume and Surface Area Problems",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Containment Volumes",
+    "is_seed": false,
+    "usage_count": 3,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Partitioned Circular Regions",
+    "is_seed": false,
+    "usage_count": 2,
+    "success_rate": 0.4545
+  },
+  {
+    "name": "Probability",
+    "is_seed": true,
+    "usage_count": 1,
+    "success_rate": 0.45
+  },
+  {
+    "name": "Parallelogram Intersection Ratios",
+    "is_seed": false,
+    "usage_count": 1,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Calculus and Analysis",
+    "is_seed": true,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polynomial Inequalities Transformations",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Cyclic Constraints Maximization",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polynomial Equation Systems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Power Sum Function Compositions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Piecewise Linear Equations with Functions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Rational Inequality Solutions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polynomial Identity Verification",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Trigonometric Function Inversion Sequences",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Inequality with Functional Constraints",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Quadratic Equation Roots",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Logarithmic Equation Systems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Inequality Constraints on Permutations",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Divisibility Constraints on Functions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Functional Equation Divisibility Constraints",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Fractional Interval Constraints",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Common Divisors Analysis",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polynomial Sum Decomposition",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Divisor Sum Conditions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Integer-Valued Function Optimization",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Rectangle in Square Geometry",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Complex Parallelogram Area Problems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Exclusion Volumes",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Inscribed Triangle Properties",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polygonal Vertex Extensions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Intersection of Geometric Shapes",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Kite Problems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Isosceles Triangle Segment Relations",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Overlapping Regular Polygons",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Constructions with Cyclic Quadrilaterals",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Metric Space Volumes",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Point Configuration Maximum Area",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Logarithmic Equation Solving",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Rational Inequality Solving",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Inverse Trigonometric Equation",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Rational Sequence Recurrence Relations",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Cubic Polynomial Sequences",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Functional Equations with Integer Domain",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Recursive Algebraic Sequences",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Nested Function Root Analysis",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Exponential Sum Last Digit Calculation",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Divisibility Function Constraints",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Surjective Functional Divisibility",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Geometric Sequence Age Problems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Angle Coverage in Quadrants",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Digit Manipulation Products",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Parity Weight Distribution",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Relatively Prime Set Problems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Prime Pair Integer Conditions",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Factorial Equation Systems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polynomial Decomposition with Rational Coefficients",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Diophantine Equation Systems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Consecutive Semiprime Problems",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Subset Sum Impossibility in Arithmetic Sequences",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Product of Fractions Equality",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Functional Equations with Rational Domains",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polynomial Inequality Bounding",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Cyclic Inequality Maximization",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Distinct Floor Powers Integer",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Polynomial Root Intersection",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Power Series Composition",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Ratio Difference Bounds",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Algebraic Fraction Transformations",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Arithmetic Sequence Element Search",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Floor Division Constraints",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  },
+  {
+    "name": "Inverse Function Constraints",
+    "is_seed": false,
+    "usage_count": 0,
+    "success_rate": 0.5
+  }
+]

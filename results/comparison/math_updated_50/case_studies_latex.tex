@@ -1,0 +1,59 @@
+\subsection*{Qualitative Case Studies}
+We present representative episodes where ISM correctly solved an OlympiadBench problem that all compared baselines answered incorrectly, illustrating how the self-evolved schema bank provides targeted guidance.
+
+\paragraph{Case Study 1 (Episode 122, Geometry).}
+\begin{quote}\itshape
+In the diagram, two pairs of identical isosceles triangles are cut off of square $ABCD$, leaving rectangle $PQRS$. The total area cut off is $200 \text{ m}^2$. What is the length of $PR$, in meters? \textit{[diagram]}
+\end{quote}
+
+ISM retrieved the schema \texttt{Composite Geometric Areas} (synthesised) (success rate~$=0.61$, used 5~times). 
+This schema covers: \textit{Problems involving the calculation of areas formed by overlapping geometric figures such as squares, circles, and\ldots}. 
+Key heuristics applied: \textit{decompose; change_representation; use_symmetry}. 
+Guided by this schema, ISM produced the correct answer $\boxed{20}$, while all 4 baselines answered incorrectly (e.g., passive predicted $5\sqrt{10}$). 
+
+\paragraph{Case Study 2 (Episode 117, Geometry).}
+\begin{quote}\itshape
+Points $A$, $B$, $C$, and $T$ are in space such that each of $\overline{TA}$, $\overline{TB}$, and $\overline{TC}$ is perpendicular to the other two.  If $TA = TB = 12$ and $TC = 6$, then what is the distance from $T$ to face $ABC$?
+\end{quote}
+
+ISM retrieved the schema \texttt{Volume Conservation Problems} (synthesised) (success rate~$=0.97$, used 38~times). 
+This schema covers: \textit{Problems involving the redistribution of volume from one geometric shape to another with constant density maintained.}. 
+Key heuristics applied: \textit{decompose; introduce_variable; change_representation}. 
+Guided by this schema, ISM produced the correct answer $\boxed{2 \sqrt{6}}$, while all 3 baselines answered incorrectly (all baselines gave no valid answer). 
+
+\paragraph{Case Study 3 (Episode 154, Algebra).}
+\begin{quote}\itshape
+Let $f$ be defined by  \[f(x) = \left\{
+\begin{array}{cl}
+2-x & \text{ if } x \leq 1, \\
+2x-x^2 & \text{ if } x>1.
+\end{array}
+\right.\]Calculate $f^{-1}(-3)+f^{-1}(0)+f^{-1}(3)$.
+\end{quote}
+
+ISM retrieved the schema \texttt{Function Difference Matching} (synthesised) (success rate~$=0.97$, used 85~times). 
+This schema covers: \textit{Problems involving determining a parameter such that the difference between the evaluations of two functions at a\ldots}. 
+Key heuristics applied: \textit{decompose; introduce_variable; work_backwards}. 
+Guided by this schema, ISM produced the correct answer $\boxed{4}$, while all 3 baselines answered incorrectly (all baselines gave no valid answer). 
+
+\paragraph{Case Study 4 (Episode 272, Algebra).}
+\begin{quote}\itshape
+Simplify and rationalize the denominator: \[
+\frac{1}{1+ \frac{1}{\sqrt{3}+1}}.
+\]
+\end{quote}
+
+ISM retrieved the schema \texttt{Exponential Equation Solving} (synthesised) (success rate~$=0.63$, used 5~times). 
+This schema covers: \textit{Solving for an unknown variable within equations involving exponential expressions by decomposition and representation\ldots}. 
+Key heuristics applied: \textit{decompose; introduce_variable; change_representation}. 
+Guided by this schema, ISM produced the correct answer $\boxed{\sqrt{3} - 1}$, while all 2 baselines answered incorrectly (all baselines gave no valid answer). 
+
+\paragraph{Case Study 5 (Episode 51, Number Theory).}
+\begin{quote}\itshape
+When the base-16 number $66666_{16}$ is written in base 2, how many base-2 digits (bits) does it have?
+\end{quote}
+
+ISM retrieved the schema \texttt{Number Theory} (seed) (success rate~$=0.97$, used 138~times). 
+This schema covers: \textit{All problems about integers and their properties: divisibility, prime numbers, prime factorization, number of divisors\ldots}. 
+Key heuristics applied: \textit{find_pattern; decompose; change_representation}. 
+Guided by this schema, ISM produced the correct answer $\boxed{19}$, while all 5 baselines answered incorrectly (e.g., Vanilla LLM predicted $20$). 

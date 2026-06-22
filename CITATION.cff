@@ -1,0 +1,38 @@
+# Citation metadata for the ISM (Intelligent Schema Memory) repository.
+# GitHub uses this to render a "Cite this repository" button on the repo page
+# and to provide BibTeX/APA exports.
+#
+# TODO before pushing public: fill in the paper title, venue, year, DOI/URL,
+# and any co-authors. Replace the placeholder author entry below.
+
+cff-version: 1.2.0
+message: "If you use this software or the results it produced, please cite the accompanying paper."
+title: "Intelligent Schema Memory (ISM): Self-Improving Strategy Memory for Continual Mathematical Reasoning"
+type: software
+authors:
+  - family-names: "TODO_LAST_NAME"
+    given-names: "Prakhar"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # optional
+    # affiliation: "TODO_AFFILIATION"
+repository-code: "https://github.com/TODO_OWNER/TODO_REPO"
+# url: "https://TODO_PROJECT_PAGE"
+license: MIT
+keywords:
+  - continual-learning
+  - large-language-models
+  - mathematical-reasoning
+  - schema-memory
+  - self-improvement
+  - retrieval-augmented-generation
+
+preferred-citation:
+  type: conference-paper        # change to "article" if journal
+  title: "TODO_PAPER_TITLE (e.g. Intelligent Schema Memory for Continual Mathematical Reasoning)"
+  authors:
+    - family-names: "TODO_LAST_NAME"
+      given-names: "Prakhar"
+  year: 2026
+  conference:
+    name: "TODO_VENUE (e.g. EMNLP 2026 / NeurIPS 2026 / ICLR 2026)"
+  # doi: "10.0000/TODO"
+  # url: "https://arxiv.org/abs/TODO"

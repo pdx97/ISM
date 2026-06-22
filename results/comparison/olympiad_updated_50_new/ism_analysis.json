@@ -1,0 +1,5691 @@
+{
+  "bank_snapshot": [
+    {
+      "name": "Algebra",
+      "is_seed": true,
+      "usage_count": 152,
+      "success_rate": 0.6147,
+      "correction_count": 0,
+      "description": "All problems involving algebraic manipulation and equation solving: linear, quadratic, polynomial, rational, exponential, and logarithmic equations and inequalities; systems of equations; functions, t",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "change_representation",
+        "find_pattern"
+      ]
+    },
+    {
+      "name": "Number Theory",
+      "is_seed": true,
+      "usage_count": 133,
+      "success_rate": 0.7486,
+      "correction_count": 0,
+      "description": "All problems about integers and their properties: divisibility, prime numbers, prime factorization, number of divisors, sum of divisors, GCD, LCM, modular arithmetic, congruences, remainders, Euler's ",
+      "heuristics": [
+        "find_pattern",
+        "decompose",
+        "change_representation",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Geometry",
+      "is_seed": true,
+      "usage_count": 43,
+      "success_rate": 0.6984,
+      "correction_count": 0,
+      "description": "All geometric problems: areas and perimeters of triangles, quadrilaterals, circles, and composite figures; volumes and surface areas of prisms, pyramids, cylinders, cones, and spheres; coordinate geom",
+      "heuristics": [
+        "decompose",
+        "introduce_variable",
+        "change_representation",
+        "find_pattern"
+      ]
+    },
+    {
+      "name": "Combinatorics",
+      "is_seed": true,
+      "usage_count": 30,
+      "success_rate": 0.7382,
+      "correction_count": 0,
+      "description": "All counting problems: permutations (ordered arrangements), combinations (unordered selections), the multiplication principle for independent choices, the addition principle for disjoint cases, inclus",
+      "heuristics": [
+        "decompose",
+        "change_representation",
+        "find_pattern",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Nested Function Zeros",
+      "is_seed": false,
+      "usage_count": 19,
+      "success_rate": 0.7601,
+      "correction_count": 1,
+      "description": "Solve for the unknown polynomials and their compositions when dealing with nested polynomial equations and specific zero constraints. This schema addresses scenarios where the compositions lead to con",
+      "heuristics": [
+        "Analyze degrees and symmetry",
+        "Consider boundary or extreme values",
+        "Use composition properties creatively",
+        "Apply number theory for rationality constraints"
+      ]
+    },
+    {
+      "name": "Floor Function Quotient Problems",
+      "is_seed": false,
+      "usage_count": 17,
+      "success_rate": 0.97,
+      "correction_count": 0,
+      "description": "Find the value of a variable such that the quotient involving floor function equals a given constant.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "express_as_fraction",
+        "inequality_analysis"
+      ]
+    },
+    {
+      "name": "System of Equations with Modulus and Circle",
+      "is_seed": false,
+      "usage_count": 13,
+      "success_rate": 0.5946,
+      "correction_count": 0,
+      "description": "Solve for all possible real solutions in a system involving modulus and circular equations.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "change_representation",
+        "analyze_cases",
+        "geometric_insight"
+      ]
+    },
+    {
+      "name": "Tangency and Collinearity in Geometric Configurations",
+      "is_seed": false,
+      "usage_count": 13,
+      "success_rate": 0.9639,
+      "correction_count": 0,
+      "description": "Problems involving tangency and collinearity conditions among circles and polygon sides within geometric figures.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "apply_theorems",
+        "work_backwards",
+        "symmetry"
+      ]
+    },
+    {
+      "name": "Simultaneous Polynomial Root Problems",
+      "is_seed": false,
+      "usage_count": 12,
+      "success_rate": 0.6292,
+      "correction_count": 0,
+      "description": "Determine relationships between the roots of multiple polynomial equations with constraints or shared roots.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "use_symmetry",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Relative Primality in Sets",
+      "is_seed": false,
+      "usage_count": 5,
+      "success_rate": 0.672,
+      "correction_count": 0,
+      "description": "Find the smallest set of integers constructed under specific rules where no element is relatively prime to the product of the others.",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "introduce_variable",
+        "construct_subsets",
+        "verify_properties"
+      ]
+    },
+    {
+      "name": "Complex Parallelogram Properties",
+      "is_seed": false,
+      "usage_count": 3,
+      "success_rate": 0.6355,
+      "correction_count": 0,
+      "description": "Solve problems involving properties of parallelograms on the complex plane and associated constraints or optimizations.",
+      "heuristics": [
+        "decompose",
+        "geometric transformation",
+        "complex conjugate properties",
+        "constraint satisfaction"
+      ]
+    },
+    {
+      "name": "Probability",
+      "is_seed": true,
+      "usage_count": 2,
+      "success_rate": 0.36,
+      "correction_count": 0,
+      "description": "All probability problems: computing P(event) = favorable/total, complement rule P(A) = 1 - P(not A), union rule P(A\u222aB) = P(A)+P(B)-P(A\u2229B), conditional probability P(A|B) = P(A\u2229B)/P(B), independence P(",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "change_representation",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Calculus and Analysis",
+      "is_seed": true,
+      "usage_count": 0,
+      "success_rate": 0.5,
+      "correction_count": 0,
+      "description": "Problems involving limits, derivatives, integrals, and series. Includes: evaluating limits (direct substitution, factoring, L'Hopital's rule, squeeze theorem); derivatives and differentiation rules (p",
+      "heuristics": [
+        "change_representation",
+        "decompose",
+        "find_pattern",
+        "introduce_variable"
+      ]
+    }
+  ],
+  "new_schemas": [
+    {
+      "name": "Nested Function Zeros",
+      "is_seed": false,
+      "usage_count": 19,
+      "success_rate": 0.7601,
+      "correction_count": 1,
+      "description": "Solve for the unknown polynomials and their compositions when dealing with nested polynomial equations and specific zero constraints. This schema addresses scenarios where the compositions lead to con",
+      "heuristics": [
+        "Analyze degrees and symmetry",
+        "Consider boundary or extreme values",
+        "Use composition properties creatively",
+        "Apply number theory for rationality constraints"
+      ]
+    },
+    {
+      "name": "Floor Function Quotient Problems",
+      "is_seed": false,
+      "usage_count": 17,
+      "success_rate": 0.97,
+      "correction_count": 0,
+      "description": "Find the value of a variable such that the quotient involving floor function equals a given constant.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "express_as_fraction",
+        "inequality_analysis"
+      ]
+    },
+    {
+      "name": "System of Equations with Modulus and Circle",
+      "is_seed": false,
+      "usage_count": 13,
+      "success_rate": 0.5946,
+      "correction_count": 0,
+      "description": "Solve for all possible real solutions in a system involving modulus and circular equations.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "change_representation",
+        "analyze_cases",
+        "geometric_insight"
+      ]
+    },
+    {
+      "name": "Tangency and Collinearity in Geometric Configurations",
+      "is_seed": false,
+      "usage_count": 13,
+      "success_rate": 0.9639,
+      "correction_count": 0,
+      "description": "Problems involving tangency and collinearity conditions among circles and polygon sides within geometric figures.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "apply_theorems",
+        "work_backwards",
+        "symmetry"
+      ]
+    },
+    {
+      "name": "Simultaneous Polynomial Root Problems",
+      "is_seed": false,
+      "usage_count": 12,
+      "success_rate": 0.6292,
+      "correction_count": 0,
+      "description": "Determine relationships between the roots of multiple polynomial equations with constraints or shared roots.",
+      "heuristics": [
+        "introduce_variable",
+        "decompose",
+        "use_symmetry",
+        "work_backwards"
+      ]
+    },
+    {
+      "name": "Relative Primality in Sets",
+      "is_seed": false,
+      "usage_count": 5,
+      "success_rate": 0.672,
+      "correction_count": 0,
+      "description": "Find the smallest set of integers constructed under specific rules where no element is relatively prime to the product of the others.",
+      "heuristics": [
+        "decompose",
+        "find_pattern",
+        "introduce_variable",
+        "construct_subsets",
+        "verify_properties"
+      ]
+    },
+    {
+      "name": "Complex Parallelogram Properties",
+      "is_seed": false,
+      "usage_count": 3,
+      "success_rate": 0.6355,
+      "correction_count": 0,
+      "description": "Solve problems involving properties of parallelograms on the complex plane and associated constraints or optimizations.",
+      "heuristics": [
+        "decompose",
+        "geometric transformation",
+        "complex conjugate properties",
+        "constraint satisfaction"
+      ]
+    }
+  ],
+  "improvement_log": [
+    {
+      "episode": 10,
+      "mechanism": "Self-Audit",
+      "bank_size": 6,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 1,
+        "weak": 1,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "unused",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused"
+      }
+    },
+    {
+      "episode": 20,
+      "mechanism": "Self-Audit",
+      "bank_size": 11,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 2,
+        "weak": 3,
+        "unused": 5
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "unused",
+        "Functional Equation Solutions": "weak",
+        "Constrained Sequence Maximization": "unused",
+        "Functional Inversion and Composition": "unused"
+      }
+    },
+    {
+      "episode": 25,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Constrained Sequence Maximization",
+        "Polynomial Equation Decomposition",
+        "Functional Composition Coefficients",
+        "Linear Equation with Step Functions",
+        "Rational Inequality Solving"
+      ],
+      "bank_size_after": 10
+    },
+    {
+      "episode": 30,
+      "mechanism": "Self-Audit",
+      "bank_size": 10,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 2
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "weak"
+      }
+    },
+    {
+      "episode": 30,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 40,
+      "mechanism": "Self-Audit",
+      "bank_size": 11,
+      "health_counts": {
+        "strong": 0,
+        "neutral": 3,
+        "weak": 5,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused"
+      }
+    },
+    {
+      "episode": 40,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 50,
+      "mechanism": "Self-Audit",
+      "bank_size": 17,
+      "health_counts": {
+        "strong": 2,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 8
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "strong",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "neutral",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Inequality-Based Functional Equations": "unused",
+        "Quadratic Equation Analysis": "unused",
+        "Nested Logarithmic Equations": "unused",
+        "Inequality Permutation Problems": "unused",
+        "Distinct Value Floors of Roots": "unused"
+      }
+    },
+    {
+      "episode": 50,
+      "mechanism": "Self-Correct",
+      "schema": "Polynomial Conditional Inequality Systems",
+      "correction_count": 1,
+      "failed_episodes": 3,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 50,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Inequality-Based Functional Equations",
+        "Quadratic Equation Analysis",
+        "Nested Logarithmic Equations",
+        "Inequality Permutation Problems",
+        "Distinct Value Floors of Roots"
+      ],
+      "bank_size_after": 12
+    },
+    {
+      "episode": 60,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 2,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 5
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "strong",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "neutral",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Function Divisibility Conditions": "unused",
+        "Functional Equation Divisibility": "unused"
+      }
+    },
+    {
+      "episode": 60,
+      "mechanism": "Self-Correct",
+      "schema": "Polynomial Conditional Inequality Systems",
+      "correction_count": 2,
+      "failed_episodes": 3,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 70,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 2,
+        "weak": 6,
+        "unused": 6
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Function Divisibility Conditions": "unused",
+        "Functional Equation Divisibility": "unused",
+        "Largest Unrepresentable Sum in Sets": "unused"
+      }
+    },
+    {
+      "episode": 70,
+      "mechanism": "Self-Correct",
+      "schema": "Polynomial Conditional Inequality Systems",
+      "correction_count": 3,
+      "failed_episodes": 3,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 70,
+      "mechanism": "Self-Correct",
+      "schema": "Functional Equation Solutions",
+      "correction_count": 1,
+      "failed_episodes": 3,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 75,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Function Divisibility Conditions",
+        "Functional Equation Divisibility",
+        "Largest Unrepresentable Sum in Sets",
+        "Binomial Coefficient Divisibility",
+        "Rational Inequalities with Conditions"
+      ],
+      "bank_size_after": 12
+    },
+    {
+      "episode": 80,
+      "mechanism": "Self-Audit",
+      "bank_size": 13,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 3,
+        "weak": 5,
+        "unused": 4
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Digit-Constraint Factorial Sums": "unused"
+      }
+    },
+    {
+      "episode": 80,
+      "mechanism": "Self-Escalate",
+      "schema": "Polynomial Conditional Inequality Systems",
+      "correction_count": 3,
+      "bank_size_after": 12
+    },
+    {
+      "episode": 90,
+      "mechanism": "Self-Audit",
+      "bank_size": 14,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 6
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Digit-Constraint Factorial Sums": "unused",
+        "Divisor Inclusion-Exclusion Problem": "unused",
+        "Integer Expression Conditions": "unused"
+      }
+    },
+    {
+      "episode": 90,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 100,
+      "mechanism": "Self-Audit",
+      "bank_size": 17,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 9
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Digit-Constraint Factorial Sums": "unused",
+        "Divisor Inclusion-Exclusion Problem": "unused",
+        "Integer Expression Conditions": "unused",
+        "Polynomial Decomposition": "unused",
+        "Divisor Sum and Product Conditions": "unused",
+        "Inequality Constrained Function Optimization": "unused"
+      }
+    },
+    {
+      "episode": 100,
+      "mechanism": "Self-Correct",
+      "schema": "Functional Equation Solutions",
+      "correction_count": 2,
+      "failed_episodes": 4,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 100,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 100,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Digit-Constraint Factorial Sums",
+        "Divisor Inclusion-Exclusion Problem",
+        "Integer Expression Conditions",
+        "Polynomial Decomposition",
+        "Divisor Sum and Product Conditions",
+        "Inequality Constrained Function Optimization"
+      ],
+      "bank_size_after": 11
+    },
+    {
+      "episode": 110,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 1,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 7
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Quadrilateral in Square": "unused",
+        "Partitioned Circular Regions": "unused",
+        "Complex Parallelogram Properties": "unused",
+        "Regular Polygon Area Ratios": "unused"
+      }
+    },
+    {
+      "episode": 110,
+      "mechanism": "Self-Correct",
+      "schema": "Functional Equation Solutions",
+      "correction_count": 3,
+      "failed_episodes": 4,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 110,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 120,
+      "mechanism": "Self-Audit",
+      "bank_size": 19,
+      "health_counts": {
+        "strong": 2,
+        "neutral": 5,
+        "weak": 3,
+        "unused": 9
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "neutral",
+        "Quadrilateral in Square": "unused",
+        "Partitioned Circular Regions": "unused",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "unused",
+        "Volume Displacement in Cylindrical Containers": "unused",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Volume Exclusion": "unused",
+        "Midpoint Lattice Problems": "unused"
+      }
+    },
+    {
+      "episode": 120,
+      "mechanism": "Self-Escalate",
+      "schema": "Functional Equation Solutions",
+      "correction_count": 3,
+      "bank_size_after": 18
+    },
+    {
+      "episode": 120,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 125,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Quadrilateral in Square",
+        "Partitioned Circular Regions",
+        "Volume Displacement in Cylindrical Containers",
+        "Geometric Volume Exclusion",
+        "Midpoint Lattice Problems",
+        "Intersecting Circles with Known Chords"
+      ],
+      "bank_size_after": 13
+    },
+    {
+      "episode": 130,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 3,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 5
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "weak",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Polygon Extension Problems": "unused",
+        "Geometry with Tangent Elements": "unused"
+      }
+    },
+    {
+      "episode": 130,
+      "mechanism": "Self-Correct",
+      "schema": "Trigonometric Function Inversions",
+      "correction_count": 1,
+      "failed_episodes": 5,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 130,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Geometry",
+        "Combinatorics"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 140,
+      "mechanism": "Self-Audit",
+      "bank_size": 18,
+      "health_counts": {
+        "strong": 2,
+        "neutral": 3,
+        "weak": 6,
+        "unused": 7
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "weak",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Polygon Extension Problems": "unused",
+        "Geometry with Tangent Elements": "unused",
+        "Circle Tangency Configurations": "weak",
+        "Parallelogram Intersection Ratios": "unused",
+        "Isosceles Triangle Angle Trisection": "unused"
+      }
+    },
+    {
+      "episode": 140,
+      "mechanism": "Self-Correct",
+      "schema": "Trigonometric Function Inversions",
+      "correction_count": 2,
+      "failed_episodes": 5,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 140,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Geometry",
+        "Combinatorics"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Audit",
+      "bank_size": 22,
+      "health_counts": {
+        "strong": 2,
+        "neutral": 5,
+        "weak": 4,
+        "unused": 11
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "weak",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Polygon Extension Problems": "unused",
+        "Geometry with Tangent Elements": "unused",
+        "Circle Tangency Configurations": "weak",
+        "Parallelogram Intersection Ratios": "unused",
+        "Isosceles Triangle Angle Trisection": "unused",
+        "Overlapping Geometric Figures": "unused",
+        "Geometric Shapes Relationships": "unused",
+        "Nested Sphere Volume Problems": "unused",
+        "Geometric Regions by Metric Thresholding": "unused"
+      }
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Correct",
+      "schema": "Circle Tangency Configurations",
+      "correction_count": 1,
+      "failed_episodes": 4,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": [
+        "Geometry",
+        "Regular Polygon Area Ratios"
+      ]
+    },
+    {
+      "episode": 150,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Regular Polygon Area Ratios",
+        "Polygon Extension Problems",
+        "Geometry with Tangent Elements",
+        "Parallelogram Intersection Ratios",
+        "Isosceles Triangle Angle Trisection",
+        "Overlapping Geometric Figures",
+        "Geometric Shapes Relationships",
+        "Nested Sphere Volume Problems",
+        "Geometric Regions by Metric Thresholding"
+      ],
+      "bank_size_after": 13
+    },
+    {
+      "episode": 160,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 3,
+        "neutral": 4,
+        "weak": 4,
+        "unused": 4
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Circle Tangency Configurations": "weak",
+        "Geometric Configuration Optimization": "unused",
+        "Homogeneous Symmetric Optimization": "unused"
+      }
+    },
+    {
+      "episode": 160,
+      "mechanism": "Self-Correct",
+      "schema": "Circle Tangency Configurations",
+      "correction_count": 2,
+      "failed_episodes": 5,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 160,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 170,
+      "mechanism": "Self-Audit",
+      "bank_size": 17,
+      "health_counts": {
+        "strong": 3,
+        "neutral": 5,
+        "weak": 4,
+        "unused": 5
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Circle Tangency Configurations": "weak",
+        "Geometric Configuration Optimization": "unused",
+        "Homogeneous Symmetric Optimization": "unused",
+        "Logarithmic Equation Solving": "unused",
+        "Rational Inequality Resolution": "unused"
+      }
+    },
+    {
+      "episode": 170,
+      "mechanism": "Self-Correct",
+      "schema": "Circle Tangency Configurations",
+      "correction_count": 3,
+      "failed_episodes": 5,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 170,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 175,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Homogeneous Symmetric Optimization",
+        "Logarithmic Equation Solving",
+        "Rational Inequality Resolution",
+        "Inverse Trigonometric Equation Solving",
+        "Recursive Sequence Patterns"
+      ],
+      "bank_size_after": 14
+    },
+    {
+      "episode": 180,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 3,
+        "neutral": 5,
+        "weak": 4,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "neutral",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Circle Tangency Configurations": "weak",
+        "Geometric Configuration Optimization": "unused",
+        "Polynomial Sequence Analysis": "unused"
+      }
+    },
+    {
+      "episode": 180,
+      "mechanism": "Self-Escalate",
+      "schema": "Circle Tangency Configurations",
+      "correction_count": 3,
+      "bank_size_after": 14
+    },
+    {
+      "episode": 180,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 190,
+      "mechanism": "Self-Audit",
+      "bank_size": 18,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 4,
+        "weak": 4,
+        "unused": 6
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Polynomial Sequence Analysis": "unused",
+        "Inequality Optimization in Sequences": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Functional Equation Solving": "unused",
+        "Algebraic Sequence Constraints": "unused"
+      }
+    },
+    {
+      "episode": 190,
+      "mechanism": "Self-Correct",
+      "schema": "Functional Inversion and Composition",
+      "correction_count": 1,
+      "failed_episodes": 5,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 190,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Number Theory",
+        "Combinatorics",
+        "Floor Function Quotient Problems",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 200,
+      "mechanism": "Self-Audit",
+      "bank_size": 20,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 4,
+        "weak": 4,
+        "unused": 7
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Polynomial Sequence Analysis": "unused",
+        "Inequality Optimization in Sequences": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Functional Equation Solving": "unused",
+        "Algebraic Sequence Constraints": "unused",
+        "Trigonometric Sum Identities": "unused",
+        "Nested Function Zeros": "strong"
+      }
+    },
+    {
+      "episode": 200,
+      "mechanism": "Self-Correct",
+      "schema": "Functional Inversion and Composition",
+      "correction_count": 2,
+      "failed_episodes": 6,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 200,
+      "mechanism": "Self-Correct",
+      "schema": "Trigonometric Function Inversions",
+      "correction_count": 3,
+      "failed_episodes": 5,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 200,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra",
+        "Combinatorics",
+        "Floor Function Quotient Problems",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": [
+        "Number Theory"
+      ]
+    },
+    {
+      "episode": 200,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Polynomial Sequence Analysis",
+        "Inequality Optimization in Sequences",
+        "Functional Equation Solving",
+        "Algebraic Sequence Constraints",
+        "Trigonometric Sum Identities"
+      ],
+      "bank_size_after": 15
+    },
+    {
+      "episode": 210,
+      "mechanism": "Self-Audit",
+      "bank_size": 17,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 3,
+        "weak": 5,
+        "unused": 4
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "strong",
+        "Summation of Powers": "unused",
+        "Divisibility Functional Equations": "unused"
+      }
+    },
+    {
+      "episode": 210,
+      "mechanism": "Self-Correct",
+      "schema": "Functional Inversion and Composition",
+      "correction_count": 3,
+      "failed_episodes": 6,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 210,
+      "mechanism": "Self-Escalate",
+      "schema": "Trigonometric Function Inversions",
+      "correction_count": 3,
+      "bank_size_after": 16
+    },
+    {
+      "episode": 210,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Combinatorics",
+        "Floor Function Quotient Problems",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": [
+        "Number Theory"
+      ]
+    },
+    {
+      "episode": 220,
+      "mechanism": "Self-Audit",
+      "bank_size": 18,
+      "health_counts": {
+        "strong": 6,
+        "neutral": 2,
+        "weak": 4,
+        "unused": 6
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "strong",
+        "Summation of Powers": "unused",
+        "Divisibility Functional Equations": "unused",
+        "Parity Weight Comparison": "unused",
+        "Relative Primality in Sets": "unused"
+      }
+    },
+    {
+      "episode": 220,
+      "mechanism": "Self-Escalate",
+      "schema": "Functional Inversion and Composition",
+      "correction_count": 3,
+      "bank_size_after": 17
+    },
+    {
+      "episode": 220,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Combinatorics",
+        "Floor Function Quotient Problems",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 225,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Summation of Powers",
+        "Divisibility Functional Equations",
+        "Parity Weight Comparison",
+        "Prime Number Pair Problem Solving",
+        "Factorial Sum Equations"
+      ],
+      "bank_size_after": 14
+    },
+    {
+      "episode": 230,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 6,
+        "neutral": 2,
+        "weak": 4,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Combinatorial Divisibility": "unused"
+      }
+    },
+    {
+      "episode": 230,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Combinatorics",
+        "Floor Function Quotient Problems"
+      ],
+      "demoted": [
+        "Tangency and Collinearity in Geometric Configurations"
+      ]
+    },
+    {
+      "episode": 240,
+      "mechanism": "Self-Audit",
+      "bank_size": 17,
+      "health_counts": {
+        "strong": 5,
+        "neutral": 3,
+        "weak": 4,
+        "unused": 5
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Combinatorial Divisibility": "unused",
+        "Integer Polynomial Equations with Constraints": "unused",
+        "Integer Representation Problems": "unused"
+      }
+    },
+    {
+      "episode": 240,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra",
+        "Combinatorics",
+        "Floor Function Quotient Problems"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 250,
+      "mechanism": "Self-Audit",
+      "bank_size": 18,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 5,
+        "weak": 3,
+        "unused": 6
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Combinatorial Divisibility": "unused",
+        "Integer Polynomial Equations with Constraints": "unused",
+        "Integer Representation Problems": "unused",
+        "Product of Fractional Reductions": "unused"
+      }
+    },
+    {
+      "episode": 250,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra",
+        "Combinatorics",
+        "Floor Function Quotient Problems"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 250,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Combinatorial Divisibility",
+        "Integer Polynomial Equations with Constraints",
+        "Integer Representation Problems",
+        "Product of Fractional Reductions"
+      ],
+      "bank_size_after": 14
+    },
+    {
+      "episode": 260,
+      "mechanism": "Self-Audit",
+      "bank_size": 17,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 5,
+        "weak": 3,
+        "unused": 5
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Inequality Minimization in Algebraic Expressions": "unused",
+        "Logarithmic Equation Systems": "unused",
+        "Cyclic Expression Maximization": "unused"
+      }
+    },
+    {
+      "episode": 260,
+      "mechanism": "Self-Correct",
+      "schema": "Nested Function Zeros",
+      "correction_count": 1,
+      "failed_episodes": 3,
+      "sr_reset_to": 0.5
+    },
+    {
+      "episode": 260,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Algebra",
+        "Combinatorics",
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 270,
+      "mechanism": "Self-Audit",
+      "bank_size": 19,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 5,
+        "weak": 3,
+        "unused": 7
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Inequality Minimization in Algebraic Expressions": "unused",
+        "Logarithmic Equation Systems": "unused",
+        "Cyclic Expression Maximization": "unused",
+        "Exponential Equation Solving": "unused",
+        "Distinct Floor Functions in Sequences": "unused"
+      }
+    },
+    {
+      "episode": 270,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": [
+        "Floor Function Quotient Problems"
+      ]
+    },
+    {
+      "episode": 275,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Inequality Minimization in Algebraic Expressions",
+        "Logarithmic Equation Systems",
+        "Cyclic Expression Maximization",
+        "Exponential Equation Solving",
+        "Distinct Floor Functions in Sequences",
+        "Power Series Coefficient Determination",
+        "Inequality Subscript Selection"
+      ],
+      "bank_size_after": 14
+    },
+    {
+      "episode": 280,
+      "mechanism": "Self-Audit",
+      "bank_size": 15,
+      "health_counts": {
+        "strong": 4,
+        "neutral": 5,
+        "weak": 3,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Algebraic Expression Transformation": "unused"
+      }
+    },
+    {
+      "episode": 280,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": []
+    },
+    {
+      "episode": 290,
+      "mechanism": "Self-Audit",
+      "bank_size": 16,
+      "health_counts": {
+        "strong": 3,
+        "neutral": 6,
+        "weak": 4,
+        "unused": 3
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "weak",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Algebraic Expression Transformation": "unused",
+        "Arithmetic Sequences in Number Sets": "unused"
+      }
+    },
+    {
+      "episode": 290,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": [
+        "Geometric Configuration Optimization"
+      ]
+    },
+    {
+      "episode": 300,
+      "mechanism": "Self-Audit",
+      "bank_size": 19,
+      "health_counts": {
+        "strong": 3,
+        "neutral": 6,
+        "weak": 4,
+        "unused": 6
+      },
+      "schema_health": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "weak",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Algebraic Expression Transformation": "unused",
+        "Arithmetic Sequences in Number Sets": "unused",
+        "Equation System with Nested Logs": "unused",
+        "Floor and Fraction Problems": "unused",
+        "Inverse Function Composition Analysis": "unused"
+      }
+    },
+    {
+      "episode": 300,
+      "mechanism": "Self-Promote/Demote",
+      "promoted": [
+        "Tangency and Collinearity in Geometric Configurations"
+      ],
+      "demoted": [
+        "Geometric Configuration Optimization"
+      ]
+    },
+    {
+      "episode": 300,
+      "mechanism": "Self-Prune",
+      "pruned": [
+        "Geometric Configuration Optimization",
+        "Algebraic Expression Transformation",
+        "Arithmetic Sequences in Number Sets",
+        "Equation System with Nested Logs",
+        "Floor and Fraction Problems",
+        "Inverse Function Composition Analysis"
+      ],
+      "bank_size_after": 13
+    }
+  ],
+  "health_log": [
+    {
+      "episode": 10,
+      "bank_size": 6,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "unused",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused"
+      }
+    },
+    {
+      "episode": 20,
+      "bank_size": 11,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "unused",
+        "Functional Equation Solutions": "weak",
+        "Constrained Sequence Maximization": "unused",
+        "Functional Inversion and Composition": "unused"
+      }
+    },
+    {
+      "episode": 30,
+      "bank_size": 10,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "weak"
+      }
+    },
+    {
+      "episode": 40,
+      "bank_size": 11,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused"
+      }
+    },
+    {
+      "episode": 50,
+      "bank_size": 17,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "strong",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "neutral",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Inequality-Based Functional Equations": "unused",
+        "Quadratic Equation Analysis": "unused",
+        "Nested Logarithmic Equations": "unused",
+        "Inequality Permutation Problems": "unused",
+        "Distinct Value Floors of Roots": "unused"
+      }
+    },
+    {
+      "episode": 60,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "strong",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "neutral",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Function Divisibility Conditions": "unused",
+        "Functional Equation Divisibility": "unused"
+      }
+    },
+    {
+      "episode": 70,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Function Divisibility Conditions": "unused",
+        "Functional Equation Divisibility": "unused",
+        "Largest Unrepresentable Sum in Sets": "unused"
+      }
+    },
+    {
+      "episode": 80,
+      "bank_size": 13,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Polynomial Conditional Inequality Systems": "weak",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Digit-Constraint Factorial Sums": "unused"
+      }
+    },
+    {
+      "episode": 90,
+      "bank_size": 14,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "neutral",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Digit-Constraint Factorial Sums": "unused",
+        "Divisor Inclusion-Exclusion Problem": "unused",
+        "Integer Expression Conditions": "unused"
+      }
+    },
+    {
+      "episode": 100,
+      "bank_size": 17,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Digit-Constraint Factorial Sums": "unused",
+        "Divisor Inclusion-Exclusion Problem": "unused",
+        "Integer Expression Conditions": "unused",
+        "Polynomial Decomposition": "unused",
+        "Divisor Sum and Product Conditions": "unused",
+        "Inequality Constrained Function Optimization": "unused"
+      }
+    },
+    {
+      "episode": 110,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Quadrilateral in Square": "unused",
+        "Partitioned Circular Regions": "unused",
+        "Complex Parallelogram Properties": "unused",
+        "Regular Polygon Area Ratios": "unused"
+      }
+    },
+    {
+      "episode": 120,
+      "bank_size": 19,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Equation Solutions": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "neutral",
+        "Quadrilateral in Square": "unused",
+        "Partitioned Circular Regions": "unused",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "unused",
+        "Volume Displacement in Cylindrical Containers": "unused",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Volume Exclusion": "unused",
+        "Midpoint Lattice Problems": "unused"
+      }
+    },
+    {
+      "episode": 130,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "neutral",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "weak",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Polygon Extension Problems": "unused",
+        "Geometry with Tangent Elements": "unused"
+      }
+    },
+    {
+      "episode": 140,
+      "bank_size": 18,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "weak",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "weak",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Polygon Extension Problems": "unused",
+        "Geometry with Tangent Elements": "unused",
+        "Circle Tangency Configurations": "weak",
+        "Parallelogram Intersection Ratios": "unused",
+        "Isosceles Triangle Angle Trisection": "unused"
+      }
+    },
+    {
+      "episode": 150,
+      "bank_size": 22,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "unused",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Regular Polygon Area Ratios": "weak",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Polygon Extension Problems": "unused",
+        "Geometry with Tangent Elements": "unused",
+        "Circle Tangency Configurations": "weak",
+        "Parallelogram Intersection Ratios": "unused",
+        "Isosceles Triangle Angle Trisection": "unused",
+        "Overlapping Geometric Figures": "unused",
+        "Geometric Shapes Relationships": "unused",
+        "Nested Sphere Volume Problems": "unused",
+        "Geometric Regions by Metric Thresholding": "unused"
+      }
+    },
+    {
+      "episode": 160,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "unused",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Circle Tangency Configurations": "weak",
+        "Geometric Configuration Optimization": "unused",
+        "Homogeneous Symmetric Optimization": "unused"
+      }
+    },
+    {
+      "episode": 170,
+      "bank_size": 17,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Circle Tangency Configurations": "weak",
+        "Geometric Configuration Optimization": "unused",
+        "Homogeneous Symmetric Optimization": "unused",
+        "Logarithmic Equation Solving": "unused",
+        "Rational Inequality Resolution": "unused"
+      }
+    },
+    {
+      "episode": 180,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "neutral",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Circle Tangency Configurations": "weak",
+        "Geometric Configuration Optimization": "unused",
+        "Polynomial Sequence Analysis": "unused"
+      }
+    },
+    {
+      "episode": 190,
+      "bank_size": 18,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "neutral",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Polynomial Sequence Analysis": "unused",
+        "Inequality Optimization in Sequences": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Functional Equation Solving": "unused",
+        "Algebraic Sequence Constraints": "unused"
+      }
+    },
+    {
+      "episode": 200,
+      "bank_size": 20,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Polynomial Sequence Analysis": "unused",
+        "Inequality Optimization in Sequences": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Functional Equation Solving": "unused",
+        "Algebraic Sequence Constraints": "unused",
+        "Trigonometric Sum Identities": "unused",
+        "Nested Function Zeros": "strong"
+      }
+    },
+    {
+      "episode": 210,
+      "bank_size": 17,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Trigonometric Function Inversions": "weak",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "strong",
+        "Summation of Powers": "unused",
+        "Divisibility Functional Equations": "unused"
+      }
+    },
+    {
+      "episode": 220,
+      "bank_size": 18,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Functional Inversion and Composition": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "strong",
+        "Summation of Powers": "unused",
+        "Divisibility Functional Equations": "unused",
+        "Parity Weight Comparison": "unused",
+        "Relative Primality in Sets": "unused"
+      }
+    },
+    {
+      "episode": 230,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Combinatorial Divisibility": "unused"
+      }
+    },
+    {
+      "episode": 240,
+      "bank_size": 17,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Combinatorial Divisibility": "unused",
+        "Integer Polynomial Equations with Constraints": "unused",
+        "Integer Representation Problems": "unused"
+      }
+    },
+    {
+      "episode": 250,
+      "bank_size": 18,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "strong",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Combinatorial Divisibility": "unused",
+        "Integer Polynomial Equations with Constraints": "unused",
+        "Integer Representation Problems": "unused",
+        "Product of Fractional Reductions": "unused"
+      }
+    },
+    {
+      "episode": 260,
+      "bank_size": 17,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "strong",
+        "Geometry": "neutral",
+        "Combinatorics": "neutral",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "weak",
+        "Relative Primality in Sets": "strong",
+        "Inequality Minimization in Algebraic Expressions": "unused",
+        "Logarithmic Equation Systems": "unused",
+        "Cyclic Expression Maximization": "unused"
+      }
+    },
+    {
+      "episode": 270,
+      "bank_size": 19,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Inequality Minimization in Algebraic Expressions": "unused",
+        "Logarithmic Equation Systems": "unused",
+        "Cyclic Expression Maximization": "unused",
+        "Exponential Equation Solving": "unused",
+        "Distinct Floor Functions in Sequences": "unused"
+      }
+    },
+    {
+      "episode": 280,
+      "bank_size": 15,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "unused",
+        "Simultaneous Polynomial Root Problems": "strong",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Algebraic Expression Transformation": "unused"
+      }
+    },
+    {
+      "episode": 290,
+      "bank_size": 16,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "weak",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Algebraic Expression Transformation": "unused",
+        "Arithmetic Sequences in Number Sets": "unused"
+      }
+    },
+    {
+      "episode": 300,
+      "bank_size": 19,
+      "report": {
+        "Algebra": "neutral",
+        "Number Theory": "neutral",
+        "Geometry": "neutral",
+        "Combinatorics": "weak",
+        "Probability": "weak",
+        "Calculus and Analysis": "unused",
+        "System of Equations with Modulus and Circle": "weak",
+        "Floor Function Quotient Problems": "strong",
+        "Complex Parallelogram Properties": "strong",
+        "Tangency and Collinearity in Geometric Configurations": "neutral",
+        "Geometric Configuration Optimization": "weak",
+        "Simultaneous Polynomial Root Problems": "neutral",
+        "Nested Function Zeros": "neutral",
+        "Relative Primality in Sets": "strong",
+        "Algebraic Expression Transformation": "unused",
+        "Arithmetic Sequences in Number Sets": "unused",
+        "Equation System with Nested Logs": "unused",
+        "Floor and Fraction Problems": "unused",
+        "Inverse Function Composition Analysis": "unused"
+      }
+    }
+  ],
+  "lift_log": [
+    {
+      "episode": 10,
+      "schema": "Algebra",
+      "lift": 0.025,
+      "health": "neutral",
+      "uses": 8
+    },
+    {
+      "episode": 10,
+      "schema": "Number Theory",
+      "lift": 0.4,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 10,
+      "schema": "Geometry",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 10,
+      "schema": "Combinatorics",
+      "lift": -0.6,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 10,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 10,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "Algebra",
+      "lift": 0.05,
+      "health": "neutral",
+      "uses": 12
+    },
+    {
+      "episode": 20,
+      "schema": "Number Theory",
+      "lift": 0.55,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 20,
+      "schema": "Geometry",
+      "lift": -0.45,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 20,
+      "schema": "Combinatorics",
+      "lift": -0.117,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 20,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.05,
+      "health": "neutral",
+      "uses": 2
+    },
+    {
+      "episode": 20,
+      "schema": "Polynomial Conditional Inequality Systems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.45,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 20,
+      "schema": "Constrained Sequence Maximization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 20,
+      "schema": "Functional Inversion and Composition",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 30,
+      "schema": "Algebra",
+      "lift": 0.088,
+      "health": "neutral",
+      "uses": 17
+    },
+    {
+      "episode": 30,
+      "schema": "Number Theory",
+      "lift": 0.5,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 30,
+      "schema": "Geometry",
+      "lift": -0.5,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 30,
+      "schema": "Combinatorics",
+      "lift": -0.167,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 30,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 30,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 30,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.0,
+      "health": "neutral",
+      "uses": 2
+    },
+    {
+      "episode": 30,
+      "schema": "Polynomial Conditional Inequality Systems",
+      "lift": -0.5,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 30,
+      "schema": "Functional Equation Solutions",
+      "lift": 0.0,
+      "health": "neutral",
+      "uses": 2
+    },
+    {
+      "episode": 30,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.5,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 40,
+      "schema": "Algebra",
+      "lift": 0.075,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 40,
+      "schema": "Number Theory",
+      "lift": 0.092,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 40,
+      "schema": "Geometry",
+      "lift": -0.575,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 40,
+      "schema": "Combinatorics",
+      "lift": -0.242,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 40,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 40,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 40,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.092,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 40,
+      "schema": "Polynomial Conditional Inequality Systems",
+      "lift": -0.075,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 40,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.075,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 40,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.075,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 40,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Algebra",
+      "lift": 0.04,
+      "health": "neutral",
+      "uses": 25
+    },
+    {
+      "episode": 50,
+      "schema": "Number Theory",
+      "lift": 0.23,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 50,
+      "schema": "Geometry",
+      "lift": -0.52,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 50,
+      "schema": "Combinatorics",
+      "lift": -0.187,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 50,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.147,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 50,
+      "schema": "Polynomial Conditional Inequality Systems",
+      "lift": -0.12,
+      "health": "weak",
+      "uses": 5
+    },
+    {
+      "episode": 50,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.02,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 50,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.02,
+      "health": "neutral",
+      "uses": 2
+    },
+    {
+      "episode": 50,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.52,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 50,
+      "schema": "Inequality-Based Functional Equations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Quadratic Equation Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Nested Logarithmic Equations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Inequality Permutation Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 50,
+      "schema": "Distinct Value Floors of Roots",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 60,
+      "schema": "Algebra",
+      "lift": 0.018,
+      "health": "neutral",
+      "uses": 29
+    },
+    {
+      "episode": 60,
+      "schema": "Number Theory",
+      "lift": 0.167,
+      "health": "strong",
+      "uses": 10
+    },
+    {
+      "episode": 60,
+      "schema": "Geometry",
+      "lift": -0.533,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 60,
+      "schema": "Combinatorics",
+      "lift": -0.2,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 60,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 60,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 60,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 60,
+      "schema": "Polynomial Conditional Inequality Systems",
+      "lift": -0.133,
+      "health": "weak",
+      "uses": 5
+    },
+    {
+      "episode": 60,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.033,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 60,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.033,
+      "health": "neutral",
+      "uses": 2
+    },
+    {
+      "episode": 60,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 60,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.533,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 60,
+      "schema": "Function Divisibility Conditions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 60,
+      "schema": "Functional Equation Divisibility",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 70,
+      "schema": "Algebra",
+      "lift": -0.005,
+      "health": "neutral",
+      "uses": 31
+    },
+    {
+      "episode": 70,
+      "schema": "Number Theory",
+      "lift": 0.179,
+      "health": "strong",
+      "uses": 17
+    },
+    {
+      "episode": 70,
+      "schema": "Geometry",
+      "lift": -0.586,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 70,
+      "schema": "Combinatorics",
+      "lift": -0.086,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 70,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 70,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 70,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.081,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 70,
+      "schema": "Polynomial Conditional Inequality Systems",
+      "lift": -0.186,
+      "health": "weak",
+      "uses": 5
+    },
+    {
+      "episode": 70,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.086,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 70,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.086,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 70,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 70,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.586,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 70,
+      "schema": "Function Divisibility Conditions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 70,
+      "schema": "Functional Equation Divisibility",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 70,
+      "schema": "Largest Unrepresentable Sum in Sets",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 80,
+      "schema": "Algebra",
+      "lift": -0.007,
+      "health": "neutral",
+      "uses": 31
+    },
+    {
+      "episode": 80,
+      "schema": "Number Theory",
+      "lift": 0.132,
+      "health": "strong",
+      "uses": 25
+    },
+    {
+      "episode": 80,
+      "schema": "Geometry",
+      "lift": -0.588,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 80,
+      "schema": "Combinatorics",
+      "lift": -0.088,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 80,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 80,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 80,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.079,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 80,
+      "schema": "Polynomial Conditional Inequality Systems",
+      "lift": -0.254,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 80,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.016,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 80,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.088,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 80,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 80,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.588,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 80,
+      "schema": "Digit-Constraint Factorial Sums",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 90,
+      "schema": "Algebra",
+      "lift": -0.024,
+      "health": "neutral",
+      "uses": 33
+    },
+    {
+      "episode": 90,
+      "schema": "Number Theory",
+      "lift": 0.127,
+      "health": "strong",
+      "uses": 33
+    },
+    {
+      "episode": 90,
+      "schema": "Geometry",
+      "lift": -0.6,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 90,
+      "schema": "Combinatorics",
+      "lift": -0.1,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 90,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 90,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 90,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.067,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 90,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.029,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 90,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.1,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 90,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 90,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.6,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 90,
+      "schema": "Digit-Constraint Factorial Sums",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 90,
+      "schema": "Divisor Inclusion-Exclusion Problem",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 90,
+      "schema": "Integer Expression Conditions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Algebra",
+      "lift": -0.022,
+      "health": "neutral",
+      "uses": 34
+    },
+    {
+      "episode": 100,
+      "schema": "Number Theory",
+      "lift": 0.134,
+      "health": "strong",
+      "uses": 39
+    },
+    {
+      "episode": 100,
+      "schema": "Geometry",
+      "lift": -0.61,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 100,
+      "schema": "Combinatorics",
+      "lift": -0.01,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 100,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.057,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 100,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.11,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 100,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.277,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 100,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.61,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 100,
+      "schema": "Digit-Constraint Factorial Sums",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Divisor Inclusion-Exclusion Problem",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Integer Expression Conditions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Polynomial Decomposition",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Divisor Sum and Product Conditions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 100,
+      "schema": "Inequality Constrained Function Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 110,
+      "schema": "Algebra",
+      "lift": -0.003,
+      "health": "neutral",
+      "uses": 34
+    },
+    {
+      "episode": 110,
+      "schema": "Number Theory",
+      "lift": 0.153,
+      "health": "strong",
+      "uses": 39
+    },
+    {
+      "episode": 110,
+      "schema": "Geometry",
+      "lift": -0.341,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 110,
+      "schema": "Combinatorics",
+      "lift": 0.009,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 110,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 110,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 110,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.076,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 110,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.091,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 110,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.258,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 110,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 110,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.091,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 110,
+      "schema": "Quadrilateral in Square",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 110,
+      "schema": "Partitioned Circular Regions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 110,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 110,
+      "schema": "Regular Polygon Area Ratios",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Algebra",
+      "lift": -0.003,
+      "health": "neutral",
+      "uses": 34
+    },
+    {
+      "episode": 120,
+      "schema": "Number Theory",
+      "lift": 0.152,
+      "health": "strong",
+      "uses": 39
+    },
+    {
+      "episode": 120,
+      "schema": "Geometry",
+      "lift": -0.319,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 120,
+      "schema": "Combinatorics",
+      "lift": 0.008,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 120,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.075,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 120,
+      "schema": "Functional Equation Solutions",
+      "lift": -0.092,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 120,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.258,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 120,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.02,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 120,
+      "schema": "Quadrilateral in Square",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Partitioned Circular Regions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.408,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 120,
+      "schema": "Regular Polygon Area Ratios",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Volume Displacement in Cylindrical Containers",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.075,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 120,
+      "schema": "Geometric Volume Exclusion",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 120,
+      "schema": "Midpoint Lattice Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Algebra",
+      "lift": -0.012,
+      "health": "neutral",
+      "uses": 34
+    },
+    {
+      "episode": 130,
+      "schema": "Number Theory",
+      "lift": 0.144,
+      "health": "strong",
+      "uses": 39
+    },
+    {
+      "episode": 130,
+      "schema": "Geometry",
+      "lift": -0.171,
+      "health": "weak",
+      "uses": 14
+    },
+    {
+      "episode": 130,
+      "schema": "Combinatorics",
+      "lift": 0.0,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 130,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": 0.067,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 130,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.267,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 130,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.055,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 130,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.4,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 130,
+      "schema": "Regular Polygon Area Ratios",
+      "lift": -0.1,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 130,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.15,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 130,
+      "schema": "Polygon Extension Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 130,
+      "schema": "Geometry with Tangent Elements",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Algebra",
+      "lift": -0.012,
+      "health": "neutral",
+      "uses": 34
+    },
+    {
+      "episode": 140,
+      "schema": "Number Theory",
+      "lift": 0.144,
+      "health": "strong",
+      "uses": 39
+    },
+    {
+      "episode": 140,
+      "schema": "Geometry",
+      "lift": -0.071,
+      "health": "weak",
+      "uses": 17
+    },
+    {
+      "episode": 140,
+      "schema": "Combinatorics",
+      "lift": 0.0,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 140,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.1,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 140,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.267,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 140,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.055,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 140,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.4,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 140,
+      "schema": "Regular Polygon Area Ratios",
+      "lift": -0.1,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 140,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.067,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 140,
+      "schema": "Polygon Extension Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Geometry with Tangent Elements",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Circle Tangency Configurations",
+      "lift": -0.267,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 140,
+      "schema": "Parallelogram Intersection Ratios",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 140,
+      "schema": "Isosceles Triangle Angle Trisection",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Algebra",
+      "lift": -0.005,
+      "health": "neutral",
+      "uses": 34
+    },
+    {
+      "episode": 150,
+      "schema": "Number Theory",
+      "lift": 0.132,
+      "health": "strong",
+      "uses": 40
+    },
+    {
+      "episode": 150,
+      "schema": "Geometry",
+      "lift": 0.007,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 150,
+      "schema": "Combinatorics",
+      "lift": 0.007,
+      "health": "neutral",
+      "uses": 5
+    },
+    {
+      "episode": 150,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.093,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 150,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.26,
+      "health": "weak",
+      "uses": 3
+    },
+    {
+      "episode": 150,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.048,
+      "health": "neutral",
+      "uses": 11
+    },
+    {
+      "episode": 150,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.407,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 150,
+      "schema": "Regular Polygon Area Ratios",
+      "lift": -0.343,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 150,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.073,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 150,
+      "schema": "Polygon Extension Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Geometry with Tangent Elements",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Circle Tangency Configurations",
+      "lift": -0.165,
+      "health": "weak",
+      "uses": 7
+    },
+    {
+      "episode": 150,
+      "schema": "Parallelogram Intersection Ratios",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Isosceles Triangle Angle Trisection",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Overlapping Geometric Figures",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Geometric Shapes Relationships",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Nested Sphere Volume Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 150,
+      "schema": "Geometric Regions by Metric Thresholding",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 160,
+      "schema": "Algebra",
+      "lift": 0.012,
+      "health": "neutral",
+      "uses": 40
+    },
+    {
+      "episode": 160,
+      "schema": "Number Theory",
+      "lift": 0.137,
+      "health": "strong",
+      "uses": 40
+    },
+    {
+      "episode": 160,
+      "schema": "Geometry",
+      "lift": 0.012,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 160,
+      "schema": "Combinatorics",
+      "lift": -0.088,
+      "health": "weak",
+      "uses": 6
+    },
+    {
+      "episode": 160,
+      "schema": "Probability",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 160,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 160,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.088,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 160,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.338,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 160,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.412,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 160,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.042,
+      "health": "neutral",
+      "uses": 11
+    },
+    {
+      "episode": 160,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.412,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 160,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.079,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 160,
+      "schema": "Circle Tangency Configurations",
+      "lift": -0.213,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 160,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 160,
+      "schema": "Homogeneous Symmetric Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 170,
+      "schema": "Algebra",
+      "lift": -0.003,
+      "health": "neutral",
+      "uses": 44
+    },
+    {
+      "episode": 170,
+      "schema": "Number Theory",
+      "lift": 0.144,
+      "health": "strong",
+      "uses": 42
+    },
+    {
+      "episode": 170,
+      "schema": "Geometry",
+      "lift": 0.006,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 170,
+      "schema": "Combinatorics",
+      "lift": -0.023,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 170,
+      "schema": "Probability",
+      "lift": -0.594,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 170,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 170,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.094,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 170,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.344,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 170,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.406,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 170,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.049,
+      "health": "neutral",
+      "uses": 11
+    },
+    {
+      "episode": 170,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.406,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 170,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.073,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 170,
+      "schema": "Circle Tangency Configurations",
+      "lift": -0.219,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 170,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 170,
+      "schema": "Homogeneous Symmetric Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 170,
+      "schema": "Logarithmic Equation Solving",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 170,
+      "schema": "Rational Inequality Resolution",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 180,
+      "schema": "Algebra",
+      "lift": -0.023,
+      "health": "neutral",
+      "uses": 49
+    },
+    {
+      "episode": 180,
+      "schema": "Number Theory",
+      "lift": 0.144,
+      "health": "strong",
+      "uses": 42
+    },
+    {
+      "episode": 180,
+      "schema": "Geometry",
+      "lift": 0.006,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 180,
+      "schema": "Combinatorics",
+      "lift": -0.094,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 180,
+      "schema": "Probability",
+      "lift": -0.594,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 180,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 180,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.094,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 180,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.023,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 180,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.406,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 180,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.049,
+      "health": "neutral",
+      "uses": 11
+    },
+    {
+      "episode": 180,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.406,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 180,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.072,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 180,
+      "schema": "Circle Tangency Configurations",
+      "lift": -0.219,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 180,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 180,
+      "schema": "Polynomial Sequence Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 190,
+      "schema": "Algebra",
+      "lift": -0.013,
+      "health": "neutral",
+      "uses": 55
+    },
+    {
+      "episode": 190,
+      "schema": "Number Theory",
+      "lift": 0.143,
+      "health": "strong",
+      "uses": 42
+    },
+    {
+      "episode": 190,
+      "schema": "Geometry",
+      "lift": 0.005,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 190,
+      "schema": "Combinatorics",
+      "lift": -0.095,
+      "health": "weak",
+      "uses": 8
+    },
+    {
+      "episode": 190,
+      "schema": "Probability",
+      "lift": -0.595,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 190,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 190,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.095,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 190,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.095,
+      "health": "weak",
+      "uses": 10
+    },
+    {
+      "episode": 190,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.405,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 190,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.049,
+      "health": "neutral",
+      "uses": 11
+    },
+    {
+      "episode": 190,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.405,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 190,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.072,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 190,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 190,
+      "schema": "Polynomial Sequence Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 190,
+      "schema": "Inequality Optimization in Sequences",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 190,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.405,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 190,
+      "schema": "Functional Equation Solving",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 190,
+      "schema": "Algebraic Sequence Constraints",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "Algebra",
+      "lift": 0.002,
+      "health": "neutral",
+      "uses": 61
+    },
+    {
+      "episode": 200,
+      "schema": "Number Theory",
+      "lift": 0.139,
+      "health": "strong",
+      "uses": 43
+    },
+    {
+      "episode": 200,
+      "schema": "Geometry",
+      "lift": -0.005,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 200,
+      "schema": "Combinatorics",
+      "lift": -0.049,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 200,
+      "schema": "Probability",
+      "lift": -0.605,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 200,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.105,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 200,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.15,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 200,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.395,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 200,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.06,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 200,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.395,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 200,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.062,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 200,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "Polynomial Sequence Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "Inequality Optimization in Sequences",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.395,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 200,
+      "schema": "Functional Equation Solving",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "Algebraic Sequence Constraints",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "Trigonometric Sum Identities",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 200,
+      "schema": "Nested Function Zeros",
+      "lift": 0.395,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 210,
+      "schema": "Algebra",
+      "lift": -0.027,
+      "health": "neutral",
+      "uses": 63
+    },
+    {
+      "episode": 210,
+      "schema": "Number Theory",
+      "lift": 0.166,
+      "health": "strong",
+      "uses": 50
+    },
+    {
+      "episode": 210,
+      "schema": "Geometry",
+      "lift": -0.014,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 210,
+      "schema": "Combinatorics",
+      "lift": -0.059,
+      "health": "weak",
+      "uses": 9
+    },
+    {
+      "episode": 210,
+      "schema": "Probability",
+      "lift": -0.614,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 210,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 210,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.114,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 210,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.16,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 210,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 210,
+      "schema": "Trigonometric Function Inversions",
+      "lift": -0.069,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 210,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 210,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 210,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 210,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 210,
+      "schema": "Nested Function Zeros",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 210,
+      "schema": "Summation of Powers",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 210,
+      "schema": "Divisibility Functional Equations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 220,
+      "schema": "Algebra",
+      "lift": -0.02,
+      "health": "neutral",
+      "uses": 64
+    },
+    {
+      "episode": 220,
+      "schema": "Number Theory",
+      "lift": 0.128,
+      "health": "strong",
+      "uses": 58
+    },
+    {
+      "episode": 220,
+      "schema": "Geometry",
+      "lift": -0.014,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 220,
+      "schema": "Combinatorics",
+      "lift": -0.058,
+      "health": "weak",
+      "uses": 9
+    },
+    {
+      "episode": 220,
+      "schema": "Probability",
+      "lift": -0.614,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 220,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 220,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.114,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 220,
+      "schema": "Functional Inversion and Composition",
+      "lift": -0.159,
+      "health": "weak",
+      "uses": 11
+    },
+    {
+      "episode": 220,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 4
+    },
+    {
+      "episode": 220,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 220,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.101,
+      "health": "strong",
+      "uses": 7
+    },
+    {
+      "episode": 220,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 220,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 220,
+      "schema": "Nested Function Zeros",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 220,
+      "schema": "Summation of Powers",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 220,
+      "schema": "Divisibility Functional Equations",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 220,
+      "schema": "Parity Weight Comparison",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 220,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 230,
+      "schema": "Algebra",
+      "lift": -0.019,
+      "health": "neutral",
+      "uses": 64
+    },
+    {
+      "episode": 230,
+      "schema": "Number Theory",
+      "lift": 0.106,
+      "health": "strong",
+      "uses": 64
+    },
+    {
+      "episode": 230,
+      "schema": "Geometry",
+      "lift": -0.013,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 230,
+      "schema": "Combinatorics",
+      "lift": -0.057,
+      "health": "weak",
+      "uses": 9
+    },
+    {
+      "episode": 230,
+      "schema": "Probability",
+      "lift": -0.613,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 230,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 230,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.113,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 230,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.387,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 230,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.387,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 230,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.137,
+      "health": "strong",
+      "uses": 8
+    },
+    {
+      "episode": 230,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 230,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.387,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 230,
+      "schema": "Nested Function Zeros",
+      "lift": -0.113,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 230,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.387,
+      "health": "strong",
+      "uses": 1
+    },
+    {
+      "episode": 230,
+      "schema": "Combinatorial Divisibility",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 240,
+      "schema": "Algebra",
+      "lift": -0.011,
+      "health": "neutral",
+      "uses": 66
+    },
+    {
+      "episode": 240,
+      "schema": "Number Theory",
+      "lift": 0.093,
+      "health": "neutral",
+      "uses": 69
+    },
+    {
+      "episode": 240,
+      "schema": "Geometry",
+      "lift": -0.017,
+      "health": "neutral",
+      "uses": 20
+    },
+    {
+      "episode": 240,
+      "schema": "Combinatorics",
+      "lift": -0.117,
+      "health": "weak",
+      "uses": 10
+    },
+    {
+      "episode": 240,
+      "schema": "Probability",
+      "lift": -0.617,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 240,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 240,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.117,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 240,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.383,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 240,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.383,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 240,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.133,
+      "health": "strong",
+      "uses": 8
+    },
+    {
+      "episode": 240,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 240,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.383,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 240,
+      "schema": "Nested Function Zeros",
+      "lift": -0.117,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 240,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.383,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 240,
+      "schema": "Combinatorial Divisibility",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 240,
+      "schema": "Integer Polynomial Equations with Constraints",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 240,
+      "schema": "Integer Representation Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 250,
+      "schema": "Algebra",
+      "lift": -0.014,
+      "health": "neutral",
+      "uses": 66
+    },
+    {
+      "episode": 250,
+      "schema": "Number Theory",
+      "lift": 0.1,
+      "health": "neutral",
+      "uses": 75
+    },
+    {
+      "episode": 250,
+      "schema": "Geometry",
+      "lift": -0.049,
+      "health": "neutral",
+      "uses": 21
+    },
+    {
+      "episode": 250,
+      "schema": "Combinatorics",
+      "lift": -0.037,
+      "health": "neutral",
+      "uses": 12
+    },
+    {
+      "episode": 250,
+      "schema": "Probability",
+      "lift": -0.62,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 250,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 250,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.12,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 250,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.38,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 250,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.38,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 250,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.13,
+      "health": "strong",
+      "uses": 8
+    },
+    {
+      "episode": 250,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 250,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.047,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 250,
+      "schema": "Nested Function Zeros",
+      "lift": -0.12,
+      "health": "weak",
+      "uses": 2
+    },
+    {
+      "episode": 250,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.38,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 250,
+      "schema": "Combinatorial Divisibility",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 250,
+      "schema": "Integer Polynomial Equations with Constraints",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 250,
+      "schema": "Integer Representation Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 250,
+      "schema": "Product of Fractional Reductions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 260,
+      "schema": "Algebra",
+      "lift": -0.004,
+      "health": "neutral",
+      "uses": 72
+    },
+    {
+      "episode": 260,
+      "schema": "Number Theory",
+      "lift": 0.105,
+      "health": "strong",
+      "uses": 75
+    },
+    {
+      "episode": 260,
+      "schema": "Geometry",
+      "lift": -0.044,
+      "health": "neutral",
+      "uses": 21
+    },
+    {
+      "episode": 260,
+      "schema": "Combinatorics",
+      "lift": -0.032,
+      "health": "neutral",
+      "uses": 12
+    },
+    {
+      "episode": 260,
+      "schema": "Probability",
+      "lift": -0.615,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 260,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 260,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.115,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 260,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.385,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 260,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.385,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 260,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.051,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 260,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 260,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.051,
+      "health": "neutral",
+      "uses": 3
+    },
+    {
+      "episode": 260,
+      "schema": "Nested Function Zeros",
+      "lift": -0.215,
+      "health": "weak",
+      "uses": 5
+    },
+    {
+      "episode": 260,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.385,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 260,
+      "schema": "Inequality Minimization in Algebraic Expressions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 260,
+      "schema": "Logarithmic Equation Systems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 260,
+      "schema": "Cyclic Expression Maximization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "Algebra",
+      "lift": -0.02,
+      "health": "neutral",
+      "uses": 74
+    },
+    {
+      "episode": 270,
+      "schema": "Number Theory",
+      "lift": 0.099,
+      "health": "neutral",
+      "uses": 77
+    },
+    {
+      "episode": 270,
+      "schema": "Geometry",
+      "lift": -0.043,
+      "health": "neutral",
+      "uses": 21
+    },
+    {
+      "episode": 270,
+      "schema": "Combinatorics",
+      "lift": -0.076,
+      "health": "weak",
+      "uses": 13
+    },
+    {
+      "episode": 270,
+      "schema": "Probability",
+      "lift": -0.615,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 270,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.115,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 270,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.385,
+      "health": "strong",
+      "uses": 6
+    },
+    {
+      "episode": 270,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.385,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 270,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.052,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 270,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.185,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 270,
+      "schema": "Nested Function Zeros",
+      "lift": -0.043,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 270,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.385,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 270,
+      "schema": "Inequality Minimization in Algebraic Expressions",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "Logarithmic Equation Systems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "Cyclic Expression Maximization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "Exponential Equation Solving",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 270,
+      "schema": "Distinct Floor Functions in Sequences",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 280,
+      "schema": "Algebra",
+      "lift": -0.028,
+      "health": "neutral",
+      "uses": 79
+    },
+    {
+      "episode": 280,
+      "schema": "Number Theory",
+      "lift": 0.098,
+      "health": "neutral",
+      "uses": 79
+    },
+    {
+      "episode": 280,
+      "schema": "Geometry",
+      "lift": -0.039,
+      "health": "neutral",
+      "uses": 21
+    },
+    {
+      "episode": 280,
+      "schema": "Combinatorics",
+      "lift": -0.111,
+      "health": "weak",
+      "uses": 14
+    },
+    {
+      "episode": 280,
+      "schema": "Probability",
+      "lift": -0.611,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 280,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 280,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.111,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 280,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.389,
+      "health": "strong",
+      "uses": 6
+    },
+    {
+      "episode": 280,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.389,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 280,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.056,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 280,
+      "schema": "Geometric Configuration Optimization",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 280,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.189,
+      "health": "strong",
+      "uses": 5
+    },
+    {
+      "episode": 280,
+      "schema": "Nested Function Zeros",
+      "lift": 0.056,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 280,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.389,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 280,
+      "schema": "Algebraic Expression Transformation",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 290,
+      "schema": "Algebra",
+      "lift": -0.007,
+      "health": "neutral",
+      "uses": 84
+    },
+    {
+      "episode": 290,
+      "schema": "Number Theory",
+      "lift": 0.099,
+      "health": "neutral",
+      "uses": 80
+    },
+    {
+      "episode": 290,
+      "schema": "Geometry",
+      "lift": -0.042,
+      "health": "neutral",
+      "uses": 21
+    },
+    {
+      "episode": 290,
+      "schema": "Combinatorics",
+      "lift": -0.147,
+      "health": "weak",
+      "uses": 15
+    },
+    {
+      "episode": 290,
+      "schema": "Probability",
+      "lift": -0.614,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 290,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 290,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.114,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 290,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 6
+    },
+    {
+      "episode": 290,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 290,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.053,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 290,
+      "schema": "Geometric Configuration Optimization",
+      "lift": -0.614,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 290,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.053,
+      "health": "neutral",
+      "uses": 6
+    },
+    {
+      "episode": 290,
+      "schema": "Nested Function Zeros",
+      "lift": 0.086,
+      "health": "neutral",
+      "uses": 10
+    },
+    {
+      "episode": 290,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.386,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 290,
+      "schema": "Algebraic Expression Transformation",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 290,
+      "schema": "Arithmetic Sequences in Number Sets",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Algebra",
+      "lift": -0.006,
+      "health": "neutral",
+      "uses": 90
+    },
+    {
+      "episode": 300,
+      "schema": "Number Theory",
+      "lift": 0.099,
+      "health": "neutral",
+      "uses": 81
+    },
+    {
+      "episode": 300,
+      "schema": "Geometry",
+      "lift": -0.045,
+      "health": "neutral",
+      "uses": 21
+    },
+    {
+      "episode": 300,
+      "schema": "Combinatorics",
+      "lift": -0.15,
+      "health": "weak",
+      "uses": 15
+    },
+    {
+      "episode": 300,
+      "schema": "Probability",
+      "lift": -0.617,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 300,
+      "schema": "Calculus and Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "System of Equations with Modulus and Circle",
+      "lift": -0.117,
+      "health": "weak",
+      "uses": 4
+    },
+    {
+      "episode": 300,
+      "schema": "Floor Function Quotient Problems",
+      "lift": 0.383,
+      "health": "strong",
+      "uses": 6
+    },
+    {
+      "episode": 300,
+      "schema": "Complex Parallelogram Properties",
+      "lift": 0.383,
+      "health": "strong",
+      "uses": 2
+    },
+    {
+      "episode": 300,
+      "schema": "Tangency and Collinearity in Geometric Configurations",
+      "lift": 0.05,
+      "health": "neutral",
+      "uses": 9
+    },
+    {
+      "episode": 300,
+      "schema": "Geometric Configuration Optimization",
+      "lift": -0.617,
+      "health": "weak",
+      "uses": 1
+    },
+    {
+      "episode": 300,
+      "schema": "Simultaneous Polynomial Root Problems",
+      "lift": 0.098,
+      "health": "neutral",
+      "uses": 7
+    },
+    {
+      "episode": 300,
+      "schema": "Nested Function Zeros",
+      "lift": 0.05,
+      "health": "neutral",
+      "uses": 12
+    },
+    {
+      "episode": 300,
+      "schema": "Relative Primality in Sets",
+      "lift": 0.383,
+      "health": "strong",
+      "uses": 3
+    },
+    {
+      "episode": 300,
+      "schema": "Algebraic Expression Transformation",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Arithmetic Sequences in Number Sets",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Equation System with Nested Logs",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Floor and Fraction Problems",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    },
+    {
+      "episode": 300,
+      "schema": "Inverse Function Composition Analysis",
+      "lift": 0.0,
+      "health": "unused",
+      "uses": 0
+    }
+  ],
+  "summary": {
+    "total_schemas": 13,
+    "seed_schemas": 6,
+    "new_schemas": 7,
+    "mechanism_counts": {
+      "Self-Audit": 30,
+      "Self-Prune": 12,
+      "Self-Promote/Demote": 24,
+      "Self-Correct": 16,
+      "Self-Escalate": 5
+    },
+    "total_events": 87
+  }
+}
